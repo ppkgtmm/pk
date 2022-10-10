@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinky Gautam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <section class="min-h-screen flex flex-col">
+        <div class="flex flex-col m-auto justify-center">
+            <div class="w-full flex flex-col md:flex-row justify-center space-y-6 lg:space-y-0 md:space-x-22">
+                <div class="flex flex-row justify-center px-20 md:p-0">
+                    <img class="rounded-full w-80 md:w-72 lg:w-96" src="./imgs/snoopy.jpg"></img>
+                </div>
+                <div class="flex flex-row justify-center px-16 md:p-0">
+                    <div class="md:ml-12 lg:mt-28 my-auto md:w-96">
+                        <h2 class="text-4xl lg:text-5xl mb-6 text-center md:text-left font-medium">Pinky Gautam</h2>
+                        <p class="text-center md:text-left lg:text-lg font-light">a generalist who appreciates
+                            how data can lead businesses to transform and benefit humanity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
+                class="inline-block p-3 text-gray-400 hover:text-gray-500 focus:text-gray-400 font-thin text-xs leading-tight uppercase rounded-full focus:outline-none focus:ring-0"
+                id="btn-scroll-down">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                </svg>
+            </button>
+        </div>
+    </section>
+    <div class="w-full flex flex-col justify-center max-w-screen-lg mx-auto">
+        <div class="px-3 md:px-16">
+            <section class="flex flex-col my-20" id="second-section">
+                <h2 class="text-4xl my-6 text-center md:text-left font-medium">Overview</h2>
+                <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+                    <div class="group">
+                        <div
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
+                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Interests
+                                </h2>
+                            </div>
+                            <ul class="space-y-1.5 px-6 pb-6 pt-2 list-inside list-disc mx-auto md:mx-0 font-light">
+                                <li> <strong class="font-medium">work-related :</strong> data science, data analytics,
+                                    web
+                                    development, automation and technology
+                                </li>
+                                <li> <strong class="font-medium">personal :</strong> learning online courses, traveling,
+                                    photography, korean music and
+                                    entertainment
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
+                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Relevant
+                                    Experience
+                                </h2>
+                            </div>
+                            <ul class="space-y-1.5 px-6 pb-6 pt-2 list-inside list-disc mx-auto md:mx-0 font-light">
+                                <li> full stack development, Agile, unit
+                                    testing, CI/CD, monitoring services and cloud
+                                </li>
+                                <li> NLP, machine learning, ETL, process
+                                    automation and data visualization
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="flex flex-col justify-center my-20" id="third-section">
+                <h2 class="text-4xl my-6 text-center md:text-left font-medium">Projects</h2>
+                <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+                    <a class="group" href="https://github.com/ppkgtmm/churn-prediction" target="_blank">
+                        <div
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
+                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Churn
+                                    Prediction
+                                </h2>
+                            </div>
+                            <img src="./imgs/churn.png" class="w-full p-6">
+                            <p class="text-left font-light px-6 pb-6 pt-2">
+                                a back end helping in churn prediction of credit card customers using a machine
+                                learning model
+                            </p>
+                        </div>
+                    </a>
+                    <a class="group" href="https://github.com/ppkgtmm/fake-news-detection" target="_blank">
+                        <div
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
+                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Fake News
+                                    Detection
+                                </h2>
+                            </div>
+                            <img src="./imgs/fake-news.jpg" class="w-full p-6">
+                            <p class="text-left font-light px-6 pb-6 pt-2">
+                                an API serving a machine learning model trained to classify between a real
+                                and a fake news
+                            </p>
+                        </div>
+                    </a>
+                    <a class="group" href="https://ppkgtmm.github.io/flip-game/" target="_blank">
+                        <div
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
+                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Memo Tiles</h2>
+                            </div>
+                            <img src="./imgs/memo-tile.png" class="w-full p-6">
+                            <p class="text-left font-light px-6 pb-6 pt-2">
+                                a memory-based game that requires player to flip the tile pairs until all pairs matched
+                            </p>
+                        </div>
+                    </a>
+                    <a class="group" href="https://go-now.netlify.app/" target="_blank">
+                        <div
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
+                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Go Now</h2>
+                            </div>
+                            <img src="./imgs/go-now.png" class="w-full p-6">
+                            <p class="text-left font-light px-6 pb-6 pt-2">
+                                a catalog of suggested travel destinations for each season along with
+                                destination randomization feature </p>
+                        </div>
+                    </a>
+                    <a class="group" href="https://github.com/ppkgtmm/emotion-based-song-recommender" target="_blank">
+                        <div
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
+                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Song Recommender
+                                </h2>
+                            </div>
+                            <img src="./imgs/em-so-rec.jpg" class="w-full p-6">
+                            <p class="text-left font-light px-6 pb-6 pt-2">
+                                a program to recommend songs from user selected emotion based on song lyrics </p>
+                        </div>
+                    </a>
+                    <a class="group" href="https://github.com/ppkgtmm/network-project-mqtt" target="_blank">
+                        <div
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
+                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">MQTT simulator
+                                </h2>
+                            </div>
+                            <img src="./imgs/mqtt.png" class="w-full p-6">
+                            <p class="text-left font-light px-6 pb-6 pt-2">
+                                a program trying to simulate mqtt protocol workings without using any mqtt libraries
+                            </p>
+                        </div>
+                    </a>
+                    <a class="group" href="https://github.com/ppkgtmm/books-api" target="_blank">
+                        <div
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
+                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Books API</h2>
+                            </div>
+                            <img src="./imgs/books-api.jpg" class="w-full p-6">
+                            <p class="text-left font-light px-6 pb-6 pt-2">
+                                an API built to support creating, updating, deleting and querying of book data stored
+                                in json file </p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#btn-scroll-down").on('click', function (event) {
+            event.preventDefault()
+            $('html, body').animate({
+                scrollTop: $('#second-section').offset().top
+            }, 800)
+        })
+    })
+</script>
+
+</html>
