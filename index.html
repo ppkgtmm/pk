@@ -12,15 +12,18 @@
 <body>
     <section class="min-h-screen flex flex-col">
         <div class="flex flex-col m-auto justify-center">
-            <div class="w-full flex flex-col md:flex-row justify-center space-y-6 lg:space-y-0 md:space-x-22">
-                <div class="flex flex-row justify-center px-20 md:p-0">
-                    <img class="rounded-full w-80 md:w-72 lg:w-96" src="./imgs/snoopy.jpg"></img>
+            <div class="w-full flex flex-col justify-center space-y-6 lg:space-y-0 md:space-x-22">
+                <div class="flex flex-row justify-center px-20 md:p-0 lg:mb-12 mt-10">
+                    <img class="rounded-full w-80 md:w-72 lg:w-84" src="./imgs/snoopy.jpg"></img>
                 </div>
                 <div class="flex flex-row justify-center px-16 md:p-0">
-                    <div class="md:ml-12 lg:mt-28 my-auto md:w-96">
-                        <h2 class="text-4xl lg:text-5xl mb-6 text-center md:text-left font-medium">Pinky Gautam</h2>
-                        <p class="text-center md:text-left lg:text-lg font-light">a generalist who appreciates
-                            how data can lead businesses to transform and benefit humanity</p>
+                    <div class="my-auto">
+                        <h2 class="text-4xl lg:text-5xl mb-4 lg:mb-6 text-center font-medium font-serif">About me</h2>
+                        <p class="text-center md:text-left lg:text-lg font-light md:px-20 max-w-screen-lg">
+                            Hello! My name is Pinky Gautam currently working as data engineer. I'm a generalist who is
+                            interested in data engineering, business intelligence, automation and technology. Lastly,
+                            I'm willing to learn and solve business problems with data.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -38,55 +41,76 @@
     </section>
     <div class="w-full flex flex-col justify-center max-w-screen-lg mx-auto">
         <div class="px-3 md:px-16">
-            <section class="flex flex-col my-20" id="second-section">
-                <h2 class="text-4xl my-6 text-center md:text-left font-medium">Overview</h2>
-                <div class="grid md:grid-cols-2 gap-4 md:gap-6">
-                    <div class="group">
-                        <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
-                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Interests
-                                </h2>
+            <section class="flex flex-col" id="second-section">
+                <div class="mt-20">
+                    <h2 class="text-4xl my-6 text-center md:text-left font-medium font-serif">Overview</h2>
+                    <div class="grid md:grid-cols-2 gap-4 md:gap-6">
+                        <div class="group">
+                            <div
+                                class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                                <div class="flex flex-col bg-gray-100">
+                                    <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Interests
+                                    </h2>
+                                </div>
+                                <ul class="space-y-1.5 px-6 pb-6 pt-2 list-inside list-disc mx-0 font-light">
+                                    <li>
+                                        <strong class="font-semibold">work-related :</strong>
+                                        data science, data analytics, web development, automation and technology
+                                    </li>
+                                    <li> <strong class="font-semibold">personal :</strong>
+                                        learning online courses, traveling, photography, korean music and entertainment
+                                    </li>
+                                </ul>
                             </div>
-                            <ul class="space-y-1.5 px-6 pb-6 pt-2 list-inside list-disc mx-auto md:mx-0 font-light">
-                                <li> <strong class="font-medium">work-related :</strong> data science, data analytics,
-                                    web
-                                    development, automation and technology
-                                </li>
-                                <li> <strong class="font-medium">personal :</strong> learning online courses, traveling,
-                                    photography, korean music and
-                                    entertainment
-                                </li>
-                            </ul>
                         </div>
-                    </div>
-                    <div class="group">
-                        <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
-                                <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Relevant
-                                    Experience
-                                </h2>
+                        <div class="group">
+                            <div
+                                class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                                <div class="flex flex-col bg-gray-100">
+                                    <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Relevant
+                                        Experience
+                                    </h2>
+                                </div>
+                                <ul class="space-y-1.5 px-6 pb-6 pt-2 list-inside list-disc mx-0 font-light">
+                                    <li> full stack development, Agile, unit
+                                        testing, CI/CD, cloud and monitoring services
+                                    </li>
+                                    <li> NLP, machine learning, ETL, process
+                                        automation and data visualization
+                                    </li>
+                                </ul>
                             </div>
-                            <ul class="space-y-1.5 px-6 pb-6 pt-2 list-inside list-disc mx-auto md:mx-0 font-light">
-                                <li> full stack development, Agile, unit
-                                    testing, CI/CD, cloud and monitoring services
-                                </li>
-                                <li> NLP, machine learning, ETL, process
-                                    automation and data visualization
-                                </li>
-                            </ul>
                         </div>
+                        <!-- <div class="group col-span-2">
+                            <div
+                                class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                                <div class="flex flex-col bg-gray-100">
+                                    <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">
+                                        Hands-on Tools
+                                    </h2>
+                                </div>
+                                <ul class="space-y-1.5 px-6 pb-6 pt-2 list-inside list-disc mx-0 font-light">
+                                    <li>
+                                        <strong class="font-semibold">programming language :</strong>
+                                        Python, Java, Golang, HTML, CSS, Javascript, Typescript and SQL
+                                    </li>
+                                    <li> <strong class="font-semibold">library and framework :</strong>
+                                        Laravel, React JS, Bootstrap, Tailwind CSS, C3 JS, Sklearn, Pandas, Tensorflow,
+                                        Nest JS, Jest, Apache Airflow, Selenium
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
-            <section class="flex flex-col justify-center my-20" id="third-section">
-                <h2 class="text-4xl my-6 text-center md:text-left font-medium">Projects</h2>
+            <section class="flex flex-col justify-center my-28" id="third-section">
+                <h2 class="text-4xl my-6 text-center md:text-left font-medium font-serif">Projects</h2>
                 <div class="grid md:grid-cols-2 gap-4 md:gap-6">
                     <a class="group" href="https://github.com/aisukdl/pick-ma-food" target="_blank">
                         <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                            <div class="flex flex-col bg-gray-100">
                                 <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Snack Vending
                                     Machine Application</h2>
                             </div>
@@ -101,8 +125,8 @@
                         href="https://drive.google.com/file/d/1uTsOhDLNvSWDOj68X09m5EFIC4soxd6G/view?usp=sharing"
                         target="_blank">
                         <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                            <div class="flex flex-col bg-gray-100">
                                 <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Hotel Management
                                     Website</h2>
                             </div>
@@ -115,8 +139,8 @@
                     </a>
                     <a class="group" href="https://github.com/ppkgtmm/churn-prediction" target="_blank">
                         <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                            <div class="flex flex-col bg-gray-100">
                                 <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Churn
                                     Prediction
                                 </h2>
@@ -130,8 +154,8 @@
                     </a>
                     <a class="group" href="https://github.com/ppkgtmm/fake-news-detection" target="_blank">
                         <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                            <div class="flex flex-col bg-gray-100">
                                 <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Fake News
                                     Detection
                                 </h2>
@@ -145,8 +169,8 @@
                     </a>
                     <a class="group" href="https://ppkgtmm.github.io/flip-game/" target="_blank">
                         <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                            <div class="flex flex-col bg-gray-100">
                                 <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Memo Tiles</h2>
                             </div>
                             <img src="./imgs/memo-tile.png" class="w-full p-6">
@@ -158,8 +182,8 @@
                     </a>
                     <a class="group" href="https://go-now.netlify.app/" target="_blank">
                         <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                            <div class="flex flex-col bg-gray-100">
                                 <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Go Now</h2>
                             </div>
                             <img src="./imgs/go-now.png" class="w-full p-6">
@@ -170,8 +194,8 @@
                     </a>
                     <a class="group" href="https://github.com/ppkgtmm/emotion-based-song-recommender" target="_blank">
                         <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                            <div class="flex flex-col bg-gray-100">
                                 <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Song Recommender
                                 </h2>
                             </div>
@@ -183,8 +207,8 @@
                     </a>
                     <a class="group" href="https://github.com/ppkgtmm/network-project-mqtt" target="_blank">
                         <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                            <div class="flex flex-col bg-gray-100">
                                 <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">MQTT simulator
                                 </h2>
                             </div>
@@ -197,8 +221,8 @@
                     </a>
                     <a class="group" href="https://github.com/ppkgtmm/books-api" target="_blank">
                         <div
-                            class="rounded-md flex flex-col w-full h-full overflow-hidden border border-solid border-gray-300 group-hover:border-gray-400">
-                            <div class="flex flex-col bg-gray-100 group-hover:bg-gray-200">
+                            class="rounded-md flex flex-col w-full h-full overflow-hidden border-2 border-solid border-gray-200">
+                            <div class="flex flex-col bg-gray-100">
                                 <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Books API</h2>
                             </div>
                             <img src="./imgs/books-api.jpg" class="w-full p-6">
