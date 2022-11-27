@@ -9,194 +9,37 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<body>
-    <section class="min-h-screen flex flex-col">
-        <div class="flex flex-col m-auto justify-center">
-            <div class="w-full flex flex-col justify-center space-y-6 lg:space-y-0 md:space-x-22">
-                <div class="flex flex-row justify-center px-20 md:p-0 lg:mb-12 mt-10 lg:mt-0">
-                    <img class="rounded-full w-80 md:w-72 lg:w-80" src="./imgs/snoopy.jpg"></img>
-                </div>
-                <div class="flex flex-row justify-center px-16 md:p-0">
-                    <div class="my-auto">
-                        <h2 class="text-4xl lg:text-5xl mb-4 lg:mb-6 text-center font-medium font-serif">About me
-                        </h2>
-                        <p class="text-center lg:text-left lg:text-lg font-light md:px-20 max-w-screen-lg">
-                            hello!! my name is Pinky Gautam and I'm currently working as a data engineer in prop tech.
-                            I'm a generalist who is interested in data engineering, business intelligence, automation
-                            and technology. Lastly, I'm willing to learn and solve business problems with data.
-                        </p>
+<body class="min-h-screen">
+    <nav class="flex justify-center bg-black py-4 w-full gap-x-10 text-lg md:justify-end md:pr-24">
+        <a class="text-gray-400 hover:text-white" href="/"> Home </a>
+        <a class="text-gray-400 hover:text-white" href="/projects.html"> Projects </a>
+        <a class="text-gray-400 hover:text-white"> Contact </a>
+    </nav>
+    <div class="flex flex-col overflow-y-scroll">
+        <div class="flex flex-col mt-10 lg:mt-12">
+            <div class="flex flex-col m-auto justify-center">
+                <div class="w-full flex flex-col justify-center space-y-6 lg:space-y-0 md:space-x-22">
+                    <div class="flex flex-row justify-center px-20 md:p-0 lg:m-0">
+                        <img class="rounded-full w-80 md:w-72 lg:w-80" src="./imgs/snoopy.jpg"></img>
+                    </div>
+                    <div class="flex flex-row justify-center px-10 md:p-0">
+                        <div class="my-auto">
+                            <h2 class="text-4xl lg:text-5xl mb-4 lg:m-6 text-center font-medium text-gray-900">
+                                About me
+                            </h2>
+                            <p class="text-center md:text-left lg:text-lg font-light md:px-20 max-w-screen-lg">
+                                Helooo !! my name is Pinky Gautam and here are some facts about me. Currently,
+                                I'm a Data Engineer based in Thailand. I've done
+                                internships related to web development and machine learning during my Bachelor's. I
+                                listen to music and watch Netflix in my spare
+                                time. Having interest in data visualization and business intelligence, I'm willing to
+                                learn and solve business problems with data.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="flex justify-center">
-            <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light"
-                class="inline-block p-3 text-gray-400 hover:text-gray-500 focus:text-gray-400 font-thin text-xs leading-tight uppercase rounded-full focus:outline-none focus:ring-0"
-                id="btn-scroll-down">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-                </svg>
-            </button>
-        </div>
-    </section>
-    <div class="w-full flex flex-col justify-center max-w-screen-lg mx-auto">
-        <div class="px-3 md:px-16">
-            <section class="flex flex-col justify-center mb-16" id="second-section">
-                <h2 class="text-4xl lg:text-5xl mb-6 lg:mb-10 mt-12 text-center font-medium font-serif">Projects
-                </h2>
-                <div class="grid md:grid-cols-2 gap-4 md:gap-6">
-                    <div
-                        class="rounded-md flex flex-col w-full h-fit overflow-hidden border-2 border-solid border-gray-200">
-                        <div class="flex flex-col bg-gray-100">
-                            <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Olist
-                                Dashboard
-                            </h2>
-                        </div>
-                        <img src="./imgs/olist.png" class="w-full p-6">
-                        <p class="text-center font-light px-6 pb-6 pt-2">
-                            dashboard summarizing sales, order processing time and order reviews scores of Olist
-                            E-Commerce
-                        </p>
-                        <a href="https://public.tableau.com/views/Book1_16669819238770/OlistDashboard?:language=en-US&:display_count=n&:origin=viz_share_link"
-                            target="_blank"
-                            class="text-center mx-6 font-medium text-md mb-4 bg-gray-100 hover:bg-gray-200 rounded-md px-4 py-2">
-                            View project
-                        </a>
-                    </div>
-                    <div
-                        class="rounded-md flex flex-col w-full h-fit overflow-hidden border-2 border-solid border-gray-200">
-                        <div class="flex flex-col bg-gray-100">
-                            <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Churn
-                                Prediction
-                            </h2>
-                        </div>
-                        <img src="./imgs/churn.png" class="w-full p-6">
-                        <p class="text-center font-light px-6 pb-6 pt-2">
-                            web page that can help in churn prediction of credit card customers using a machine
-                            learning model
-                        </p>
-                        <a href="https://github.com/ppkgtmm/churn-prediction#readme" target="_blank"
-                            class="text-center mx-6 font-medium text-md mb-4 bg-gray-100 hover:bg-gray-200 rounded-md px-4 py-2">
-                            More info
-                        </a>
-                    </div>
-                    <div
-                        class="rounded-md flex flex-col w-full h-fit overflow-hidden border-2 border-solid border-gray-200">
-                        <div class="flex flex-col bg-gray-100">
-                            <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Fake News
-                                Detection
-                            </h2>
-                        </div>
-                        <img src="./imgs/fake-news.png" class="w-full p-6">
-                        <p class="text-center font-light px-6 pb-6 pt-2">
-                            web page serving machine learning model that was trained to classify between a real
-                            and a fake news
-                        </p>
-                        <a href="https://github.com/ppkgtmm/fake-news-detection#readme" target="_blank"
-                            class="text-center mx-6 font-medium text-md mb-4 bg-gray-100 hover:bg-gray-200 rounded-md px-4 py-2">
-                            More info
-                        </a>
-                    </div>
-                    <div
-                        class="rounded-md flex flex-col w-full h-fit overflow-hidden border-2 border-solid border-gray-200">
-                        <div class="flex flex-col bg-gray-100">
-                            <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Go Now</h2>
-                        </div>
-                        <img src="./imgs/go-now.png" class="w-full p-6">
-                        <p class="text-center font-light px-6 pb-6 pt-2">
-                            catalog of suggested travel destinations for each season along with
-                            destination randomization feature </p>
-                        <a href="https://github.com/ppkgtmm/go-now#readme" target="_blank" class=" text-center mx-6 font-medium text-md mb-4 bg-gray-100 hover:bg-gray-200 rounded-md
-                    px-4 py-2">
-                            More info
-                        </a>
-                    </div>
-                    <div
-                        class="rounded-md flex flex-col w-full h-fit overflow-hidden border-2 border-solid border-gray-200">
-                        <div class="flex flex-col bg-gray-100">
-                            <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">
-                                Software Engineering Project
-                            </h2>
-                        </div>
-                        <img src="./imgs/pmf.png" class="w-full p-6">
-                        <p class="text-center font-light px-6 pb-6 pt-2">
-                            web application for ordering snacks from vending machine selected and for stock management
-                        </p>
-                        <a href="https://drive.google.com/file/d/1V10mJgKQjrLX4Td7HmkazmHI3sdSiOo_/view?usp=sharing"
-                            target="_blank"
-                            class="text-center mx-6 font-medium text-md mb-4 bg-gray-100 hover:bg-gray-200 rounded-md px-4 py-2">
-                            More info
-                        </a>
-                    </div>
-                    <div
-                        class="rounded-md flex flex-col w-full h-fit overflow-hidden border-2 border-solid border-gray-200">
-                        <div class="flex flex-col bg-gray-100">
-                            <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">
-                                Database Systems Project
-                            </h2>
-                        </div>
-                        <img src="./imgs/ippn.png" class="w-full p-6">
-                        <p class="text-center font-light px-6 pb-6 pt-2">
-                            hotel management website for room bookings or buying extra services and for staff work
-                            assignment
-                        </p>
-                        <a href="https://drive.google.com/file/d/1uTsOhDLNvSWDOj68X09m5EFIC4soxd6G/view?usp=sharing"
-                            target="_blank"
-                            class="text-center mx-6 font-medium text-md mb-4 bg-gray-100 hover:bg-gray-200 rounded-md px-4 py-2">
-                            More info
-                        </a>
-                    </div>
-                    <div
-                        class="rounded-md flex flex-col w-full h-fit overflow-hidden border-2 border-solid border-gray-200">
-                        <div class="flex flex-col bg-gray-100">
-                            <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Song Recommender
-                            </h2>
-                        </div>
-                        <img src="./imgs/em-so-rec.jpg" class="w-full p-6">
-                        <p class="text-center font-light px-6 pb-6 pt-2">
-                            program that mainly recommends songs from user selected emotion based on song lyrics
-                        </p>
-                        <a href="https://github.com/ppkgtmm/emotion-based-song-recommender#readme" target="_blank"
-                            class="text-center mx-6 font-medium text-md mb-4 bg-gray-100 hover:bg-gray-200 rounded-md px-4 py-2">
-                            More info
-                        </a>
-                    </div>
-                    <div
-                        class="rounded-md flex flex-col w-full h-fit overflow-hidden border-2 border-solid border-gray-200">
-                        <div class="flex flex-col bg-gray-100">
-                            <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">MQTT Simulator
-                            </h2>
-                        </div>
-                        <img src="./imgs/mqtt.png" class="w-full p-6">
-                        <p class="text-center font-light px-6 pb-6 pt-2">
-                            program built to simulate how mqtt protocol works without using any
-                            mqtt library as helper
-                        </p>
-                        <a href="https://github.com/ppkgtmm/network-project-mqtt#readme" target="_blank"
-                            class="text-center mx-6 font-medium text-md mb-4 bg-gray-100 hover:bg-gray-200 rounded-md px-4 py-2">
-                            More info
-                        </a>
-                    </div>
-                    <div
-                        class="rounded-md flex flex-col w-full h-fit overflow-hidden border-2 border-solid border-gray-200">
-                        <div class="flex flex-col bg-gray-100">
-                            <h2 class="font-bold text-xl px-6 pt-4 pb-2 text-center tracking-wide">Memo Tiles</h2>
-                        </div>
-                        <img src="./imgs/memo-tile.png" class="w-full p-6">
-                        <p class="text-center font-light px-6 pb-6 pt-2">
-                            simple memory-based game that requires player to flip the tile pairs until all tile
-                            pairs are matched
-                        </p>
-                        <a href="https://ppkgtmm.github.io/flip-game/" target="_blank"
-                            class="text-center mx-6 font-medium text-md mb-4 bg-gray-100 hover:bg-gray-200 rounded-md px-4 py-2">
-                            View project
-                        </a>
-                    </div>
-                </div>
-            </section>
-        </div>
-
     </div>
 </body>
 <script>
