@@ -9,7 +9,7 @@
 </head>
 
 <body class="min-h-screen text-gray-700">
-    <nav class="bg-black w-full">
+    <nav class="bg-black w-full sticky md:fixed top-0">
         <div class="flex justify-center max-w-screen-xl md:justify-between md:mx-16 lg:mx-18 xl:mx-64 2xl:mx-auto">
             <div class="text-white text-2xl tracking-wider font-semibold hidden md:block my-auto">Pinky</div>
             <div class="flex justify-center gap-x-10 text-lg py-4">
@@ -21,8 +21,9 @@
         </div>
     </nav>
     <div
-        class="px-4 md:px-0 flex flex-col md:flex-row-reverse overflow-y-scroll max-w-screen-xl md:mx-16 lg:mx-18 xl:mx-64 2xl:mx-auto md:gap-x-8 lg:gap-x-12">
-        <div class="flex flex-col mt-10 space-y-8 w-auto text-center mx-auto flex-shrink-0">
+        class="px-4 md:px-0 flex flex-col md:block md:clear-both max-w-screen-xl md:mx-16 lg:mx-18 xl:mx-64 2xl:mx-auto md:gap-x-8 lg:gap-x-12 mt-14 md:mt-28">
+        <div
+            class="flex flex-col space-y-8 w-auto text-center mx-auto flex-shrink-0 md:float-right md:sticky md:top-28 md:ml-10">
             <img class="rounded-full w-56 md:w-52 mx-auto" src="./imgs/image.png"></img>
             <div class="mx-auto">
                 <p class="text-black mb-3 font-semibold text-xl">Pinky Gautam</p>
@@ -76,9 +77,9 @@
 
             </div>
         </div>
-        <div class="flex flex-col mt-10 mb-16 md:my-20 space-y-4 md:space-y-6 md:mx-0">
+        <div class="flex flex-col mt-10 mb-16 md:my-20 space-y-4 md:space-y-12 md:mx-0">
             <div class="flex flex-col gap-y-6">
-                <p class="font-bold text-2xl">👩‍💼 Experience</p>
+                <p class="font-bold text-2xl">👩‍💼 Relevant Experience</p>
                 <div class="flex">
                     <p class="invisible text-2xl">👩‍💼&nbsp;</p>
                     <div>
@@ -87,7 +88,7 @@
                         <p>Jul 2022 - present</p>
                         <div class="pl-4 mt-4">
                             <div>
-                                <ul class="list-disc list-outside space-y-3">
+                                <ul class="list-disc list-outside space-y-2">
                                     <li><b>Collaborate with various stakeholders </b>such as Data
                                         Analysts, Product
                                         Owners and
@@ -123,7 +124,7 @@
                         <p>Oct 2021 - Jun 2022</p>
                         <div class="pl-4 mt-4">
                             <div>
-                                <ul class="list-disc list-outside space-y-3">
+                                <ul class="list-disc list-outside space-y-2">
                                     <li>Responsible for <b>database design, implementation and maintenance</b> of
                                         <b>data management
                                             APIs</b> inside multiple web projects <b>after understanding</b> high-level
@@ -144,41 +145,63 @@
 
                     </div>
                 </div>
-                <!-- <div class="flex">
+                <div class="flex">
                     <p class="invisible text-2xl">👩‍💼&nbsp;</p>
                     <div>
-                        <p class="text-lg">Software Engineer Intern at <a class="underline text-cyan-600"
+                        <p class="text-lg">Machine Learning Intern at <a class="underline text-cyan-600"
                                 href="https://taskworld.com/" target="_blank">Taskworld Inc.</a>
                         </p>
-                        <p>Jun 2021 - Aug 2021</p>
+                        <p>Aug 2020 - May 2021</p>
                         <div class="pl-4 mt-4">
                             <div>
-                                <ul class="list-disc list-outside space-y-3">
-                                    <li>Encrypt user authentication secrets before storage and prepare script to run
-                                        encryption on pre-existing raw secrets for tighter security. Modify backend code
-                                        to also decrypt the secrets before usage
-                                    </li>
-
-                                    <li>Mitigate error during user digest email preparation, which cause users to
-                                        remain unnotified, by repeated but varied attempts resulting in increased
-                                        successful deliveries of digest emails</li>
-                                    <li>Create an interceptor to store useful metadata of authentication API requests
-                                        and responses for tracking purpose
-                                    </li>
-                                    <li>Resolve bugs reported by Customer Support Team by working with legacy code and
-                                        write scripts to correct production data impacted from the bugs for longer
-                                        customer retention period</li>
+                                <ul class="list-disc list-outside space-y-2">
+                                    <li><b>Deliver experimental feature</b> for <b>text sentiment analysis</b> inside
+                                        Taskworld web application <b>under mentorship</b> of Lead Software Engineer.
+                                        Work on <b>data preprocessing, model training,</b> model <b>evaluation,
+                                            prediction API</b> and <b>front-end development</b></li>
                                 </ul>
                             </div>
                         </div>
 
                     </div>
-                </div> -->
+                </div>
+            </div>
+            <div class="flex flex-col gap-y-6">
+                <p class="font-bold text-2xl">🎓 Education</p>
+                <div class="flex">
+                    <p class="invisible text-2xl">🎓&nbsp;</p>
+                    <div>
+                        <p class="text-lg">B.Eng. in Computer Engineering from <a class="underline text-cyan-600"
+                                href="https://www.kmutt.ac.th/en/" target="_blank">KMUTT</a>
+                        </p>
+                        <p>Aug 2017 - May 2021</p>
+                        <div class="pl-4 mt-4">
+                            <div>
+                                <ul class="list-disc list-outside space-y-1">
+                                    <li><b>Second-Class Honors</b> with <b>GPA 3.59</b> / 4.00 |
+                                        <a class="underline text-cyan-600"
+                                            href="https://drive.google.com/drive/folders/1B8cmFx3PTGx89DAhsyNXTUIqcspTEWjx?usp=sharing">transcript</a>
+                                    </li>
+                                    <li>Granted scholarship from university during university 60th anniversary for being
+                                        one of the applicants with good academic record </li>
+                                    <li>Core modules : Computer Programming, Database Systems, Data Modeling,
+                                        Software Engineering, Big Data, Business Intelligence</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
-            <p class="font-bold text-2xl">🎓 Education</p>
-            <p class="font-bold text-2xl">⚙️ Skills</p>
-            <p class="font-bold text-2xl">📚 Certifications</p>
+            <div class="flex flex-col gap-y-6">
+                <p class="font-bold text-2xl">⚙️ Skills</p>
+            </div>
+
+            <div class="flex flex-col gap-y-6">
+                <p class="font-bold text-2xl">📚 Certifications</p>
+            </div>
+
         </div>
     </div>
     <footer class="bg-black w-full py-3">
