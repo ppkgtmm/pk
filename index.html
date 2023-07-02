@@ -7,17 +7,14 @@
   <title>Home</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body class="text-gray-700 bg-white">
-  <nav class="bg-black w-full sticky top-0 z-30">
+  <nav class="bg-black w-full">
     <div class="flex justify-center max-w-screen-xl md:justify-between md:mx-16 lg:mx-28 xl:mx-64 2xl:mx-auto">
       <div class="text-white text-3xl tracking-wider font-semibold hidden md:flex items-center my-auto">pkgtm
       </div>
-      <div class="flex justify-center items-center gap-x-10 text-lg font-light py-6 uppercase">
+      <div class="flex justify-center items-center gap-x-10 text-lg font-light uppercase py-6">
         <a class="text-white opacity-75 hover:text-white hover:opacity-100 transition duration-150 ease-in-out"
           href="/"> Home </a>
         <a class="text-white opacity-75 hover:text-white hover:opacity-100 transition duration-150 ease-in-out"
@@ -28,90 +25,125 @@
       </div>
     </div>
   </nav>
-  <div class="px-4 md:px-0 flex flex-col max-w-screen-xl md:mx-16 lg:mx-28 xl:mx-64 2xl:mx-auto my-12 md:my-16">
-    <div class="flex flex-col">
-      <p class="text-3xl text-black heading">
-        About me
-      </p>
-      <div class="flex flex-col md:flex-row mt-6 space-y-8 md:space-y-0 md:space-x-8">
-        <img class="md:w-56 lg:w-64" src="./imgs/image.png"></img>
-        <div class="text-lg">
-          <p>
-            👧🏻 I am Pinky Gautam, a Data Engineer
-            with around 2 years of experience delivering impactful works inside IT industry 💼 I create and
-            maintain data pipelines, fulfill ad hoc requests and enrich data ocassionally
-          </p>
-          <p class="mt-2 md:mt-5">
-            🌱 I have a background in Web Development as well as Machine Learning
-            from my previous job and internships done 🎓 while I was pursuing my undergraduate degree from <a
-              class="underline text-cyan-600" href="https://www.kmutt.ac.th/en/" target="_blank">King
-              Mongkut's University of Technology Thonburi (KMUTT)</a>
-          </p>
+  <div class="flex flex-col max-w-screen-xl md:mx-16 lg:mx-28 xl:mx-64 2xl:mx-auto">
+    <div class="px-4 md:px-0 flex flex-col md:block md:clear-both my-12 md:my-16">
+      <div
+        class="flex flex-col space-y-8 w-auto text-center mx-auto flex-shrink-0 md:mr-6 md:float-left md:sticky md:top-16 lg:mr-10">
+        <img class="rounded-full w-56 lg:w-64 mx-auto" src="./imgs/image.png"></img>
+        <div class="mx-auto">
+          <p class="text-black mb-2 font-semibold text-2xl">Pinky Gautam</p>
+          <p class="hidden md:block lg:hidden">Data Engineer |<br>Backend Developer </p>
+          <p class="md:hidden lg:block">Data Engineer | Backend Developer</p>
+        </div>
+        <div class="hidden md:flex flex-col gap-y-2 text-gray-800 mx-auto">
+          <div class="flex flex-row gap-x-2">
+            <span class="my-auto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" viewBox="0 0 384 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+              </svg>
+            </span>
+            <span>Bangkok, Thailand</span>
+          </div>
+          <a class="flex flex-row gap-x-2 hover:underline underline-offset-2 hover:text-cyan-600"
+            href="https://www.linkedin.com/in/pinky-gautam/" target="_blank">
+            <span class="my-auto"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black"
+                viewBox="0 0 448 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+              </svg> </span> <span>LinkedIn</span></a>
+          <a class="flex flex-row gap-x-2 hover:underline underline-offset-2 hover:text-cyan-600"
+            href="https://github.com/ppkgtmm/" target="_blank">
+            <span class="my-auto"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black"
+                viewBox="0 0 496 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+              </svg> </span> <span>Github</span></a>
+          <a class="flex flex-row gap-x-2 hover:underline underline-offset-2 hover:text-cyan-600"
+            href="mailto:pinky.gtm@outlook.com" target="_blank">
+            <span class="my-auto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" viewBox="0 0 512 512">
+                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+              </svg>
+            </span> <span>Contact Email</span></a>
         </div>
       </div>
-      <!-- 
       <div class="flex flex-col mx-auto md:mx-0 lg:text-lg 2xl:text-2xl">
         <div class="flex flex-col space-y-3 md:space-y-6 mt-5">
-          <p class="text-4xl lg:text-5xl text-black font-semibold mt-6 md:mt-0 text-center md:text-left">Hi there
+          <p class="text-4xl lg:text-5xl text-black font-bold mt-6 md:mt-0 mx-auto md:mx-0">Hi there
             <span class="wave">👋</span>
           </p>
           <p>
-            👧🏻 I am Pinky, Data Engineer
-            with around 2 years of experience delivering impactful works inside IT industry 💼 I create and
-            maintain data pipelines, fulfill ad hoc requests and enrich data (ocassionally)
+            👧🏻 I am Pinky, a Data Engineer at
+            <a class=" underline text-cyan-600" href="https://www.propertygurugroup.com/" target="_blank">PropertyGuru
+              Group</a>
+            with around 2 years of experience delivering impactful works inside IT industry 💼 I handle creation and
+            maintenence of data pipelines, fulfillment of ad hoc requests and data enrichment (ocassionally)
           </p>
-        </div> -->
-      <!-- <div class="hidden md:flex space-x-4 mx-auto mt-5 md:mx-0">
+          <p class="mt-2 md:mt-5">
+            🌱 I have background in Web Development (mostly related to server-side) as well as Machine Learning
+            from my previous job and internships done 🎓 while I was pursuing my undergraduate degree in
+            Computer Engineering from <a class="underline text-cyan-600" href="https://www.kmutt.ac.th/en/"
+              target="_blank">King
+              Mongkut's University of Technology Thonburi (KMUTT)</a>
+          </p>
+          <p class="mt-2 md:mt-5">
+            💎 After perceiving what impact valuable insights hidden in data can have on businesses, I am also
+            interested in Data Science and Data Analytics besides Data Engineering 📌 I look forward to collaborate on
+            projects
+            leveraging data
+            and
+            technology to create meaningful things
+          </p>
+          <p class="mt-2 md:mt-5">
+            💡 I believe that by embracing diverse perspectives while solving problems together, we can overcome the
+            hardest obstacles 👥 That is why I really like expanding my
+            professional network. So, please do not hesitate to connect if you
+            would like to
+          </p>
+        </div>
+        <div class="hidden md:flex space-x-4 mx-auto mt-5 md:ml-2">
           <a class="my-auto rounded-full bg-black p-2" href="https://www.linkedin.com/in/pinky-gautam/" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="white" viewBox="0 0 448 512">
-
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
             </svg>
           </a>
           <a class="my-auto rounded-full bg-black p-2" href="https://github.com/ppkgtmm/" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="white" viewBox="0 0 496 512">
-
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
             </svg>
           </a>
           <a class="my-auto rounded-full bg-black p-2" href="mailto:pinky.gtm@outlook.com" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" viewBox="0 0 512 512">
-
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
             </svg>
           </a>
           <a class="my-auto rounded-full bg-black p-2" href="https://goo.gl/maps/XvfHavq873BBm7fb9" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" viewBox="0 0 384 512">
-
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
               <path
                 d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
             </svg>
           </a>
         </div>
       </div>
-    </div> -->
-      <!-- <div class="px-4 md:px-0 flex flex-col space-y-3 md:space-y-4 md:mt-12 lg:text-lg 2xl:text-2xl">
-      <p class="text-3xl lg:text-4xl text-black font-medium mt-6 md:mt-0 text-center md:text-left">Interests</p>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        <p>Data Engineering</p>
-        <p>Data Science</p>
-        <p>Data Analytics</p>
-        <p>Automation</p>
-        <p>Technology</p>
-      </div> -->
-      <!-- <p>
-        💎 Besides Data Engineering, I am also interested in Data Science and Data Analytics 📌 I look forward to
-        collaborate on projects that leverage technology and data to create things meaningful to people
-      </p> -->
     </div>
   </div>
   <footer class="bg-black w-full py-6">
     <div
       class="flex flex-row max-w-screen-xl justify-center md:justify-end  md:mx-12 lg:mx-28 xl:mx-64 2xl:mx-auto  text-white gap-y-3.5">
-      <span class="font-light">© 2023 Pinky Gautam</span>
+      <p class="font-light">© 2023 Pinky Gautam</p>
     </div>
   </footer>
 </body>
