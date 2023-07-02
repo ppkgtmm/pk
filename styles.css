@@ -17,3 +17,11 @@
     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 }
+
+::-moz-selection { /* Code for Firefox */
+  background:  rgba(34, 211, 238, 0.35);
+}
+
+::selection {
+  background:  rgba(34, 211, 238, 0.35);
+}
