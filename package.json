@@ -1,0 +1,19 @@
+{
+  "name": "ppkgtmm.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppkgtmm/ppkgtmm.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppkgtmm/ppkgtmm.github.io/issues"
+  },
+  "homepage": "https://github.com/ppkgtmm/ppkgtmm.github.io#readme"
+}
