@@ -8,14 +8,14 @@ function Content() {
   return (
     <div>
       <Transition
-        className="bg-black text-white flex flex-col"
         show={showCover}
         leave="transition-opacity duration-300"
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
+        className="bg-black text-white flex flex-col"
       >
         <button
-          className="self-end p-4"
+          className="self-end p-4 transition ease-in-out duration-500 opacity-60 hover:opacity-100"
           onClick={() => setShowCover(!showCover)}
         >
           <svg
@@ -30,15 +30,7 @@ function Content() {
         </button>
         <Cover />
       </Transition>
-      <Transition
-        show={!showCover}
-        enter="transition-opacity duration-600"
-        enterFrom="opacity-0"
-        enterTo="opacity-100"
-        className="absolute top-0"
-      >
-        Hello
-      </Transition>
+      <div className="absolute top-0 mx-4 lg:mx-[20vw] xl:mx-[25vw] px-4 py-12 lg:px-8 lg:py-20 flex flex-col"></div>
     </div>
   );
 }
