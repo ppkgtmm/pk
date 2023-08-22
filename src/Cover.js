@@ -2,7 +2,7 @@ import "./index.css";
 
 function Cover() {
   return (
-    <div className="mx-4 lg:mx-[20vw] xl:mx-[25vw] px-4 py-12 lg:px-8 lg:py-20 flex flex-col">
+    <div className="mx-4 md:mx-12 lg:mx-[20vw] xl:mx-[25vw] px-4 py-16 lg:px-8 lg:py-24 flex flex-col">
       <h1 className="text-[6ch] lg:text-[8ch] font-bold leading-[1.5ch]">
         Pinky <br /> Gautam
       </h1>
