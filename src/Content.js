@@ -9,9 +9,7 @@ function Content() {
   const [showCover, setShowCover] = useState(true);
   return (
     <div>
-      <div className="mx-4 md:mx-12 lg:mx-[20vw] xl:mx-[25vw] px-4 py-12 lg:px-8 lg:py-20 flex flex-col">
-        <Projects />
-      </div>
+      <Projects />
       <Transition
         show={showCover}
         leave="transition-opacity duration-500"
