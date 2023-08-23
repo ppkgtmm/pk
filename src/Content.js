@@ -17,11 +17,7 @@ function Content() {
         leave="transition-opacity duration-500"
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
-        enter="transition-opacity duration-300"
-        enterFrom="opacity-0"
-        enterTo="opacity-100"
         className="bg-black text-white flex flex-col fixed top-0 z-10 w-full"
-        appear={true}
       >
         <button
           className="self-end p-4 transition ease-in-out duration-500 opacity-60 hover:opacity-100"
