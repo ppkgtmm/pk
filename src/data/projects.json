@@ -1,0 +1,42 @@
+[
+  {
+    "name": "E-Commerce Dashboard",
+    "skills": "Data Visualization",
+    "link": "https://public.tableau.com/views/OlistDashboard_16876242836040/e-commercedashboard?:language=en-US&:display_count=n&:origin=viz_share_link",
+    "linkText": "tableau dashboard",
+    "content": "Dashboard containing overview of sales, order ratings and delayed deliveries for selected state and month. Similarly, measures have been summarized for each city within the selected state. Lastly, treemap shows sales broken down by product category for the whole state until a city on map is clicked",
+    "image": "./imgs/olist.png"
+  },
+  {
+    "name": "Customer Churn Prediction",
+    "skills": "Machine Learning",
+    "link": "https://github.com/ppkgtmm/churn-prediction",
+    "linkText": "source code",
+    "content": "Web page which displays result from machine learning model trained to find customers who are likely to churn. Data from input file uploaded to the web page is transformed prior to being used for prediction by model selected based on recall metric",
+    "image": "./imgs/churn.png"
+  },
+  {
+    "name": "Fake News Detection",
+    "skills": "Machine Learning + NLP",
+    "link": "https://github.com/ppkgtmm/fake-news-detection",
+    "linkText": "source code",
+    "content": "Web page serving a machine learning model trained to classify between real and fake news. Model behind the web page has its hyperparameters tuned after an algorithm was finalized depending on performance on preprocessed news data",
+    "image": "./imgs/fake-news.png"
+  },
+  {
+    "name": "Emotion-based Song Recommender",
+    "skills": "Programming",
+    "link": "https://github.com/ppkgtmm/emotion-based-song-recommender",
+    "linkText": "source code",
+    "content": "Program which recommend songs from selected emotion based on song lyrics and words related to the emotion. Also, users can list songs or emotions, see song lyrics, add new emotion categories with related words and remove songs from particular emotion categories",
+    "image": "./imgs/em-so-rec.jpg"
+  },
+  {
+    "name": "Travel Destination Catalogue",
+    "skills": "Frontend Development",
+    "link": "https://go-now.netlify.app/",
+    "linkText": "website",
+    "content": "Catalogue displaying vacation venues categorized by season they are best to be visited in as alternatives to those who are planning for vacation. Additional information about a destination e.g. hotels, restaurants, things to do etc. can be found from tripadvisor by clicking on the card",
+    "image": "./imgs/go-now.png"
+  }
+]
