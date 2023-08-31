@@ -24,14 +24,6 @@
     "image": "./imgs/fake-news.png"
   },
   {
-    "name": "Emotion-based Song Recommender",
-    "skills": "Programming",
-    "link": "https://github.com/ppkgtmm/emotion-based-song-recommender",
-    "linkText": "source code",
-    "content": "Program which recommend songs from selected emotion based on song lyrics and words related to the emotion. Also, users can list songs or emotions, see song lyrics, add new emotion categories with related words and remove songs from particular emotion categories",
-    "image": "./imgs/em-so-rec.jpg"
-  },
-  {
     "name": "Travel Destination Catalogue",
     "skills": "Frontend Development",
     "link": "https://go-now.netlify.app/",
