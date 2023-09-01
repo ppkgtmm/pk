@@ -8,9 +8,9 @@ function Footer(props) {
         <div className="hidden md:block md:visible">
           <Transition
             show={props.show}
-            enter="transition-opacity duration-500"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
+            enter="transition-fade"
+            enterFrom="fade"
+            enterTo="appear"
           >
             <Social />
           </Transition>
