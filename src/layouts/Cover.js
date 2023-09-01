@@ -1,5 +1,4 @@
-import "./index.css";
-import Social from "./Social";
+import SocialList from "./SocialList";
 
 function Cover() {
   return (
@@ -14,7 +13,7 @@ function Cover() {
         passionate about data preparation that facilitates informed decision
         making and value creation with readable and maintainable code
       </p>
-      <Social />
+      <SocialList />
     </div>
   );
 }

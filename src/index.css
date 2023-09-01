@@ -12,6 +12,9 @@
   .fade {
     @apply opacity-0;
   }
+  .icon {
+    @apply h-[22px] w-[22px];
+  }
 }
 
 body {
