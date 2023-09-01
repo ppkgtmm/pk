@@ -12,9 +12,9 @@ function Content() {
       <Projects />
       <Transition
         show={showCover}
-        leave="transition-opacity duration-500"
-        leaveFrom="opacity-100"
-        leaveTo="opacity-0"
+        leave="transition-fade"
+        leaveFrom="appear"
+        leaveTo="fade"
         className="bg-black text-white flex flex-col fixed top-0 z-10 w-full"
       >
         <button
