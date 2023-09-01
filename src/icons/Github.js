@@ -2,8 +2,7 @@ function Github() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      height="22"
-      width="22"
+      className="icon"
       fill="currentColor"
       viewBox="0 0 496 512"
     >

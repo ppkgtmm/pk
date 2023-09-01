@@ -2,8 +2,7 @@ function Location() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="22"
-      height="22"
+      className="icon"
       fill="currentColor"
       viewBox="0 0 384 512"
     >
