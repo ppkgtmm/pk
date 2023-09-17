@@ -1,6 +1,6 @@
 [
   {
-    "name": "E-Commerce Dashboard",
+    "name": "e-commerce dashboard",
     "skills": "data visualization",
     "link": "https://public.tableau.com/views/OlistDashboard_16876242836040/e-commercedashboard?:language=en-US&:display_count=n&:origin=viz_share_link",
     "linkText": "tableau dashboard",
@@ -8,7 +8,7 @@
     "image": "./imgs/olist.png"
   },
   {
-    "name": "Customer Churn Prediction",
+    "name": "customer churn prediction",
     "skills": "machine learning",
     "link": "https://github.com/ppkgtmm/churn-prediction",
     "linkText": "source code",
@@ -16,7 +16,7 @@
     "image": "./imgs/churn.png"
   },
   {
-    "name": "Fake News Detection",
+    "name": "fake news detection",
     "skills": "machine learning + NLP",
     "link": "https://github.com/ppkgtmm/fake-news-detection",
     "linkText": "source code",
@@ -24,7 +24,7 @@
     "image": "./imgs/fake-news.png"
   },
   {
-    "name": "Travel Destination Catalogue",
+    "name": "travel destination catalogue",
     "skills": "frontend development",
     "link": "https://go-now.netlify.app/",
     "linkText": "website",
