@@ -3,9 +3,9 @@ function Project(props) {
     <li>
       <span className="text-lg">
         <b className="font-bold">{props.name}</b>
-        <span className="font-light"> • </span>
+        <span className="font-light"> || </span>
         {props.skills}
-        <span className="font-light"> • </span>
+        <span className="font-light"> || </span>
         <a
           className="underline text-cyan-500"
           href={props.link}
