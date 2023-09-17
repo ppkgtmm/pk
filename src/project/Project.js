@@ -15,7 +15,7 @@ function Project(props) {
           {props.linkText}
         </a>
       </span>
-      <p className="mt-2 mb-4 text-gray-800">{props.content}</p>
+      <p className="mt-2 mb-4">{props.content}</p>
       <img src={props.image} alt={props.name + " image"} />
     </li>
   );
