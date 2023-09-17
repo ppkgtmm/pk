@@ -1,5 +1,5 @@
 import SocialList from "./SocialList";
-import { CrossIcon } from "../icons";
+import { DownIcon } from "../icons";
 
 function Cover() {
   return (
@@ -21,7 +21,7 @@ function Cover() {
         className="self-end p-1 opacity-60 hover:opacity-100 rounded-full mb-6 mr-4 display"
         onClick={() => window.scrollTo({ top: (window.innerHeight * 6) / 7 })}
       >
-        <CrossIcon />
+        <DownIcon />
       </button>
     </div>
   );
