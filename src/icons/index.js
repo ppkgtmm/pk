@@ -3,7 +3,7 @@ import LinkedinIcon from "./Linkedin";
 import GithubIcon from "./Github";
 import MediumIcon from "./Medium";
 import LocationIcon from "./Location";
-import CrossIcon from "./Cross";
+import DownIcon from "./Down";
 
 export {
   EnvelopeIcon,
@@ -11,5 +11,5 @@ export {
   GithubIcon,
   MediumIcon,
   LocationIcon,
-  CrossIcon,
+  DownIcon,
 };
