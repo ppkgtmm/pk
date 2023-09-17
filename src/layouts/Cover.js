@@ -14,12 +14,7 @@ function Cover() {
           passionate about data preparation that facilitates informed decision
           making and value creation with readable and maintainable code
         </p>
-        {/* <SocialList /> */}
-        <div className="flex space-x-4 uppercase">
-          <a className="opacity-60 hover:opacity-100">home</a>
-          <a className="opacity-60 hover:opacity-100">projects</a>
-          <a className="opacity-60 hover:opacity-100">contact</a>
-        </div>
+        <SocialList />
       </div>
     </div>
   );
