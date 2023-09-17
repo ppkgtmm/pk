@@ -1,31 +1,22 @@
-import { useState } from "react";
 import { ProjectList } from "./project";
 import { Cover, Footer } from "./layouts";
-import { Transition } from "@headlessui/react";
-import { CrossIcon } from "./icons";
 import "./index.css";
 
 function App() {
-  const [show, setShow] = useState(true);
   return (
     <div className="app">
-      <Transition
-        className="min-h-screen bg-black text-white w-full flex flex-col px-2"
-        show={show}
-      >
-        <button
-          className="self-end p-1 opacity-60 hover:opacity-100 rounded-full absolute top-0 mt-2"
-          href="/"
-          onClick={() => setShow(!show)}
-        >
-          <CrossIcon />
-        </button>
-        <Cover />
-      </Transition>
-      <Transition show={!show}>
-        <ProjectList />
-        <Footer />
-      </Transition>
+      <Cover />
+
+      {/* <Transition show={!show}> */}
+      {/* <div className="bg-black text-white px-4 md:px-12 lg:px-[20vw] xl:px-[25vw] sticky top-0">
+          <div className="px-4 py-8 lg:px-8 flex justify-between items-center">
+            <span className="text-2xl font-light">Pinky Gautam</span>
+            <SocialList />
+          </div>
+        </div> */}
+      <ProjectList />
+      <Footer />
+      {/* </Transition> */}
     </div>
   );
 }
