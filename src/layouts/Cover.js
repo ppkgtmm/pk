@@ -1,5 +1,5 @@
 import SocialList from "./SocialList";
-import { ArrowDown } from "../icons";
+
 function Cover() {
   return (
     <div className="min-h-screen bg-black text-white w-full flex flex-col">
@@ -14,13 +14,12 @@ function Cover() {
           passionate about data preparation that facilitates informed decision
           making and value creation with readable and maintainable code
         </p>
-        <SocialList />
-      </div>
-      <div className="justify-self-end mx-auto flex opacity-60 mb-6 space-x-1">
-        <div className="animate-bounce mt-[6px]">
-          <ArrowDown />
+        {/* <SocialList /> */}
+        <div className="flex space-x-4 uppercase">
+          <a className="opacity-60 hover:opacity-100">home</a>
+          <a className="opacity-60 hover:opacity-100">projects</a>
+          <a className="opacity-60 hover:opacity-100">contact</a>
         </div>
-        <p>scroll down for more</p>
       </div>
     </div>
   );
