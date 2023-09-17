@@ -1,7 +1,12 @@
+import { useRef } from "react";
 import SocialList from "./SocialList";
 import { DownIcon } from "../icons";
 
 function Cover() {
+  const ref = useRef(null);
+  const handleClick = () => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="min-h-screen bg-black text-white w-full flex flex-col px-2">
       <div className="px-4 lg:px-6 mx-4 md:mx-12 lg:mx-[20vw] xl:mx-[25vw] flex flex-col margin">
@@ -18,8 +23,9 @@ function Cover() {
         <SocialList />
       </div>
       <button
-        className="self-end p-1 opacity-60 hover:opacity-100 rounded-full mb-6 mr-4 display"
-        onClick={() => window.scrollTo({ top: (window.innerHeight * 6) / 7 })}
+        ref={ref}
+        className="self-end p-1 opacity-60 hover:opacity-100 rounded-full py-6 px-4 display"
+        onClick={handleClick}
       >
         <DownIcon />
       </button>
