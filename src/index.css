@@ -17,12 +17,12 @@
   }
 }
 
-@media only screen and (min-height: 480px) {
+@media only screen and (min-height: 620px) {
   .margin{
     margin: auto 0;
   }
 }
-@media only screen and (max-height: 479px) {
+@media only screen and (max-height: 619px) {
   .margin{
     margin: 20vh 0;
   }
