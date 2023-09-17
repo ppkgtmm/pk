@@ -15,16 +15,12 @@ function Cover() {
           making and value creation with readable and maintainable code
         </p>
         <SocialList />
-        <div
-          className="self-end opacity-60 hover:opacity-100 transition ease-in-out"
-          // onClick={() =>
-          //   window.scrollBy({
-          //     top: window.innerHeight,
-          //   })
-          // }
-        >
+      </div>
+      <div className="justify-self-end mx-auto flex opacity-60 mb-6 space-x-1">
+        <div className="animate-bounce mt-[6px]">
           <ArrowDown />
         </div>
+        <p>scroll down for more</p>
       </div>
     </div>
   );
