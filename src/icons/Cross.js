@@ -11,7 +11,7 @@ function Cross() {
       <path
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="M6 18L18 6M6 6l12 12"
+        d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75"
       />
     </svg>
   );
