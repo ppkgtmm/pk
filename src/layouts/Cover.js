@@ -1,5 +1,5 @@
 import SocialList from "./SocialList";
-
+import { ArrowDown } from "../icons";
 function Cover() {
   return (
     <div className="min-h-screen bg-black text-white w-full flex flex-col">
@@ -15,6 +15,16 @@ function Cover() {
           making and value creation with readable and maintainable code
         </p>
         <SocialList />
+        <div
+          className="self-end opacity-60 hover:opacity-100 transition ease-in-out"
+          // onClick={() =>
+          //   window.scrollBy({
+          //     top: window.innerHeight,
+          //   })
+          // }
+        >
+          <ArrowDown />
+        </div>
       </div>
     </div>
   );
