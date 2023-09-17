@@ -12,7 +12,7 @@
     "skills": "machine learning",
     "link": "https://github.com/ppkgtmm/churn-prediction",
     "linkText": "source code",
-    "content": "Web application providing prediction results from machine learning model that was trained to find customers who are likely to churn. Input data file can be uploaded for prediction by model with optimal recall metric value on validation set",
+    "content": "Web application providing prediction results from machine learning model trained to spot customers who are likely to churn. Input data file can be uploaded for prediction by tuned model which algorithm has optimal validation set recall value",
     "image": "./imgs/churn.png"
   },
   {
