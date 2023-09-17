@@ -4,7 +4,7 @@
     "skills": "data visualization",
     "link": "https://public.tableau.com/views/OlistDashboard_16876242836040/e-commercedashboard?:language=en-US&:display_count=n&:origin=viz_share_link",
     "linkText": "tableau dashboard",
-    "content": "Dashboard showing overview of sales, order ratings and delayed deliveries for selected state and month. Similarly, measures have been summarized for each city within the state selected. Lastly, treemap shows sales broken down by product category for the whole state unless a city on map is clicked",
+    "content": "Dashboard showing overview of sales, order ratings and delayed deliveries for selected state and month. The measures have also been summarized for each city within the state selected. Treemap shows sales further broken down by product category for the whole state unless a city on map is clicked",
     "image": "./imgs/olist.png"
   },
   {
