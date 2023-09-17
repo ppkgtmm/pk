@@ -12,7 +12,7 @@
     "skills": "machine learning",
     "link": "https://github.com/ppkgtmm/churn-prediction",
     "linkText": "source code",
-    "content": "Web page which displays result from machine learning model trained to find customers who are likely to churn. Data from input file uploaded to the web page is transformed prior to being used for prediction by model selected based on recall metric",
+    "content": "Web application providing prediction results from machine learning model that was trained to find customers who are likely to churn. Input data file can be uploaded for prediction by model with optimal recall metric value on validation set",
     "image": "./imgs/churn.png"
   },
   {
@@ -20,7 +20,7 @@
     "skills": "machine learning + NLP",
     "link": "https://github.com/ppkgtmm/fake-news-detection",
     "linkText": "source code",
-    "content": "Web page serving a machine learning model trained to classify between real and fake news. Model behind the web page has its hyperparameters tuned after an algorithm was finalized depending on performance on preprocessed news data",
+    "content": "Web page serving machine learning model trained to classify between authentic and fake news. Algorithm used under the hood has been tuned after selection by considering ROC AUC score measured on preprocessed validation data",
     "image": "./imgs/fake-news.png"
   },
   {
@@ -28,7 +28,7 @@
     "skills": "frontend development",
     "link": "https://go-now.netlify.app/",
     "linkText": "website",
-    "content": "Catalogue displaying vacation venues categorized by season they are best to be visited in as alternatives to those who are planning for vacation. Additional information related to the destination e.g. hotels, restaurants, things to do etc. can be found by clicking on the card",
+    "content": "Responsive catalogue displaying vacation venues categorized by season they are best to be visited in as alternatives to those who are planning for vacation. Additional information related to the destinations such as hotels, restaurants, things to do etc. can be found by clicking on the card",
     "image": "./imgs/go-now.png"
   }
 ]
