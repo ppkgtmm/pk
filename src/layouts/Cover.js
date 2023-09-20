@@ -1,7 +1,7 @@
 function Cover() {
   return (
-    <div className="bg-black text-white w-full flex flex-col">
-      <div className="component flex flex-col my-16">
+    <div className="color text-white w-full flex flex-col">
+      <div className="component flex flex-col my-16 md:my-20">
         <h1 className="text-[6ch] md:text-[8ch] lg:text-[9ch] font-bold leading-[1.5ch]">
           Pinky <br /> Gautam
         </h1>
