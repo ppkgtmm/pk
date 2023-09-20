@@ -3,31 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-  .transition-fade {
-    @apply transition-opacity duration-500;
-  }
-  .appear {
-    @apply opacity-100;
-  }
-  .fade {
-    @apply opacity-0;
+  .component {
+    @apply px-[6vw] md:px-0 md:max-w-screen-sm md:mx-auto;
   }
   .icon {
     @apply h-[22px] w-[22px];
-  }
-}
-
-@media only screen and (min-height: 620px) {
-  .margin{
-    margin: auto 0;
-  }
-}
-@media only screen and (max-height: 619px) {
-  .margin{
-    margin: 20vh 0;
-  }
-  .display{
-    display: none;
   }
 }
 
