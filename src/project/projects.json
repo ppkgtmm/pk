@@ -27,7 +27,7 @@
     "name": "travel destination catalogue",
     "skills": "frontend development",
     "link": "https://go-now.netlify.app/",
-    "linkText": "website",
+    "linkText": "hosted website",
     "content": "Responsive catalogue displaying vacation venues categorized by season they are best to be visited in as alternatives to those who are planning for vacation. Additional information related to the destinations such as hotels, restaurants, things to do etc. can be found by clicking on the card",
     "image": "./imgs/go-now.png"
   }
