@@ -1,34 +1,18 @@
-import { useRef } from "react";
-import SocialList from "./SocialList";
-import { DownIcon } from "../icons";
-
 function Cover() {
-  const ref = useRef(null);
-  const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
-  };
   return (
-    <div className="min-h-screen bg-black text-white w-full flex flex-col px-2">
-      <div className="px-4 lg:px-6 mx-4 md:mx-12 lg:mx-[20vw] xl:mx-[25vw] flex flex-col margin">
+    <div className="bg-black text-white w-full flex flex-col">
+      <div className="component flex flex-col my-16">
         <h1 className="text-[6ch] md:text-[8ch] lg:text-[9ch] font-bold leading-[1.5ch]">
           Pinky <br /> Gautam
         </h1>
         <h3 className="mt-4 text-xl text-blue-300">
-          data engineer {"&"} former backend developer
+          data engineer and former backend developer
         </h3>
-        <p className="mt-10 font-light mb-10">
-          passionate about data preparation that facilitates informed decision
+        <p className="mt-8 md:mt-10 font-light">
+          passionate about preparation of data to enable informed decision
           making and value creation with readable and maintainable code
         </p>
-        <SocialList />
       </div>
-      <button
-        ref={ref}
-        className="self-end p-1 opacity-60 hover:opacity-100 rounded-full py-6 px-4 display"
-        onClick={handleClick}
-      >
-        <DownIcon />
-      </button>
     </div>
   );
 }
