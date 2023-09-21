@@ -9,8 +9,8 @@ function Cover() {
           data engineer from website development background
         </h3>
         <p className="mt-8 md:mt-10 font-light">
-          passionate about data preparation that enables informed decision
-          making and value creation with readable and maintainable code
+          who is eager to implement highly maintainable solutions that support
+          informed decision making and create positive impacts
         </p>
       </div>
     </div>
