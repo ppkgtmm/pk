@@ -9,7 +9,7 @@ function Cover() {
           data engineer and former backend developer
         </h3>
         <p className="mt-8 md:mt-10 font-light">
-          passionate about preparation of data to enable informed decision
+          passionate about data preparation that enables informed decision
           making and value creation with readable and maintainable code
         </p>
       </div>
