@@ -6,7 +6,7 @@ function Cover() {
           Pinky <br /> Gautam
         </h1>
         <h3 className="mt-4 text-xl text-blue-300">
-          data engineer and former backend developer
+          data engineer from website development background
         </h3>
         <p className="mt-8 md:mt-10 font-light">
           passionate about data preparation that enables informed decision
