@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .component {
-    @apply px-[6vw] md:px-0 md:max-w-screen-sm md:mx-auto;
-  }
-  .icon {
-    @apply h-[22px] w-[22px];
-  }
+.component {
+  @apply px-[6vw] md:px-0 md:max-w-screen-sm md:mx-auto;
+}
+.icon {
+  @apply h-[22px] w-[22px];
+}
+.icon:hover {
+  fill-opacity: .95;
 }
 .color {
   background-color: rgba(0, 0, 0, 0.95);
