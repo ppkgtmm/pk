@@ -6,11 +6,11 @@ function Cover() {
           Pinky <br /> Gautam
         </h1>
         <h3 className="mt-4 text-xl text-blue-300">
-          data engineer from website development background
+          data engineer from web development background
         </h3>
         <p className="mt-8 md:mt-10 font-light">
-          who is eager to implement highly maintainable solutions that support
-          informed decision making and create positive impacts
+          eager to learn and implement highly maintainable solutions that
+          support informed decision making and drive positive impacts
         </p>
       </div>
     </div>
