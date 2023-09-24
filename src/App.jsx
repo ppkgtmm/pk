@@ -1,4 +1,4 @@
-import { ProjectList } from './project';
+import ProjectList from './project';
 import { Cover, Footer } from './layouts';
 import './index.css';
 
