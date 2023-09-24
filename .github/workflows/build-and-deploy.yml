@@ -22,7 +22,7 @@ jobs:
           cache: "yarn"
 
       - name: Run ESLint
-        run: yarn eslint . --ext .js,.jsx
+        run: yarn run eslint . --ext .js,.jsx
 
       # - name: Install YARN package manager
       #   run: npm i yarn
