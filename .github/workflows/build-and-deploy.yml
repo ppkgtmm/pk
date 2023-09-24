@@ -28,7 +28,7 @@ jobs:
         run: yarn
 
       - name: Build app
-        run: yarn build
+        run: yarn build --production
 
       - name: Deploy app to github pages
         uses: JamesIves/github-pages-deploy-action@v4
