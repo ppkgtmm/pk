@@ -1,6 +1,6 @@
 # personal website
 
-Repo of personal website which keeps track of my side projects. This project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app)
+Repo of personal website which keeps track of my side projects. This project was bootstrapped with [CRA](https://github.com/facebook/create-react-app)
 
 ## Initialization
 Steps below are required for those using Node JS or yarn for the first time 
