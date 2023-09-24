@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 
 function Link(props) {
   const { to, children } = props;
+
   return (
     <a
       className="text-white hover:bg-white hover:text-black p-3 rounded-full"
