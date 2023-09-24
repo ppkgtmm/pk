@@ -15,17 +15,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Run ESLint
-        run: eslint . --ext .js,.jsx
-
       - name: Setup Node JS environment
         uses: actions/setup-node@v3
         with:
           node-version: "19.2.0"
-          cache: "npm"
 
-      - name: Install YARN package manager
-        run: npm i yarn
+      - name: Run ESLint
+        run: yarn eslint . --ext .js,.jsx
+
+      # - name: Install YARN package manager
+      #   run: npm i yarn
 
       - name: Install dependencies
         run: yarn --prod --frozen-lockfile
