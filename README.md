@@ -26,7 +26,7 @@ yarn install
 yarn start
 ```
 - Open `http://localhost:3000` to view the app in browser
-- The page will reload when changes are made any lint errors will appear in the console
+- The page will reload when changes are made and lint errors (if any) will appear in the console
 
 #### Build app
 ```
