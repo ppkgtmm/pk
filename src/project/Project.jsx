@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types';
 
 function Project(props) {
-  const { name, skills, link, linkText, content, image } = props
+  const {
+    name, skills, link, linkText, content, image
+  } = props;
+
   return (
     <li>
       <span className="text-lg">
