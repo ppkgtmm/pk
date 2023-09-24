@@ -12,7 +12,7 @@ function Cover() {
         </h3>
         <p className="mt-8 md:mt-10 font-light">
           eager to learn and implement highly maintainable solutions that
-          support informed decision making and drive positive impacts
+          support informed decision making and bring about positive impacts
         </p>
         <div className="mt-6 md:hidden">
           <SocialList />
