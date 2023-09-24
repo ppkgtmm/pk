@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 
 function Link(props) {
-  const { url, children } = props;
+  const { to, children } = props;
   return (
     <a
       className="text-white hover:bg-white hover:text-black p-3 rounded-full"
-      href={url}
+      href={to}
       target="_blank"
       rel="noreferrer"
     >
@@ -15,7 +15,7 @@ function Link(props) {
 }
 
 Link.propTypes = {
-  url: PropTypes.string.isRequired,
+  to: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 };
 
