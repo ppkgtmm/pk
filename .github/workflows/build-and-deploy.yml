@@ -25,7 +25,7 @@ jobs:
         run: npm i yarn
 
       - name: Install dependencies
-        run: yarn --production
+        run: yarn --prod --frozen-lockfile
 
       - name: Build app
         run: yarn build
