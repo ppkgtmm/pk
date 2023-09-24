@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function Project(props) {
   const {
-    name, skills, link, linkText, content, image
+    name, skills, link, linkText, content, image,
   } = props;
 
   return (
