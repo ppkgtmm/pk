@@ -32,6 +32,6 @@ yarn start
 ```
 yarn build
 ```
-- App is built for production to the `build` folder
-- Code is correctly bundled in production mode and optimized for the best performance
-- The build is minified and the filenames include the hashes resulting in ready to be deployed app
+- App will be built for production to the `build` folder
+- Code will be correctly bundled in production mode and optimized for the best performance
+- The build will be minified and the filenames will include hashes resulting in ready to deploy app
