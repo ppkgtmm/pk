@@ -5,7 +5,9 @@ function ProjectList() {
   return (
     <div className="component py-12 flex flex-col">
       <ul className="flex flex-col space-y-10 md:space-y-12">
-        {data.map((value, index) => <Project {...value} key={index} />)}
+        {data.map((value, index) => (
+          <Project {...value} key={index} />
+        ))}
       </ul>
     </div>
   );
