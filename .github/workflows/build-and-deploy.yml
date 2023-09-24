@@ -21,14 +21,11 @@ jobs:
           node-version: "19.2.0"
           cache: "yarn"
 
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+
       - name: Run ESLint
         run: yarn lint
-
-      # - name: Install YARN package manager
-      #   run: npm i yarn
-
-      - name: Install dependencies
-        run: yarn --prod --frozen-lockfile
 
       - name: Build app
         run: yarn build
