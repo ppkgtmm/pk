@@ -1,6 +1,6 @@
-import { ProjectList } from "./project";
-import { Cover, Footer } from "./layouts";
-import "./index.css";
+import { ProjectList } from './project';
+import { Cover, Footer } from './layouts';
+import './index.css';
 
 function App() {
   return (
