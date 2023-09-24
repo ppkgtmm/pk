@@ -1,4 +1,4 @@
-import Cover from "./Cover";
-import Footer from "./Footer";
+import Cover from './Cover';
+import Footer from './Footer';
 
 export { Cover, Footer };

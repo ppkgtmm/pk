@@ -16,7 +16,7 @@ function Project(props) {
         </a>
       </span>
       <p className="mt-2 mb-4">{props.content}</p>
-      <img src={props.image} alt={props.name + " image"} />
+      <img src={props.image} alt={`${props.name} image`} />
     </li>
   );
 }

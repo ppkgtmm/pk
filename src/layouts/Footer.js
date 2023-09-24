@@ -1,4 +1,4 @@
-import SocialList from "./SocialList";
+import SocialList from './SocialList';
 
 function Footer() {
   return (

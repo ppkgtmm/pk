@@ -1,11 +1,11 @@
-import Link from "./Link";
+import Link from './Link';
 import {
   EnvelopeIcon,
   GithubIcon,
   LinkedinIcon,
   MediumIcon,
   LocationIcon,
-} from "../icons";
+} from '../icons';
 
 function SocialList() {
   return (
