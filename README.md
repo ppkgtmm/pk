@@ -2,17 +2,20 @@
 
 Repo for storing code of personal website which keeps track of side projects done. This project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app)
 
-## Usage
+## Initialization
+Steps below are required for those using Node JS or yarn for the first time 
 
-Make sure to be inside project directory in your terminal before going through below
+1. Install `Node JS (v20.6.1)` after downloading `Source code
+(tar.gz)` from [Node JS](https://github.com/nodejs/node/releases/tag/v20.6.1) github repo
 
-#### Initialization
-1. Install [Node.js](https://github.com/nodejs/node/releases/tag/v20.6.1) `v20.6.1`
-2. Install yarn package manager
+2. Run below in terminal to install yarn package manager
 ```
 npm install --global yarn
 ```
-   
+
+## Usage
+Make sure to be inside project directory in your terminal before going through below
+
 #### Install dependencies
 ```sh
 yarn install
