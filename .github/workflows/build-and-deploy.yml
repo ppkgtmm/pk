@@ -25,10 +25,10 @@ jobs:
         run: npm i yarn
 
       - name: Install dependencies
-        run: yarn
+        run: yarn --production
 
       - name: Build app
-        run: yarn build --production
+        run: yarn build
 
       - name: Deploy app to github pages
         uses: JamesIves/github-pages-deploy-action@v4
