@@ -10,19 +10,19 @@ import {
 function SocialList() {
   return (
     <div className="flex ml-[-0.75rem]">
-      <Link url="mailto:pinky.gtm@outlook.com">
+      <Link to="mailto:pinky.gtm@outlook.com">
         <EnvelopeIcon />
       </Link>
-      <Link url="https://www.linkedin.com/in/pinky-gautam/">
+      <Link to="https://www.linkedin.com/in/pinky-gautam/">
         <LinkedinIcon />
       </Link>
-      <Link url="https://github.com/ppkgtmm/">
+      <Link to="https://github.com/ppkgtmm/">
         <GithubIcon />
       </Link>
-      <Link url="https://medium.com/@ppkgtmm">
+      <Link to="https://medium.com/@ppkgtmm">
         <MediumIcon />
       </Link>
-      <Link url="https://goo.gl/maps/XvfHavq873BBm7fb9">
+      <Link to="https://goo.gl/maps/XvfHavq873BBm7fb9">
         <LocationIcon />
       </Link>
     </div>
