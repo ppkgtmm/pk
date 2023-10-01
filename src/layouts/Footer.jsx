@@ -2,7 +2,7 @@ import SocialList from './SocialList';
 
 function Footer() {
   return (
-    <footer className="bg-zinc-900">
+    <footer className="bg-stone-900">
       <div className="component py-10 lg:py-16 flex justify-end md:justify-between">
         <div className="hidden md:block md:visible">
           <SocialList />
