@@ -3,15 +3,11 @@
 @tailwind utilities;
 
 .component {
-  @apply px-[6vw] md:px-0 md:max-w-[680px] lg:max-w-[720px] md:mx-auto;
+  @apply px-[6vw] md:px-0 md:max-w-[720px] lg:max-w-[840px] md:mx-auto;
 }
 
 .icon {
   @apply h-[22px] w-[22px];
-}
-
-.quote {
-  @apply px-[14px] py-1 border-l-[3px] border-[#37352f];
 }
 
 body {
@@ -21,7 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(55, 53, 47);
+  color: #171717;
   font-size: 16px;
 }
 
