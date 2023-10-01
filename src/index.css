@@ -8,9 +8,6 @@
 .icon {
   @apply h-[22px] w-[22px];
 }
-.icon:hover {
-  fill-opacity: 0.95;
-}
 .color {
   background-color: rgba(0, 0, 0, 0.95);
 }
