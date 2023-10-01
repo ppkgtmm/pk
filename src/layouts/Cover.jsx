@@ -9,7 +9,7 @@ function Cover() {
           {' '}
           Gautam
         </h1>
-        <blockquote className="mt-8 quote text-lg">
+        <blockquote className="mt-10 quote text-lg">
           data engineer who is eager to learn and implement highly maintainable solutions
           that support informed decision making and bring about positive impacts
         </blockquote>
