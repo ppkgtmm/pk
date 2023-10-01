@@ -5,7 +5,7 @@ function Link(props) {
 
   return (
     <a
-      className="text-white hover:bg-white hover:text-stone-900 p-3 rounded-full"
+      className="text-white hover:bg-white hover:text-neutral-900 p-3 rounded-full"
       href={to}
       target="_blank"
       rel="noreferrer"
