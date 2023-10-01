@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 
 function Project(props) {
   const {
-    name, image,
-  } = props; /* skills, link, linkText, content, */
+    name, image, link,
+  } = props; /* skills, linkText, content, */
 
   return (
     <div className="text-zinc-900">
@@ -12,7 +12,7 @@ function Project(props) {
       </div>
       <div>
         <p className="font-bold text-lg lowercase my-2">{name}</p>
-        <a href="/" className="border border-zinc-900 hover:bg-zinc-900 hover:text-white capitalize px-4 py-1.5 rounded">read more</a>
+        <a target="_blank" rel="noreferrer" href={link} className="border border-zinc-900 hover:bg-zinc-900 hover:text-white capitalize px-4 py-1.5 rounded">read more</a>
       </div>
     </div>
   );
@@ -21,7 +21,7 @@ function Project(props) {
 Project.propTypes = {
   name: PropTypes.string.isRequired,
   // skills: PropTypes.string.isRequired,
-  // link: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
   // linkText: PropTypes.string.isRequired,
   // content: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
