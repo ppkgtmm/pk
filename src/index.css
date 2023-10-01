@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .component {
-  @apply px-[6vw] md:px-0 md:max-w-[720px] lg:max-w-[840px] md:mx-auto;
+  @apply px-[6vw] md:px-0 md:max-w-[680px] lg:max-w-[820px] md:mx-auto;
 }
 
 .icon {
