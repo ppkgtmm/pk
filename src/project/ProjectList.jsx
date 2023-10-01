@@ -8,26 +8,6 @@ function ProjectList() {
         {data.map((value, index) => (
           <Project {...value} key={index} />
         ))}
-        {/* <div>
-          <div className="h-[260px]">
-            <img src="./imgs/churn.png" alt="" />
-          </div>
-          <div className="my-4">
-            <p className="font-bold lowercase text-lg">Bank Churn Prediction</p>
-          </div>
-        </div>
-        <div>
-          <img src="./imgs/fake-news.png" alt="" />
-          <div className="my-4">
-            <p className="font-bold lowercase text-lg">Fake News Detection</p>
-          </div>
-        </div>
-        <div>
-          <img src="./imgs/go-now.png" alt="" />
-          <div className="my-4">
-            <p className="font-bold lowercase text-lg">Vacation Venue Catalogue</p>
-          </div>
-        </div> */}
       </div>
     </div>
   );
