@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
+import ChurnPrediction from './pages/ChurnPrediction';
 import Home from './pages/Home';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/churn-prediction" element={<Home />} />
+        <Route path="/churn-prediction" element={<ChurnPrediction />} />
       </Routes>
     </BrowserRouter>
 
