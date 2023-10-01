@@ -11,7 +11,7 @@ function Cover() {
         </h1>
         <p className="mt-10 font-light text-lg px-[14px] border-l-[2px] border-white">
           data engineer who is eager to learn and implement highly maintainable solutions
-          that support informed decision making and bring about positive impacts
+          to support informed decision making and bring about positive impacts
         </p>
       </div>
     </div>
