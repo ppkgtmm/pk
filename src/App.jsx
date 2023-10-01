@@ -1,13 +1,10 @@
-import ProjectList from './project';
-import { Cover, Footer } from './layouts';
 import './index.css';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="app">
-      <Cover />
-      <ProjectList />
-      <Footer />
+      <Home />
     </div>
   );
 }
