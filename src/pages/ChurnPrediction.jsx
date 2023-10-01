@@ -1,4 +1,10 @@
+import { useEffect } from 'react';
+
 function ChurnPrediction() {
+  useEffect(() => {
+    document.title = 'churn prediction';
+    window.scrollTo({ top: 0, left: 0 });
+  });
   return (
     <article className="my-12 lg:my-16 component prose prose-zinc prose-blockquote:not-italic prose-blockquote:border-zinc-900 prose-blockquote:border-l-[3px] prose-p:text-zinc-900 prose-a:text-zinc-400 prose-a:underline-offset-[3px] prose-a:font-normal prose-li:my-1.5">
       <header>
