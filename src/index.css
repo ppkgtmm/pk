@@ -3,14 +3,17 @@
 @tailwind utilities;
 
 .component {
-  @apply px-[6vw] md:px-0 md:max-w-[680px] lg:max-w-[720px] md:mx-auto;
+  @apply px-[4vw] md:px-0 md:max-w-[680px] lg:max-w-[720px] md:mx-auto;
 }
+
 .icon {
   @apply h-[22px] w-[22px];
 }
-.color {
-  background-color: rgba(0, 0, 0, 0.95);
+
+.quote {
+  @apply px-[14px] py-1 border-l-[3px] border-[#37352f];
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -18,7 +21,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgba(0, 0, 0, 0.95);
+  color: rgb(55, 53, 47);
+  font-size: 16px;
 }
 
 code {
