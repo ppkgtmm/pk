@@ -1,8 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      // cr. https://futurestud.io/tutorials/tailwind-css-remove-backticks-around-inline-code
+      typography(theme) {
+        return {
+          DEFAULT: {
+            css: {
+              "code::before": {
+                content: "none",
+              },
+              "code::after": {
+                content: "none",
+              },
+            },
+          },
+        };
+      },
+    },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require("@tailwindcss/typography")],
 };
