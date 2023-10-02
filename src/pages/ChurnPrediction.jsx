@@ -14,7 +14,9 @@ function ChurnPrediction() {
         retain customers in time
       </p>
       <blockquote>
-        <strong>Data Exploration</strong>
+        <p>
+          <strong>Data Exploration</strong>
+        </p>
       </blockquote>
       <p>Work done in this step are</p>
       <ul>
@@ -34,7 +36,9 @@ function ChurnPrediction() {
         </a>
       </p>
       <blockquote>
-        <strong>Data Preprocessing</strong>
+        <p>
+          <strong>Data Preprocessing</strong>
+        </p>
       </blockquote>
       <p>
         Apache Airflow was used to build data processing pipeline or DAG as
@@ -60,7 +64,9 @@ function ChurnPrediction() {
         <li>free up of disk space used by the pipeline</li>
       </ul>
       <blockquote>
-        <strong>Cross Validation</strong>
+        <p>
+          <strong>Cross Validation</strong>
+        </p>
       </blockquote>
       <p>Work done in this step are</p>
       <ul>
@@ -79,7 +85,11 @@ function ChurnPrediction() {
           recall value
         </li>
       </ul>
-      <p>Optimal combination : Support Vector Machine and Standard Scaler</p>
+      <p>
+        Reason for using recall : To minimize false negatives i.e. incorrectly
+        predicting customers as not churning Optimal combination : Support
+        Vector Machine and Standard Scaler
+      </p>
       <p>
         <img
           src="https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true"
@@ -93,15 +103,10 @@ function ChurnPrediction() {
           modeling notebook
         </a>
       </p>
-      <details>
-        <summary>
-          <b>Reason for choosing recall</b>
-        </summary>
-        To minimize false negatives i.e. incorrectly predicting customers as not
-        churning
-      </details>
       <blockquote>
-        <strong>Inference</strong>
+        <p>
+          <strong>Inference</strong>
+        </p>
       </blockquote>
       <p>Work done in this step are</p>
       <ul>
@@ -138,7 +143,9 @@ function ChurnPrediction() {
         />
       </p>
       <blockquote>
-        <strong>References</strong>
+        <p>
+          <strong>References</strong>
+        </p>
       </blockquote>
       <ul>
         <li>
