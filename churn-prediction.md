@@ -39,17 +39,13 @@ Work done in this step are
 - evaluation of preprocessor and algorithm performance on validation set
 - selecting preprocessor and algorithm combination that gave highest recall value
 
+Reason for using recall : To minimize false negatives i.e. incorrectly predicting customers as not churning
 Optimal combination : Support Vector Machine and Standard Scaler
 
 ![https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true)
 
 For more information about the results, refer to [modeling notebook](https://github.com/ppkgtmm/hello-hello/blob/main/notebooks/modeling.ipynb)
 
-<details>
-<summary><b>Reason for choosing recall</b></summary>
-To minimize false negatives i.e. incorrectly predicting customers as not churning
-</details>
-    
 
 > **Inference**
 
