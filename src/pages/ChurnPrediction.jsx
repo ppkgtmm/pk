@@ -1,12 +1,12 @@
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 function ChurnPrediction() {
-  useEffect(() => {
-    document.title = 'churn prediction';
-    window.scrollTo({ top: 0, left: 0 });
-  });
+  // useEffect(() => {
+  //   document.title = 'churn prediction';
+  //   window.scrollTo({ top: 0, left: 0 });
+  // });
   return (
-    <article className="my-12 lg:my-16 component prose prose-zinc prose-blockquote:not-italic prose-blockquote:border-zinc-900 prose-blockquote:border-l-[3px] prose-p:text-zinc-900 prose-a:text-zinc-400 prose-a:underline-offset-[3px] prose-a:font-normal prose-li:my-1.5">
+    <article className="my-12 lg:my-16 component prose prose-stone prose-headings:text-stone-700 prose-h1:text-[40px] prose-headings:font-bold prose-blockquote:not-italic prose-blockquote:border-stone-700 prose-blockquote:border-l-[3px] prose-blockquote:text-stone-700 prose-a:text-stone-500 prose-a:underline-offset-[3px] prose-a:font-normal prose-li:my-1 prose-p:text-stone-700 prose-li:text-stone-700 prose-code:bg-stone-100 prose-code:rounded prose-code:px-1.5 prose-code:py-0.5 prose-code:text-stone-600 prose-code:font-normal prose-a:decoration-0 prose-a:decoration-stone-300">
       <header>
         <h1>Churn Prediction</h1>
       </header>
@@ -98,7 +98,7 @@ function ChurnPrediction() {
             modeling notebook
           </a>
         </p>
-        <details open="">
+        <details open="" className="details">
           <summary>
             <strong>Reason for choosing recall </strong>
           </summary>
