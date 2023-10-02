@@ -3,7 +3,7 @@
 Purpose of this project is to build a machine learning model to spot out customers who are likely to churn. By knowing possibility to churn of high value customers beforehand, businesses can start taking actions and retain customers in time
 
 > **Data Exploration**
-> 
+
 
 Work done in this step are
 
@@ -15,7 +15,7 @@ Work done in this step are
 To know more about the observations, refer to [exploration notebook](https://github.com/ppkgtmm/churn-prediction/blob/main/notebooks/exploration.ipynb) 
 
 > **Data Preprocessing**
-> 
+
 
 Apache Airflow was used to build data processing pipeline or DAG as illustrated below
 
@@ -30,7 +30,7 @@ Work done through the pipeline are
 - free up of disk space used by the pipeline
 
 > **Cross Validation**
-> 
+
 
 Work done in this step are
 
@@ -39,19 +39,20 @@ Work done in this step are
 - evaluation of preprocessor and algorithm performance on validation set
 - selecting preprocessor and algorithm combination that gave highest recall value
 
-Optimal combination ****: Support Vector Machine and Standard Scaler
+Optimal combination : Support Vector Machine and Standard Scaler
 
 ![https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true)
 
 For more information about the results, refer to [modeling notebook](https://github.com/ppkgtmm/hello-hello/blob/main/notebooks/modeling.ipynb)
 
-- **Reason for choosing recall**
-    
-    To minimize false negatives i.e. incorrectly predicting customers as not churning
+<details>
+<summary><b>Reason for choosing recall</b></summary>
+To minimize false negatives i.e. incorrectly predicting customers as not churning
+</details>
     
 
 > **Inference**
-> 
+
 
 Work done in this step are
 
@@ -66,7 +67,7 @@ Work done in this step are
 ![https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true)
 
 > **References**
-> 
+
 - [credit-card-customers-churn-dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
 - [multicollinearity](https://en.wikipedia.org/wiki/Multicollinearity)
 - [apache-airflow-quick-start](https://airflow.apache.org/docs/apache-airflow/stable/start/local.html)
