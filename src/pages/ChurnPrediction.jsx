@@ -5,8 +5,8 @@ function ChurnPrediction() {
   //   window.scrollTo({ top: 0, left: 0 });
   // });
   return (
-    <article className="my-12 lg:my-16 component leading-6 prose prose-h1:text-[40px] prose-headings:font-semibold prose-blockquote:not-italic prose-blockquote:border-l-[3px] prose-a:underline-offset-[3px] prose-a:font-normal prose-li:my-1 prose-code:bg-stone-100 prose-code:rounded prose-code:px-1.5 prose-code:py-0.5 prose-code:font-normal prose-a:decoration-0 prose-a:text-[#0366d6] prose-blockquote:text-gray-500">
-      <h1 id="churn-prediction">Churn Prediction</h1>
+    <article className="prose-styled">
+      <h1>Churn Prediction</h1>
       <p>
         Purpose of this project is to build a machine learning model to spot out
         customers who are likely to churn. By knowing possibility to churn of
