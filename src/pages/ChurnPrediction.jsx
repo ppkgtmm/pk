@@ -46,7 +46,7 @@ function ChurnPrediction() {
         </p>
         <figure>
           <a target="_blank" rel="noreferrer" href="https://github.com/ppkgtmm/churn-prediction/blob/main/images/dag-diagram.png?raw=true">
-            <img src="https://github.com/ppkgtmm/churn-prediction/blob/main/images/dag-diagram.png?raw=true" alt="sirflow-dag" />
+            <img src="https://github.com/ppkgtmm/churn-prediction/blob/main/images/dag-diagram.png?raw=true" alt="airflow-dag" />
           </a>
         </figure>
         <p>Work done through the pipeline are</p>
@@ -88,7 +88,7 @@ function ChurnPrediction() {
         </p>
         <figure>
           <a target="_blank" rel="noreferrer" href="https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true">
-            <img className="max-w-screen-sm mx-auto" src="https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true" alt="evaluation-result" />
+            <img src="https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true" alt="evaluation-result" />
           </a>
         </figure>
         <p>
