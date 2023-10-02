@@ -6,13 +6,13 @@ function Project(props) {
   } = props; /* skills, linkText, content, */
 
   return (
-    <div className="text-black">
+    <div>
       <div>
         <img src={image} alt={name} />
       </div>
       <div>
         <p className="font-bold text-lg lowercase my-2">{name}</p>
-        <a href={link} className="border border-black hover:bg-black hover:text-white capitalize px-4 py-1.5 rounded">read more</a>
+        <a href={link} className="border border-[#101010] hover:bg-[#101010] hover:text-white capitalize px-4 py-1.5 rounded">read more</a>
       </div>
     </div>
   );
