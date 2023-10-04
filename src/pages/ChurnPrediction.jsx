@@ -1,9 +1,10 @@
-// import { useEffect } from 'react';
+import { useEffect } from 'react';
+
 function ChurnPrediction() {
-  // useEffect(() => {
-  //   document.title = 'churn prediction';
-  //   window.scrollTo({ top: 0, left: 0 });
-  // });
+  useEffect(() => {
+    document.title = 'churn prediction';
+    window.scrollTo({ top: 0, left: 0 });
+  });
   return (
     <article className="prose-styled">
       <h1>Churn Prediction</h1>
