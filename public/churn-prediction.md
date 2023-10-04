@@ -91,14 +91,16 @@ Work done in this step are
 ![https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true)
 
 > **Further Work**
-> 
+>
+
 - Using K-Fold cross validation to select algorithm for tuning
     
     **Reason :** To better ensure that good performance of model on validation set is not by chance
     
 
 > **References**
-> 
+>
+
 - [credit-card-customers-churn-dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
 - [multicollinearity](https://en.wikipedia.org/wiki/Multicollinearity)
 - [apache-airflow-quick-start](https://airflow.apache.org/docs/apache-airflow/stable/start/local.html)
