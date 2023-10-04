@@ -20,13 +20,42 @@ function ChurnPrediction() {
       </blockquote>
       <p>Work done in this step are</p>
       <ul>
-        <li>column data type and values validation against data description</li>
-        <li>target variable distribution analysis</li>
         <li>
-          numerical and categorical feature distribution analysis by target
-          class
+          <p>column data type and values validation against data description</p>
+          <p>
+            <strong>Reason :</strong>
+            To see if further data cleansing or transformation are needed
+          </p>
         </li>
-        <li>correlation analysis between each feature variable and target</li>
+        <li>
+          <p>target variable distribution analysis</p>
+          <p>
+            <strong>Reason :</strong>
+            To determine if weighted classification is
+            needed because of class imbalance
+          </p>
+        </li>
+        <li>
+          <p>
+            numerical and categorical feature distribution analysis by target
+            class
+          </p>
+          <p>
+            <strong>Reason :</strong>
+            {' '}
+            To decide if test of independence is
+            needed to reduce no. of features
+          </p>
+        </li>
+        <li>
+          <p>correlation analysis between each feature variable and target</p>
+          <p>
+            <strong>Reason :</strong>
+            {' '}
+            To observe direction of relationship
+            between each feature variable and target
+          </p>
+        </li>
       </ul>
       <p>
         To know more about the observations, refer to
@@ -54,41 +83,92 @@ function ChurnPrediction() {
       <ul>
         <li>reading training, validation and testing input data files</li>
         <li>
-          categorical features selection through chi-square test of independence
-          done on training dataset with cutoff p-value 0.05
+          <p>
+            categorical features selection through chi-square test of
+            independence done on training dataset with cutoff p-value 0.05
+          </p>
+          <p>
+            <strong>Reason :</strong>
+            {' '}
+            To prevent model overfitting by keeping
+            only features with p-value lower than 0.05
+          </p>
         </li>
         <li>preprocessors creation and input data preprocessing</li>
         <li>
-          serialization of preprocessors and processed data to output directory
+          <p>
+            serialization of preprocessors and processed data to output
+            directory
+          </p>
+          <p>
+            <strong>Reason :</strong>
+            {' '}
+            To make preprocessors and processed data
+            available for reuse later
+          </p>
         </li>
         <li>free up of disk space used by the pipeline</li>
       </ul>
       <blockquote>
         <p>
-          <strong>Cross Validation</strong>
+          <strong>Model Training</strong>
         </p>
       </blockquote>
       <p>Work done in this step are</p>
       <ul>
         <li>
-          input datasets transformation using each type of preprocessor created
-          in previous step
+          <p>
+            input datasets transformation using each type of preprocessor
+            created in previous step
+          </p>
+          <p>
+            <strong>Reason :</strong>
+            {' '}
+            To encode categorical values for usability
+            and to normalize numeric feature range for unexpected dominance
+            prevention from broad range features
+          </p>
         </li>
         <li>
-          machine learning algorithms training using preprocessed datasets
+          <p>
+            machine learning algorithms training using preprocessed datasets
+          </p>
+          <p>
+            <strong>Reason :</strong>
+            {' '}
+            To derive multiple machine learning models
+            as alternatives
+          </p>
         </li>
         <li>
-          evaluation of preprocessor and algorithm performance on validation set
+          <p>
+            evaluation of preprocessor and algorithm performance on validation
+            set using recall metric
+          </p>
+          <p>
+            <strong>Reason :</strong>
+            {' '}
+            To determine preprocessor and algorithm
+            combination that gives minimum incorrect predictions for churning
+            customers i.e. minimum false negatives
+          </p>
         </li>
         <li>
-          selecting preprocessor and algorithm combination that gave highest
-          recall value
+          <p>
+            hyper parameter tuning of algorithm with highest recall value on
+            validation set
+          </p>
+          <p>
+            <strong>Reason :</strong>
+            {' '}
+            To obtain final model with better
+            performance than model from default settings
+          </p>
         </li>
       </ul>
       <p>
-        Reason for using recall : To minimize false negatives i.e. incorrectly
-        predicting customers as not churning Optimal combination : Support
-        Vector Machine and Standard Scaler
+        selected combination : Support Vector Machine algorithm and Standard
+        Scaler
       </p>
       <p>
         <img
@@ -132,8 +212,8 @@ function ChurnPrediction() {
       </p>
       <ul>
         <li>
-          implementation of front end which receives input data as CSV file and
-          displays predictions
+          implementation of front end to display predictions for input data file
+          uploaded
         </li>
       </ul>
       <p>
@@ -142,6 +222,22 @@ function ChurnPrediction() {
           alt="https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true"
         />
       </p>
+      <blockquote>
+        <p>
+          <strong>Further Work</strong>
+        </p>
+      </blockquote>
+      <ul>
+        <li>
+          <p>Using K-Fold cross validation to select algorithm for tuning</p>
+          <p>
+            <strong>Reason :</strong>
+            {' '}
+            To better ensure that good performance of
+            model on validation set is not by chance
+          </p>
+        </li>
+      </ul>
       <blockquote>
         <p>
           <strong>References</strong>
