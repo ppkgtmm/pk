@@ -3,13 +3,11 @@ import data from './projects.json';
 
 function ProjectList() {
   return (
-    <div className="component my-16">
-      <div className="grid md:grid-cols-2 md:gap-x-4 gap-y-8 items-stretch">
-        {data.map((value, index) => (
-          <Project {...value} key={index} />
-        ))}
-      </div>
-    </div>
+    <article className="prose-styled">
+      {data.map((value, index) => (
+        <Project {...value} key={index} />
+      ))}
+    </article>
   );
 }
 
