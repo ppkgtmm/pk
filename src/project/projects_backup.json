@@ -1,0 +1,34 @@
+[
+  {
+    "name": "e-commerce dashboard",
+    "skills": "data visualization",
+    "link": "https://public.tableau.com/views/OlistDashboard_16876242836040/e-commercedashboard?:language=en-US&:display_count=n&:origin=viz_share_link",
+    "linkText": "tableau dashboard",
+    "content": "Dashboard showing overview of sales, order ratings and delayed deliveries for selected state and month. The measures have also been summarized for each city within the state selected. Treemap shows sales further broken down by product category for the whole state unless a city on map is clicked",
+    "image": "./imgs/olist.png"
+  },
+  {
+    "name": "customer churn prediction",
+    "skills": "machine learning",
+    "link": "#/churn-prediction",
+    "linkText": "source code",
+    "content": "Web application providing prediction results from machine learning model trained to spot customers who are likely to churn. Input data file can be uploaded for prediction by tuned model which algorithm has optimal validation set recall value",
+    "image": "./imgs/churn.png"
+  },
+  {
+    "name": "fake news detection",
+    "skills": "machine learning + NLP",
+    "link": "https://github.com/ppkgtmm/fake-news-detection",
+    "linkText": "source code",
+    "content": "Web page serving machine learning model trained to classify between authentic and fake news. Algorithm used under the hood has been tuned after selection by considering ROC AUC score measured on preprocessed validation data",
+    "image": "./imgs/fake-news.png"
+  },
+  {
+    "name": "travel destination catalogue",
+    "skills": "frontend development",
+    "link": "https://go-now.netlify.app/",
+    "linkText": "hosted website",
+    "content": "Responsive catalogue displaying vacation venues categorized by season they are best to be visited in as alternatives to those who are planning for vacation. Additional information related to the destinations such as hotels, restaurants, things to do etc. can be found by clicking on the card",
+    "image": "./imgs/go-now.png"
+  }
+]
