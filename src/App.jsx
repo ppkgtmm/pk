@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/churn-prediction" element={<Detail name="churnPrediction" />} />
+        <Route path="/fake-news-detection" element={<Detail name="fakeNewsDetection" />} />
       </Routes>
     </HashRouter>
 
