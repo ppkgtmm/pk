@@ -1,6 +1,6 @@
 function Cover() {
   return (
-    <div className="bg-black w-full flex flex-col text-white">
+    <div className="bg-gray-950 w-full flex flex-col text-white">
       <div className="component flex flex-col my-12 md:my-20">
         <h1 className="text-[6ch] md:text-[8ch] lg:text-[9ch] font-bold leading-[1.5ch]">
           Pinky
