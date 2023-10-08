@@ -8,11 +8,10 @@ module.exports = {
         return {
           DEFAULT: {
             css: {
-              color: "#24292f",
               "code::before": { content: "none" },
               "code::after": { content: "none" },
-              "--tw-prose-headings": "#24292f",
-              "li::marker": { color: "#24292f" },
+              "--tw-prose-bold": "#1f2937",
+              "--tw-prose-bullets": { color: "#4b5563" },
               "blockquote p:first-of-type::before": {
                 content: "",
               },
