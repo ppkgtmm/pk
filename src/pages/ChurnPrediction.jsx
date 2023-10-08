@@ -24,14 +24,15 @@ function ChurnPrediction() {
         <li>
           <p>column data type and values validation against data description</p>
           <p>
-            <strong>Reason :</strong>
-            To see if further data cleansing or transformation are needed
+            <strong>Reason : </strong>
+            To see if further data cleansing or
+            transformation are needed
           </p>
         </li>
         <li>
           <p>target variable distribution analysis</p>
           <p>
-            <strong>Reason :</strong>
+            <strong>Reason : </strong>
             To determine if weighted classification is
             needed because of class imbalance
           </p>
@@ -42,8 +43,7 @@ function ChurnPrediction() {
             class
           </p>
           <p>
-            <strong>Reason :</strong>
-            {' '}
+            <strong>Reason : </strong>
             To decide if test of independence is
             needed to reduce no. of features
           </p>
@@ -51,8 +51,7 @@ function ChurnPrediction() {
         <li>
           <p>correlation analysis between each feature variable and target</p>
           <p>
-            <strong>Reason :</strong>
-            {' '}
+            <strong>Reason : </strong>
             To observe direction of relationship
             between each feature variable and target
           </p>
@@ -89,8 +88,7 @@ function ChurnPrediction() {
             independence done on training dataset with cutoff p-value 0.05
           </p>
           <p>
-            <strong>Reason :</strong>
-            {' '}
+            <strong>Reason : </strong>
             To prevent model overfitting by keeping
             only features with p-value lower than 0.05
           </p>
@@ -102,13 +100,12 @@ function ChurnPrediction() {
             directory
           </p>
           <p>
-            <strong>Reason :</strong>
-            {' '}
+            <strong>Reason : </strong>
             To make preprocessors and processed data
-            available for reuse later
+            available for future use
           </p>
         </li>
-        <li>free up of disk space used by the pipeline</li>
+        <li>freeing up of disk space used by the pipeline</li>
       </ul>
       <blockquote>
         <p>
@@ -123,23 +120,14 @@ function ChurnPrediction() {
             created in previous step
           </p>
           <p>
-            <strong>Reason :</strong>
-            {' '}
+            <strong>Reason : </strong>
             To encode categorical values for usability
-            and to normalize numeric feature range for unexpected dominance
-            prevention from broad range features
+            and to normalize numeric feature so that unexpected dominance from
+            broad range features is prevented
           </p>
         </li>
         <li>
-          <p>
-            machine learning algorithms training using preprocessed datasets
-          </p>
-          <p>
-            <strong>Reason :</strong>
-            {' '}
-            To derive multiple machine learning models
-            as alternatives
-          </p>
+          using preprocessed datasets to train machine learning algorithms
         </li>
         <li>
           <p>
@@ -147,9 +135,8 @@ function ChurnPrediction() {
             set using recall metric
           </p>
           <p>
-            <strong>Reason :</strong>
-            {' '}
-            To determine preprocessor and algorithm
+            <strong>Reason : </strong>
+            To select preprocessor and algorithm
             combination that gives minimum incorrect predictions for churning
             customers i.e. minimum false negatives
           </p>
@@ -160,10 +147,23 @@ function ChurnPrediction() {
             validation set
           </p>
           <p>
-            <strong>Reason :</strong>
-            {' '}
+            <strong>Reason : </strong>
             To obtain final model with better
             performance than model from default settings
+          </p>
+        </li>
+        <li>
+          serialization of model obtained from hyper parameter tuning step
+        </li>
+        <li>
+          <p>
+            evaluation on testing dataset using combination of selected
+            preprocessor and tuned model
+          </p>
+          <p>
+            <strong>Reason : </strong>
+            To get performance estimate of
+            preprocessor and model on unseen dataset
           </p>
         </li>
       </ul>
@@ -230,10 +230,9 @@ function ChurnPrediction() {
       </blockquote>
       <ul>
         <li>
-          <p>Using K-Fold cross validation to select algorithm for tuning</p>
+          <p>using K-Fold cross validation to select algorithm for tuning</p>
           <p>
-            <strong>Reason :</strong>
-            {' '}
+            <strong>Reason : </strong>
             To better ensure that good performance of
             model on validation set is not by chance
           </p>
