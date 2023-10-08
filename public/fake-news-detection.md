@@ -4,8 +4,7 @@ Objective of this project is to automate fake news detection using machine learn
 
 ![https://github.com/ppkgtmm/fake-news-detection/blob/main/images/diagram.png?raw=true](https://github.com/ppkgtmm/fake-news-detection/blob/main/images/diagram.png?raw=true)
 
-> **Data Preprocessing**
-> 
+### **Data Preprocessing**
 
 Work done in this step are
 
@@ -38,8 +37,7 @@ Work done in this step are
 
 News data used in this project can be found in [data directory](https://github.com/ppkgtmm/fake-news-detection/tree/main/data)
 
-> **Data Visualization**
-> 
+### **Data Visualization**
 
 Work done in this step are
 
@@ -58,8 +56,7 @@ Work done in this step are
 
 For detailed findings from data visualization step, refer to [visualization results](https://github.com/ppkgtmm/fake-news-detection/blob/main/visualization/README.md)
 
-> **Model Training**
-> 
+### **Model Training**
 
 Work done in this step are
 
@@ -99,8 +96,7 @@ Work done in this step are
 
 For additional information about tuning results, refer to [tuning log](https://github.com/ppkgtmm/fake-news-detection/blob/main/outputs/2023-09-17/18-55-22/tune.log)
 
-> **Model inference**
-> 
+### **Model inference**
 
 Work done in this step are
 
@@ -116,8 +112,7 @@ Work done in this step are
 
 ![https://github.com/ppkgtmm/fake-news-detection/blob/main/images/ui-fake-news.png?raw=true](https://github.com/ppkgtmm/fake-news-detection/blob/main/images/ui-fake-news.png?raw=true)
 
-> **Further Work**
->
+### **Further Work**
 
 - Optimization of preprocessing code
     
@@ -128,8 +123,7 @@ Work done in this step are
     **Reason :** To better ensure that good performance of model on validation set is not by chance
     
 
-> **References**
->
+### **References**
 
 - [fake-and-real-news-dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
 - [hydra-cc-a-powerful-framework-to-configure-your-data-science-projects](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6)
