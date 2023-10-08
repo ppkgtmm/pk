@@ -7,7 +7,7 @@ import {
   LocationIcon,
 } from "../../icons";
 
-function SocialList() {
+function Social() {
   return (
     <div className="flex ml-[-0.75rem]">
       <Link to="mailto:pinky.gtm@outlook.com">
@@ -29,4 +29,4 @@ function SocialList() {
   );
 }
 
-export default SocialList;
+export default Social;
