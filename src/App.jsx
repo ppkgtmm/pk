@@ -1,7 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 // import ChurnPrediction from './pages/ChurnPrediction';
-import Home from "./Home";
+import Home from "./pages/Home";
 
 function App() {
   return (
