@@ -15,9 +15,7 @@ function ChurnPrediction() {
         retain customers in time
       </p>
       <h3>
-        <p>
-          <strong>Data Exploration</strong>
-        </p>
+        <strong>Data Exploration</strong>
       </h3>
       <p>Work done in this step are</p>
       <ul>
@@ -65,9 +63,7 @@ function ChurnPrediction() {
         </a>
       </p>
       <h3>
-        <p>
-          <strong>Data Preprocessing</strong>
-        </p>
+        <strong>Data Preprocessing</strong>
       </h3>
       <p>
         Apache Airflow was used to build data processing pipeline or DAG as
@@ -108,9 +104,7 @@ function ChurnPrediction() {
         <li>freeing up of disk space used by the pipeline</li>
       </ul>
       <h3>
-        <p>
-          <strong>Model Training</strong>
-        </p>
+        <strong>Model Training</strong>
       </h3>
       <p>Work done in this step are</p>
       <ul>
@@ -185,9 +179,7 @@ function ChurnPrediction() {
         </a>
       </p>
       <h3>
-        <p>
-          <strong>Inference</strong>
-        </p>
+        <strong>Inference</strong>
       </h3>
       <p>Work done in this step are</p>
       <ul>
@@ -224,9 +216,7 @@ function ChurnPrediction() {
         />
       </p>
       <h3>
-        <p>
-          <strong>Further Work</strong>
-        </p>
+        <strong>Further Work</strong>
       </h3>
       <ul>
         <li>
@@ -239,9 +229,7 @@ function ChurnPrediction() {
         </li>
       </ul>
       <h3>
-        <p>
-          <strong>References</strong>
-        </p>
+        <strong>References</strong>
       </h3>
       <ul>
         <li>
