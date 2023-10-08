@@ -1,6 +1,6 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-// import ChurnPrediction from './pages/ChurnPrediction';
+import Detail from "./pages/Detail";
 import Home from "./pages/Home";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <HashRouter basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/churn-prediction" element={<ChurnPrediction />} /> */}
+        <Route path="/churn-prediction" element={<Detail name="churnPrediction" />} />
       </Routes>
     </HashRouter>
 
