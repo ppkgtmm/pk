@@ -1,5 +1,5 @@
 import Cover from "./Cover";
 import Footer from "./Footer";
-import Project from "./Project";
+import Content from "./Content";
 
-export { Cover, Footer, Project };
+export { Cover, Footer, Content };
