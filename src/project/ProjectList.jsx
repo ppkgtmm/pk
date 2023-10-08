@@ -1,17 +1,17 @@
-import Project from './Project';
-import data from './projects.json';
+// import Project from "./Project";
+// import data from "./projects.json";
 
-function ProjectList() {
-  return (
-    <article className="prose-styled">
-      {data.map((value, index) => (
-        <Project {...value} key={index} />
-      ))}
-    </article>
-  );
-}
+// function ProjectList() {
+//   return (
+//     <article className="prose-styled">
+//       {data.map((value, index) => (
+//         <Project {...value} key={index} />
+//       ))}
+//     </article>
+//   );
+// }
 
-export default ProjectList;
+// export default ProjectList;
 /* <div>
               <p>
                 • summarizes sales, order ratings and delayed deliveries
