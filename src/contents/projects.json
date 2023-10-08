@@ -2,13 +2,13 @@
   {
     "name": "customer churn prediction",
     "link": "#/churn-prediction",
-    "content": "Purpose of project is to build machine learning model to identify customers at risk of churning. Knowing possibility to churn of high value customers beforehand enables businesses to proactively take actions and retain customers in time",
+    "content": "Training machine learning model to identify customers who are at risk of churning. Knowing possibility to churn of high value customers beforehand enables businesses to proactively take actions to retain customers and prevent possible loss",
     "cover": "./imgs/churn/front-end.png"
   },
   {
     "name": "fake news detection",
     "link": "#/fake-news-detection",
-    "content": "The objective is to automate fake news detection using machine learning. With such automation, news authenticity can be figured out early which could save news readers valuable time and reduce negative effects from decisions made based on fake news",
+    "content": "Implementation of machine learning model to automate fake news detection. With such automation, news authenticity can be figured out early which could save news readers valuable time and reduce negative effects from decisions made based on fake news",
     "cover": "./imgs/fake-news/front-end.png"
   }
 ]
