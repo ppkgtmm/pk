@@ -2,7 +2,7 @@
   {
     "name": "customer churn prediction",
     "link": "#/churn-prediction",
-    "content": "Main purpose is to build a machine learning model to spot out customers who are likely to churn. By knowing possibility to churn of high value customers beforehand, businesses can start taking actions and retain customers in time",
+    "content": "Purpose of project is to build machine learning model to identify customers at risk of churning. Knowing possibility to churn of high value customers beforehand enables businesses to proactively take actions and retain customers in time",
     "cover": "./imgs/churn/front-end.png"
   },
   {
