@@ -1,3 +1,3 @@
-import Social from "./SocialList";
+import Social from "./Social";
 
 export default Social;
