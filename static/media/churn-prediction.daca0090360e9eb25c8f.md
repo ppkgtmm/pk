@@ -2,8 +2,7 @@
 
 Purpose of this project is to build a machine learning model to spot out customers who are likely to churn. By knowing possibility to churn of high value customers beforehand, businesses can start taking actions and retain customers in time
 
-> **Data Exploration**
-> 
+### **Data Exploration**
 
 Work done in this step are
 
@@ -26,8 +25,7 @@ Work done in this step are
 
 To know more about the observations, refer to [exploration notebook](https://github.com/ppkgtmm/churn-prediction/blob/main/notebooks/exploration.ipynb) 
 
-> **Data Preprocessing**
-> 
+### **Data Preprocessing**
 
 Apache Airflow was used to build data processing pipeline or DAG as illustrated below
 
@@ -47,8 +45,7 @@ Work done through the pipeline are
     
 - freeing up of disk space used by the pipeline
 
-> **Model Training**
-> 
+### **Model Training**
 
 Work done in this step are
 
@@ -77,8 +74,7 @@ selected combination : Support Vector Machine algorithm and Standard Scaler
 
 For more information about the results, refer to [modeling notebook](https://github.com/ppkgtmm/hello-hello/blob/main/notebooks/modeling.ipynb)
 
-> **Inference**
-> 
+### **Inference**
 
 Work done in this step are
 
@@ -92,16 +88,14 @@ Work done in this step are
 
 ![https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true)
 
-> **Further Work**
->
+### **Further Work**
 
 - using K-Fold cross validation to select algorithm for tuning
     
     **Reason :** To better ensure that good performance of model on validation set is not by chance
     
 
-> **References**
->
+### **References**
 
 - [credit-card-customers-churn-dataset](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers)
 - [multicollinearity](https://en.wikipedia.org/wiki/Multicollinearity)
