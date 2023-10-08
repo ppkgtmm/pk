@@ -1,4 +1,4 @@
-import { Cover, Footer } from "./components";
+import { Cover, Footer } from "../components";
 
 function Home() {
   return (
