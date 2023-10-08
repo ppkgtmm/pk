@@ -1,8 +1,14 @@
 [
   {
+    "name": "olist e-commerce dashboard",
+    "link": "#/olist-dashboard",
+    "content": "Visualization containing revenue, order ratings and delayed deliveries summaried for selected month at state and city level. By having a consolidated view of business, insights can be derived from data faster and more conveniently",
+    "cover": "./imgs/olist/dashboard.png"
+  },
+  {
     "name": "customer churn prediction",
     "link": "#/churn-prediction",
-    "content": "Training machine learning model to identify customers who are at risk of churning. Knowing possibility to churn of high value customers beforehand enables businesses to proactively take actions to retain customers and prevent possible loss",
+    "content": "Training machine learning model to identify customers who are at risk of churning. Knowing possibility to churn of high value customers beforehand enables businesses to proactively take actions, retain customers and prevent possible loss",
     "cover": "./imgs/churn/front-end.png"
   },
   {
