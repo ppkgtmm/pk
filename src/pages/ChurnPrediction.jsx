@@ -14,11 +14,11 @@ function ChurnPrediction() {
         high value customers beforehand, businesses can start taking actions and
         retain customers in time
       </p>
-      <blockquote>
+      <h3>
         <p>
           <strong>Data Exploration</strong>
         </p>
-      </blockquote>
+      </h3>
       <p>Work done in this step are</p>
       <ul>
         <li>
@@ -64,11 +64,11 @@ function ChurnPrediction() {
           exploration notebook
         </a>
       </p>
-      <blockquote>
+      <h3>
         <p>
           <strong>Data Preprocessing</strong>
         </p>
-      </blockquote>
+      </h3>
       <p>
         Apache Airflow was used to build data processing pipeline or DAG as
         illustrated below
@@ -107,11 +107,11 @@ function ChurnPrediction() {
         </li>
         <li>freeing up of disk space used by the pipeline</li>
       </ul>
-      <blockquote>
+      <h3>
         <p>
           <strong>Model Training</strong>
         </p>
-      </blockquote>
+      </h3>
       <p>Work done in this step are</p>
       <ul>
         <li>
@@ -184,11 +184,11 @@ function ChurnPrediction() {
           modeling notebook
         </a>
       </p>
-      <blockquote>
+      <h3>
         <p>
           <strong>Inference</strong>
         </p>
-      </blockquote>
+      </h3>
       <p>Work done in this step are</p>
       <ul>
         <li>
@@ -223,11 +223,11 @@ function ChurnPrediction() {
           alt="https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true"
         />
       </p>
-      <blockquote>
+      <h3>
         <p>
           <strong>Further Work</strong>
         </p>
-      </blockquote>
+      </h3>
       <ul>
         <li>
           <p>using K-Fold cross validation to select algorithm for tuning</p>
@@ -238,11 +238,11 @@ function ChurnPrediction() {
           </p>
         </li>
       </ul>
-      <blockquote>
+      <h3>
         <p>
           <strong>References</strong>
         </p>
-      </blockquote>
+      </h3>
       <ul>
         <li>
           <a href="https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers">
