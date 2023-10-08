@@ -4,21 +4,18 @@ module.exports = {
   theme: {
     extend: {
       // cr. https://futurestud.io/tutorials/tailwind-css-remove-backticks-around-inline-code
-      typography(theme) {
+      typography({ theme }) {
         return {
           DEFAULT: {
             css: {
-              "code::before": { content: "none" },
-              "code::after": { content: "none" },
+              code: false,
+              "code::before": false,
+              "code::after": false,
               "--tw-prose-bold": "#000",
               "--tw-prose-body": "#000",
               "--tw-prose-bullets": { color: "#000" },
-              "blockquote p:first-of-type::before": {
-                content: "",
-              },
-              "blockquote p:first-of-type::after": {
-                content: "",
-              },
+              "blockquote p:first-of-type::before": false,
+              "blockquote p:first-of-type::after": false,
             },
           },
         };
