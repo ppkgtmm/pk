@@ -43,9 +43,9 @@ Work done through the pipeline are
 - preprocessors creation and input data preprocessing
 - serialization of preprocessors and processed data to output directory
     
-    **Reason :** To make preprocessors and processed data available for reuse later
+    **Reason :** To make preprocessors and processed data available for future use
     
-- free up of disk space used by the pipeline
+- freeing up of disk space used by the pipeline
 
 > **Model Training**
 > 
@@ -54,19 +54,21 @@ Work done in this step are
 
 - input datasets transformation using each type of preprocessor created in previous step
     
-    **Reason :** To encode categorical values for usability and to normalize numeric feature range for unexpected dominance prevention from broad range features
+    **Reason :** To encode categorical values for usability and to normalize numeric feature so that unexpected dominance from broad range features is prevented
     
-- machine learning algorithms training using preprocessed datasets
-    
-    **Reason :** To derive multiple machine learning models as alternatives
-    
+- using preprocessed datasets to train machine learning algorithms
 - evaluation of preprocessor and algorithm performance on validation set using recall metric
     
-    **Reason :** To determine preprocessor and algorithm combination that gives minimum incorrect predictions for churning customers i.e. minimum false negatives
+    **Reason :** To select preprocessor and algorithm combination that gives minimum incorrect predictions for churning customers i.e. minimum false negatives
     
 - hyper parameter tuning of algorithm with highest recall value on validation set
     
     **Reason :** To obtain final model with better performance than model from default settings
+    
+- serialization of model obtained from hyper parameter tuning step
+- evaluation on testing dataset using combination of selected preprocessor and tuned model
+    
+    **Reason :** To get performance estimate of preprocessor and model on unseen dataset
     
 
 selected combination : Support Vector Machine algorithm and Standard Scaler
@@ -93,7 +95,7 @@ Work done in this step are
 > **Further Work**
 >
 
-- Using K-Fold cross validation to select algorithm for tuning
+- using K-Fold cross validation to select algorithm for tuning
     
     **Reason :** To better ensure that good performance of model on validation set is not by chance
     
