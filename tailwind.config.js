@@ -10,8 +10,9 @@ module.exports = {
             css: {
               "code::before": { content: "none" },
               "code::after": { content: "none" },
-              "--tw-prose-bold": "#1f2937",
-              "--tw-prose-bullets": { color: "#4b5563" },
+              "--tw-prose-bold": "#000",
+              "--tw-prose-body": "#000",
+              "--tw-prose-bullets": { color: "#000" },
               "blockquote p:first-of-type::before": {
                 content: "",
               },
