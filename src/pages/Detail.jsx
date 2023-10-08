@@ -14,7 +14,7 @@ function Detail(props) {
   });
   return (
     <article className="prose-styled">
-      <Markdown renders={{ code: "pre" }}>{content}</Markdown>
+      <Markdown>{content}</Markdown>
     </article>
   );
 }
