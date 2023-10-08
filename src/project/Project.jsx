@@ -8,10 +8,10 @@ function Project(props) {
   return (
     <div>
       <div className="flex flex-col">
-        <p className="font-bold text-lg lowercase capitalize text-gray-950">{name}</p>
-        <p className="text-gray-950">{content}</p>
+        <p className="font-bold text-lg lowercase capitalize text-black">{name}</p>
+        <p className="text-black">{content}</p>
         <div className="mt-2">
-          <a href={link} className="not-prose uppercase border border-gray-950 text-gray-950 hover:bg-gray-950 hover:text-white capitalize px-4 py-1.5 rounded">read more</a>
+          <a href={link} className="not-prose uppercase border border-black text-black hover:bg-black hover:text-white capitalize px-4 py-1.5 rounded">read more</a>
         </div>
       </div>
       <div>
