@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/churn-prediction" element={<Detail name="churnPrediction" />} />
         <Route path="/fake-news-detection" element={<Detail name="fakeNewsDetection" />} />
+        <Route path="/olist-dashboard" element={<Detail name="olistDashboard" />} />
       </Routes>
     </HashRouter>
 
