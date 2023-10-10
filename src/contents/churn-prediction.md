@@ -29,7 +29,7 @@ To know more about the observations, refer to [exploration notebook](https://git
 
 Apache Airflow was used to build data processing pipeline or DAG as illustrated below
 
-![https://github.com/ppkgtmm/churn-prediction/blob/main/images/dag-diagram.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/dag-diagram.png?raw=true)
+![dag-diagram](./imgs/churn/dag-diagram.png)
 
 Work done through the pipeline are
 
@@ -70,7 +70,7 @@ Work done in this step are
 
 selected combination : Support Vector Machine algorithm and Standard Scaler
 
-![https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/evaluation-result.png?raw=true)
+![evaluation-result](./imgs/churn/evaluation-result.png)
 
 For more information about the results, refer to [modeling notebook](https://github.com/ppkgtmm/hello-hello/blob/main/notebooks/modeling.ipynb)
 
@@ -80,13 +80,13 @@ Work done in this step are
 
 - API development to serve predictions from input data provided to `/predict` endpoint
 
-![https://github.com/ppkgtmm/churn-prediction/blob/main/images/api-input.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/api-input.png?raw=true)
+![api-input.png](./imgs/churn/api-input.png)
 
-![https://github.com/ppkgtmm/churn-prediction/blob/main/images/api-output.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/api-output.png?raw=true)
+![api-output.png](./imgs/churn/api-output.png)
 
 - implementation of front end to display predictions for input data file uploaded
 
-![https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true](https://github.com/ppkgtmm/churn-prediction/blob/main/images/front-end.png?raw=true)
+![front-end.png](./imgs/churn/front-end.png)
 
 ### **Further Work**
 
