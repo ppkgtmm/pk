@@ -9,7 +9,6 @@ function Detail(props) {
   const [content, setContent] = useState("");
   useEffect(() => {
     fetch(contentPath).then((response) => response.text()).then((md) => setContent(md));
-    document.title = name;
   });
   return (
     <article className="prose-styled">
