@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.8b2b925d.css",
-    "main.js": "/static/js/main.b8c94f99.js",
+    "main.js": "/static/js/main.d07d0c64.js",
     "static/js/787.812f9f95.chunk.js": "/static/js/787.812f9f95.chunk.js",
     "static/media/fake-news-detection.md": "/static/media/fake-news-detection.03b4c3e99cfdcc299e7a.md",
     "static/media/churn-prediction.md": "/static/media/churn-prediction.daca0090360e9eb25c8f.md",
+    "static/media/olist-dashboard.md": "/static/media/olist-dashboard.716779dc346d929d4769.md",
     "index.html": "/index.html",
     "main.8b2b925d.css.map": "/static/css/main.8b2b925d.css.map",
-    "main.b8c94f99.js.map": "/static/js/main.b8c94f99.js.map",
+    "main.d07d0c64.js.map": "/static/js/main.d07d0c64.js.map",
     "787.812f9f95.chunk.js.map": "/static/js/787.812f9f95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b2b925d.css",
-    "static/js/main.b8c94f99.js"
+    "static/js/main.d07d0c64.js"
   ]
 }
