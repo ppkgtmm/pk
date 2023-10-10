@@ -10,7 +10,6 @@ function Detail(props) {
   useEffect(() => {
     fetch(contentPath).then((response) => response.text()).then((md) => setContent(md));
     document.title = name;
-    window.scrollTo({ top: 0, left: 0 });
   });
   return (
     <article className="prose-styled">
