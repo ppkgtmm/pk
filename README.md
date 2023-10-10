@@ -1,8 +1,9 @@
 # personal website
 
-Repo of personal website which keeps track of my side projects. This project was bootstrapped with [CRA](https://github.com/facebook/create-react-app)
+Make sure to be inside project directory in your terminal
 
-## Initialization
+**Initialization**
+
 Steps below are required for those using Node JS or yarn for the first time 
 
 1. Install `Node JS (v20.6.1)` after downloading `Source code
@@ -13,22 +14,19 @@ Steps below are required for those using Node JS or yarn for the first time
 npm install --global yarn
 ```
 
-## Usage
-Make sure to be inside project directory in your terminal before going through below
-
-#### Install dependencies
+**Install Dependencies**
 ```sh
 yarn install
 ```
 
-#### Run app
+**Run App**
 ``` sh
 yarn start
 ```
 - Open `http://localhost:3000` to view the app in browser
 - The page will reload when changes are made and lint errors (if any) will appear in the console
 
-#### Build app
+**Build App**
 ```
 yarn build
 ```
