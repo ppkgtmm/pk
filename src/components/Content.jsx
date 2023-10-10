@@ -7,8 +7,8 @@ function Content() {
         data.map(
           ({
             name, cover, link, content,
-          }) => (
-            <div>
+          }, index) => (
+            <div key={index}>
               <div className="flex flex-col">
                 <p className="font-bold text-lg lowercase capitalize text-black">{name}</p>
                 <p className="text-black">{content}</p>
