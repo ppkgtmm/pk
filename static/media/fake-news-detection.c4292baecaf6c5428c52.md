@@ -2,7 +2,7 @@
 
 Objective of this project is to automate fake news detection using machine learning. With such automation, news authenticity can be figured out early which could save news readers valuable time and reduce negative effects from decisions made based on fake news
 
-![https://github.com/ppkgtmm/fake-news-detection/blob/main/images/diagram.png?raw=true](https://github.com/ppkgtmm/fake-news-detection/blob/main/images/diagram.png?raw=true)
+![diagram](./imgs/fake-news/diagram.png)
 
 ### **Data Preprocessing**
 
@@ -102,15 +102,15 @@ Work done in this step are
 
 - API development to serve predictions for news provided to `/predict` endpoint
 
-![https://github.com/ppkgtmm/fake-news-detection/blob/main/images/api-input.png?raw=true](https://github.com/ppkgtmm/fake-news-detection/blob/main/images/api-input.png?raw=true)
+![api-input](./imgs/fake-news/api-input.png)
 
-![https://github.com/ppkgtmm/fake-news-detection/blob/main/images/api-output.png?raw=true](https://github.com/ppkgtmm/fake-news-detection/blob/main/images/api-output.png?raw=true)
+![api-output](./imgs/fake-news/api-output.png)
 
 - implementation of front end to display prediction for news input filled in text box
 
-![https://github.com/ppkgtmm/fake-news-detection/blob/main/images/ui-real-news.png?raw=true](https://github.com/ppkgtmm/fake-news-detection/blob/main/images/ui-real-news.png?raw=true)
+![ui-real-news](./imgs/fake-news/ui-real-news.png)
 
-![https://github.com/ppkgtmm/fake-news-detection/blob/main/images/ui-fake-news.png?raw=true](https://github.com/ppkgtmm/fake-news-detection/blob/main/images/ui-fake-news.png?raw=true)
+![ui-fake-news](./imgs/fake-news/ui-fake-news.png)
 
 ### **Further Work**
 
