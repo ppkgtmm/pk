@@ -2,7 +2,7 @@
   {
     "name": "olist e-commerce dashboard",
     "link": "#/olist-dashboard",
-    "content": "Visualization containing revenue, order ratings and delayed deliveries summaried for selected month at state and city level. By having a consolidated view of business, insights can be derived from data faster and more conveniently",
+    "content": "Overview of e-commerce revenue, customer satisfaction and delivery service in form of dashboard. By consolidating improvement areas for business into single view, insights can be derived from data faster and more conveniently",
     "cover": "./imgs/olist/dashboard.png"
   },
   {
