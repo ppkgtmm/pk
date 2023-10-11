@@ -14,7 +14,7 @@
   @apply my-12 md:my-[62px] lg:my-[68px] component leading-6 prose prose-h1:text-[40px] prose-headings:font-bold prose-headings:text-black prose-a:font-normal prose-li:my-1 prose-a:no-underline prose-a:text-[#3366cc] prose-p:my-2 prose-pre:bg-gray-100 prose-pre:text-gray-800 prose-pre:bg-gray-100;
 }
 code {
-  @apply bg-gray-100 text-gray-800 rounded px-1.5 py-0.5 font-normal 
+  @apply bg-gray-100 rounded px-1.5 py-0.5 font-normal 
 }
 
 body {
