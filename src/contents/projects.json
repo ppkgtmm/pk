@@ -2,7 +2,7 @@
   {
     "name": "hotel bookings ETL",
     "link": "#/hotel-bookings",
-    "content": "",
+    "content": "Transformation of hotel reservation data from transactional processing optimized format into a format more suitable for visualization and analysis. Such conversion enables data users to create dashboards for insights discovery and decision making from data more conveniently",
     "cover": "./imgs/hotel-bookings/booking-dashboard.png"
   },
   {
