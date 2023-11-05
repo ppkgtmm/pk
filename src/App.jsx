@@ -11,6 +11,7 @@ function App() {
         <Route path="/churn-prediction" element={<Detail name="churnPrediction" />} />
         <Route path="/fake-news-detection" element={<Detail name="fakeNewsDetection" />} />
         <Route path="/olist-dashboard" element={<Detail name="olistDashboard" />} />
+        <Route path="/hotel-bookings" element={<Detail name="hotelBookings" />} />
       </Routes>
     </HashRouter>
 
