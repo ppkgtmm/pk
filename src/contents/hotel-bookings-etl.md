@@ -1,6 +1,6 @@
 # Hotel Bookings ETL
 
-Aim of this project is to convert hotel reservation data from transactional processing optimized format into a format better suited for visualization and analytical purposes. Transformed data can be leveraged by business users to create dashboards for insights discovery and decision making
+Aim of this project is to convert hotel reservation data from transactional processing optimized format into a format better suited for visualization and analysis. The transformation enables business users to create dashboards from data for insights discovery and decision making more conviniently
 
 ![booking-dashboard](./imgs/hotel-bookings/booking-dashboard.png)
 
