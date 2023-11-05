@@ -1,5 +1,11 @@
 [
   {
+    "name": "hotel bookings ETL",
+    "link": "#/hotel-bookings",
+    "content": "",
+    "cover": "./imgs/hotel-bookings/booking-dashboard.png"
+  },
+  {
     "name": "olist e-commerce dashboard",
     "link": "#/olist-dashboard",
     "content": "Overview of e-commerce revenue, customer satisfaction and delivery service in form of dashboard. By consolidating improvement areas for business into single view, insights can be derived from data faster and more conveniently",
