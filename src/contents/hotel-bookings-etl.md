@@ -1,6 +1,6 @@
 # Hotel Bookings ETL
 
-Aim of this project is to prepare hotel reservation data into visualization suitable format. With the  prepared data, guest demands can be easily summarized and further leveraged by businesses in  service recommendation to customers who share similar characteristics with others
+Aim of this project is to transform hotel reservation data from  transactional processing optimized form into a format that is more suitable for visualization and analytical purposes. The prepared data can be leveraged by business users to create dashboards for insights discovery and decision making
 
 ![booking-dashboard](./imgs/hotel-bookings/booking-dashboard.png)
 
