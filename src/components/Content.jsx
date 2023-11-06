@@ -10,7 +10,7 @@ function Content() {
           }, index) => (
             <div key={index}>
               <div className="flex flex-col">
-                <p className="font-bold text-lg lowercase capitalize text-black">{name}</p>
+                <p className="font-bold text-lg md:text-xl lowercase capitalize text-black">{name}</p>
                 <p className="text-black">{content}</p>
                 <div className="mt-2">
                   <a
