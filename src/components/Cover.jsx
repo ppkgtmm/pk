@@ -1,7 +1,9 @@
+import Social from "./social";
+
 function Cover() {
   return (
-    <div className="bg-black w-full flex flex-col text-white">
-      <div className="component flex flex-col my-12 md:my-20">
+    <div className="bg-black w-full flex flex-col text-white min-h-[80vh]">
+      <div className="component flex flex-col my-auto">
         <h1 className="text-[6ch] md:text-[8ch] lg:text-[9ch] font-bold leading-[1.5ch]">
           Pinky
           {" "}
@@ -9,10 +11,11 @@ function Cover() {
           {" "}
           Gautam
         </h1>
-        <p className="mt-10 font-light text-lg px-[14px] border-l-[3px] border-white">
+        <p className="my-[5vh] md:my-12 font-light md:text-lg">
           data engineer who is eager to learn and implement highly maintainable solutions
           to support informed decision making and bring about positive impacts
         </p>
+        <Social />
       </div>
     </div>
   );
