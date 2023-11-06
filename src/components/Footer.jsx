@@ -7,7 +7,7 @@ function Footer() {
         <div className="hidden md:block md:visible">
           <Social />
         </div>
-        <p className="font-light text-white text-lg py-[11px]">© 2023 Pinky Gautam</p>
+        <p className="font-light text-white md:text-lg py-[11px]">© 2023 Pinky Gautam</p>
       </div>
     </footer>
   );
