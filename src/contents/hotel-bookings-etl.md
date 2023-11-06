@@ -2,8 +2,6 @@
 
 Aim of this project is to convert hotel reservation data from transactional processing optimized format into a format better suited for visualization and analysis. The transformation enables business users to create dashboards from data for insights discovery and decision making more conviniently
 
-![booking-dashboard](./imgs/hotel-bookings/booking-dashboard.png)
-
 ### Business Process
 
 Images below illustrate business process defined to help identify data required for project
@@ -152,12 +150,12 @@ Work done in this step are
     
     **Reason :** To visualize data using tool that provides dashboard serialization and cross filtering features without any charges
     
-- creating guest demand dashboards with cross filtering
+- creating sample dashboard with data exported from previous step
     
     **Reason :** To provide overview of guest demand broken down by different dimensions and to facilitate filtering of data for specific dimension value
     
 
-![addon-dashboard](./imgs/hotel-bookings/addon-dashboard.png)
+![booking-dashboard](./imgs/hotel-bookings/booking-dashboard.png)
 
 ### **References**
 
