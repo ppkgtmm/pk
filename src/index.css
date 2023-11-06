@@ -7,7 +7,7 @@
 }
 
 .icon {
-  @apply h-[22px] w-[22px];
+  @apply h-[23px] w-[23px] md:h-[25px] md:w-[25px];
 }
 
 .prose-styled {
