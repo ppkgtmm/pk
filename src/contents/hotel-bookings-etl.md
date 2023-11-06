@@ -152,7 +152,7 @@ Work done in this step are
     
 - creating sample dashboard with data exported from previous step
     
-    **Reason :** To provide overview of guest demand broken down by different dimensions and to facilitate filtering of data for specific dimension value
+    **Reason :** To create a tangible project output by summarizing thousands records of data
     
 
 ![booking-dashboard](./imgs/hotel-bookings/booking-dashboard.png)
