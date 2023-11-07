@@ -28,7 +28,8 @@ Work done in this step are
 - design of transactional database from defined business process
     
     **Reason :** To finalize attributes, tables and relationship between the tables in data source
-    
+    **Remarks**
+
     - booking rooms table contains guests and reserved rooms data for each booking
     - booking add-ons table holds details of amenities if any was purchased for a booked room
 
@@ -36,7 +37,7 @@ Work done in this step are
 
 - data warehouse design using star schema
     
-    **Reason :** To derive database structure that requires less number of joins to do aggregation based on dimensions
+    **Reason :** To reduce number of join operations required to contruct one big table
     
 
 ![dwh-db-diagram](./imgs/hotel-bookings/dwh-db-diagram.svg)
@@ -58,9 +59,9 @@ Work done to populate source database with artificial dataset are
 - population of data to source database
     - seed tables with no foreign key constraints e.g. user, guest, room type and add-ons
     - seed tables that require only joining with parent table e.g. room and booking
-    - seed tables that need to satisfy business related constraints
+    - seed tables that need to satisfy business related constraints apart from joining
         - booking rooms where no guest or room are tied to overlapping bookings
-        - booking add-ons where date time lie between booking checkin and checkout
+        - booking add-ons where date time lie between booking checkin and checkout dates
 
 ### Streaming ETL
 
@@ -80,7 +81,7 @@ Work done in this step are
     
     **Reason :** To read and prepare change events into suitable format for destination
     
-- using SCD type 2 for dimension tables
+- using slowly changing dimension (SCD) type 2 for dimension tables
     
     **Reason :** To capture both current and historical versions of data
     
@@ -90,7 +91,7 @@ Work done in this step are
     
 - keeping only latest data from bookings, booking rooms and booking add-ons tables
     
-    **Reason :** To avoid updating fact tables by populating the fact tables only when the data can no longer be changed as defined in business requirement
+    **Reason :** To avoid updating fact tables by populating the fact tables only when there cannot be changes in the related data (as defined in business requirement)
     
 
 ![docker-stream-log](./imgs/hotel-bookings/docker-stream-log.png)
@@ -105,11 +106,11 @@ Work done in this step are
     
     **Reason :** To only update the dimension table when there are changes in location data
     
-- date dimension table initial load from minimum checkin date to script execution date
+- date dimension table initial load from earliest checkin date to script execution date
     
-    **Reason :** To allow population of historical data into fact tables
+    **Reason :** To allow population of both current and historical data into fact tables
     
-- doing incremental load on date dimension table and populating fact tables daily
+- doing incremental load on date dimension table before populating fact tables daily
     
     **Reason :** To ensure date dimension data is available before inserting new data to fact tables
     
@@ -134,7 +135,7 @@ Work done in this step are
 
 Work done to verify correctness of fact table population logic are
 
-- insertion of data that is yet to be picked up for processing because of possibility to change into staging tables
+- insertion of data that is yet to be picked up for processing into staging tables
 - triggering pipeline that populates fact tables and checking if the data inserted previously is not present in fact tables
 - modification of data in staging tables to be picked up by the pipeline for processing
 - pipeline re-triggering and verifying if the updated data was correctly inserted into fact tables
@@ -148,7 +149,7 @@ Work done in this step are
 
 - exportation of data from one big table into text files for visualization purpose
     
-    **Reason :** To visualize data using tool that provides dashboard serialization and cross filtering features without any charges
+    **Reason :** To visualize data using tool that provides dashboard serialization and cross filtering features without any charges e.g. Tableau Public
     
 - creating sample dashboard with data exported from previous step
     
@@ -179,3 +180,5 @@ Work done in this step are
 - [working-with-json-in-mysql](https://www.digitalocean.com/community/tutorials/working-with-json-in-mysql)
 - [unnest-extract-json-data-in-mysql](https://andreessulp.medium.com/how-to-unnest-extract-nested-json-data-in-mysql-8-0-c9322c90df12)
 - [tableau-public-desktop-download](https://www.tableau.com/products/public/download)
+- [booking-dashboard-tableau-public](https://public.tableau.com/views/HotelBookingDemand_16990387653270/bookingdemand?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+- [addon-dashboard-tableau-public](https://public.tableau.com/views/HotelAddonDemand/addondemand?:language=en-US&:display_count=n&:origin=viz_share_link)
