@@ -28,6 +28,7 @@ Work done in this step are
 - design of transactional database from defined business process
     
     **Reason :** To finalize attributes, tables and relationship between the tables in data source
+
     **Remarks**
 
     - booking rooms table contains guests and reserved rooms data for each booking
