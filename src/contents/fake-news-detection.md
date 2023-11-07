@@ -22,7 +22,7 @@ Work done in this step are
     
 - serialization of data preprocessed according to steps mentioned above
     
-    **Reason :** For immediate availability of preprocessed data to use i
+    **Reason :** For immediate availability of preprocessed data to use in future
     
 
 ```
