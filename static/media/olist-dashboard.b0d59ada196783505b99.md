@@ -65,7 +65,7 @@ Work done in this step are
 
 ![county-map](./imgs/olist/county.png)
 
-- making use of bar chart to represent sales by product category
+- making use of bar chart to represent sales by product category group
     
     **Reason :** To determine product classifications that are major source of income and the extent to which those classifications contribute towards total revenue
 
