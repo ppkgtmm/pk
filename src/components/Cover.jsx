@@ -3,7 +3,7 @@ import Social from "./social";
 function Cover() {
   return (
     <div className="bg-black w-full flex flex-col text-white min-h-[80vh]">
-      <div className="component flex flex-col my-auto">
+      <div className="component flex flex-col my-auto py-20">
         <h1 className="text-[6ch] md:text-[8ch] lg:text-[9ch] font-bold leading-[1.5ch]">
           Pinky
           {" "}
