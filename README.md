@@ -2,7 +2,7 @@
 
 Make sure to be inside project directory in your terminal
 
-**Initialization**
+### Initialization
 
 Steps below are required for those using Node JS or yarn for the first time 
 
@@ -14,19 +14,19 @@ Steps below are required for those using Node JS or yarn for the first time
 npm install --global yarn
 ```
 
-**Install Dependencies**
+### Install Dependencies
 ```sh
 yarn install
 ```
 
-**Run App**
+### Run App
 ``` sh
 yarn start
 ```
 - Open `http://localhost:3000` to view the app in browser
 - The page will reload when changes are made and lint errors (if any) will appear in the console
 
-**Build App**
+### Build App
 ```
 yarn build
 ```
