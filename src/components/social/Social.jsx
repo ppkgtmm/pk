@@ -9,7 +9,7 @@ import {
 
 function Social() {
   return (
-    <div className="flex ml-[-0.75rem]">
+    <div className="flex overflow-auto no-scrollbar">
       <Link to="mailto:pinky.gtm@outlook.com">
         <EnvelopeIcon />
       </Link>
