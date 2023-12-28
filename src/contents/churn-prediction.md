@@ -1,5 +1,3 @@
-# Churn Prediction
-
 Purpose of this project is to build a machine learning model to spot out customers who are likely to churn. By knowing possibility to churn of high value customers beforehand, businesses can start taking actions and retain customers in time
 
 ### **Data Exploration**
