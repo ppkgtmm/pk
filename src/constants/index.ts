@@ -20,7 +20,7 @@ const tags: TTags = Object.values(tag)
 const posts: TPosts = [
   {
     title: 'hotel bookings ETL',
-    link: '#/hotel-bookings-etl',
+    slug: 'hotel-bookings-etl',
     summary:
       'Transform hotel reservation data into a format more suitable for visualization and analysis. Such conversion enables data users to create dashboards for insights discovery and decision making from data more effortlessly',
     tags: [tag.DENG, tag.VIZ, tag.KFK, tag.SPK, tag.ARF, tag.TBL],
@@ -31,7 +31,7 @@ const posts: TPosts = [
   },
   {
     title: 'olist dashboard',
-    link: '#/olist-dashboard',
+    slug: 'olist-dashboard',
     summary:
       'Overview of e-commerce revenue, customer satisfaction and delivery service in form of dashboard. By consolidating improvement areas for business into single view, insights can be derived from data faster and more conveniently',
     tags: [tag.VIZ, tag.TBL],
@@ -43,7 +43,7 @@ const posts: TPosts = [
   },
   {
     title: 'churn prediction',
-    link: '#/churn-prediction',
+    slug: 'churn-prediction',
     summary:
       'Identify customers who are at risk of churning with machine learning. Knowing possibility to churn of high value customers beforehand enables businesses to proactively take actions, retain customers and prevent possible loss',
     tags: [tag.ML, tag.VIZ, tag.ARF],
@@ -55,7 +55,7 @@ const posts: TPosts = [
   },
   {
     title: 'fake news detection',
-    link: '#/fake-news-detection',
+    slug: 'fake-news-detection',
     summary:
       'Implementation of machine learning model to automate fake news detection. With such automation, news readers valuable time could be saved and negative effects from decisions made based on fake news could be reduced',
     tags: [tag.ML, tag.VIZ, tag.SPK],
