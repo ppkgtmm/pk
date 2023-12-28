@@ -5,7 +5,6 @@ interface Config {
   blog: ConfigObject
   since: number
   isProd: boolean
-  // lang: string
 }
 
 export enum category {
