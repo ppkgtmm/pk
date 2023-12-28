@@ -2,7 +2,6 @@ type ConfigObject = Record<string, string>
 
 interface Config {
   profile: ConfigObject
-  blog: ConfigObject
   since: number
   isProd: boolean
 }
