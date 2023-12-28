@@ -1,5 +1,3 @@
-# E-Commerce Dashboard
-
 Goal of this project is to provide overview of e-commerce revenue, customer satisfaction and logistics partner delivery service through a dashboard. By consolidating improvement areas for business into single view, insights can be derived from data faster and more conveniently
 
 ![dashboard](./imgs/olist/dashboard.png)
