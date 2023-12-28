@@ -7,22 +7,12 @@ import { colors } from '../../../styles'
 interface Props {
   data: TPost
 }
-// export function formatDate(date: string, local: string) {
-//   const d = new Date(date)
-//   const options: Intl.DateTimeFormatOptions = {
-//     year: 'numeric',
-//     month: 'short',
-//     day: 'numeric'
-//   }
-//   const res = d.toLocaleDateString(local, options)
-//   return res
-// }
 
 const PostCard = ({ data }: Props) => {
   const category = data?.category
 
   return (
-    <StyledWrapper href={`/${data.link}`}>
+    <StyledWrapper href={`#/details/${data.slug}`}>
       <article>
         {data.thumbnail && (
           <div className="thumbnail">
@@ -36,7 +26,7 @@ const PostCard = ({ data }: Props) => {
         )}
         <div data-thumb={!!data.thumbnail} className="content">
           <header className="top">
-            <h2 className='capitalize'>{data.title}</h2>
+            <h2 className="capitalize">{data.title}</h2>
           </header>
           <div className="date capitalize">
             <div className="content">{data?.start_date}</div>
