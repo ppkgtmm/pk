@@ -10,11 +10,6 @@ const config: Config = {
     github: 'ppkgtmm',
     medium: '@ppkgtmm'
   },
-
-  blog: {
-    title: 'pinkys-log',
-    description: "welcome to pinky's site"
-  },
   since: 2023,
   isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
