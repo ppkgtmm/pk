@@ -24,7 +24,7 @@ export enum tag {
 export interface TPost {
   id: number
   title: string
-  link: string
+  slug: string
   category: category
   tags: tag[]
   summary: string
