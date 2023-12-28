@@ -10,11 +10,11 @@ interface Props {
 const PostHeader = ({ data }: Props) => {
   return (
     <StyledWrapper>
-      <h1 className="title">{data.title}</h1>
+      <h1 className="title capitalize">{data.title}</h1>
       {
         <nav>
           <div className="top">
-            <div className="date">{data.start_date}</div>
+            <div className="date capitalize">{data.start_date}</div>
           </div>
           <div className="mid">
             {data.tags && (
@@ -26,7 +26,7 @@ const PostHeader = ({ data }: Props) => {
             )}
           </div>
           {data.thumbnail && (
-            <div className="thumbnail">
+            <div className="thumbnail max-w-screen-sm mx-auto rounded-md">
               <img
                 src={data.thumbnail}
                 // fill
@@ -93,14 +93,7 @@ const StyledWrapper = styled.div`
       overflow: hidden;
       position: relative;
       margin-bottom: 1.75rem;
-      border-radius: 1.5rem;
-      width: 100%;
       background-color: ${colors.gray4};
-      padding-bottom: 66%;
-
-      @media (min-width: 1024px) {
-        padding-bottom: 50%;
-      }
     }
   }
 `
