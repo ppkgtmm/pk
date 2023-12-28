@@ -1,15 +1,32 @@
 import PostHeader from './PostHeader'
 import Footer from './PostFooter'
-import Category from '../../../components/Category'
+import Category from '../../Category'
 import styled from '@emotion/styled'
 import type { TPost } from '../../../types'
 import Markdown from 'react-markdown'
+import { useState, useEffect, useCallback } from 'react'
+import contents from '../../../contents'
 
 interface Props {
   data: TPost
 }
 
 const PostDetail = ({ data }: Props) => {
+  const { slug } = data
+
+  const [content, setContent] = useState('')
+
+  const fetchContent = useCallback(async () => {
+    const response = await fetch(contents[slug])
+    const md = await response.text()
+    console.log(md)
+    setContent(md)
+  }, [slug])
+
+  useEffect(() => {
+    void fetchContent().catch()
+  }, [slug])
+
   return (
     <StyledWrapper>
       <article>
@@ -17,8 +34,8 @@ const PostDetail = ({ data }: Props) => {
           <Category>{data.category}</Category>
         </div>
         <PostHeader data={data} />
-        <div>
-            <Markdown></Markdown>
+        <div className='prose-styled'>
+          <Markdown>{content}</Markdown>
         </div>
         <Footer />
       </article>
@@ -41,6 +58,6 @@ const StyledWrapper = styled.div`
   margin: 0 auto;
   > article {
     margin: 0 auto;
-    max-width: 42rem;
+    max-width: 46rem;
   }
 `
