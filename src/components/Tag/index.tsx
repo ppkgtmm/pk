@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 // import { useRouter } from 'next/router'
 import React from 'react'
-import { colors } from '../styles'
+import { colors } from '../../styles'
 
 interface Props {
   children: string
