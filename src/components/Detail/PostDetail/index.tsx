@@ -17,7 +17,7 @@ const PostDetail = ({ data }: Props) => {
   const [content, setContent] = useState('')
 
   const fetchContent = useCallback(async () => {
-    const response = await fetch(contents[slug])
+    const response = await fetch(contents[slug!])
     const md = await response.text()
     console.log(md)
     setContent(md)
