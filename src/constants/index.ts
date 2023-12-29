@@ -18,9 +18,21 @@ const tags: TTags = Object.values(tag)
 
 const posts: TPosts = [
   {
+    title: 'Guide to Kafka Core Concepts Part 2',
+    url: 'https://medium.com/@ppkgtmm/guide-to-kafka-core-concepts-part-2-0a50a401bc83',
+    summary:
+      'Second article about Kafka Concepts explaining data replication, producer acks, producer acks impact on availability and delivery semantics',
+    tags: [tag.DENG, tag.CON, tag.KFK],
+    category: category.ARTI,
+    thumbnail: './imgs/kfk-concepts-pt2.png',
+    id: 8,
+    start_date: 'dec 2023'
+  },
+  {
     title: 'Guide to Kafka Core Concepts Part 1',
     url: 'https://medium.com/@ppkgtmm/guide-to-kafka-core-concepts-part-1-43a4afa58376',
-    summary: 'First article of Guide to Kafka Core Concepts series where purpose of Kafka and basic Kafka concepts are explained',
+    summary:
+      'First article of Guide to Kafka Core Concepts series where purpose of Kafka and basic Kafka concepts are explained',
     tags: [tag.DENG, tag.CON, tag.KFK],
     category: category.ARTI,
     thumbnail: './imgs/kfk-concepts-pt1.png',
