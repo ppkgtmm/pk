@@ -19,6 +19,16 @@ const tags: TTags = Object.values(tag)
 
 const posts: TPosts = [
   {
+    title: 'What expat students should know prior to graduating from TH',
+    url: 'https://medium.com/@ppkgtmm/what-expat-students-should-know-prior-to-graduating-from-thailand-f774bcb45690',
+    summary: 'Based on my own experience, a bunch of helpful knowledge for expats who are going to graduate from a university in Thailand',
+    tags: [tag.WRK, tag.LIFE, tag.STU, tag.GRD],
+    category: category.ARTI,
+    thumbnail: './imgs/experience-grad-th.png',
+    id: 5,
+    start_date: 'aug 2023'
+  },
+  {
     title: 'hotel bookings ETL',
     slug: 'hotel-bookings-etl',
     summary:
@@ -39,7 +49,7 @@ const posts: TPosts = [
 
     thumbnail: './imgs/olist/dashboard.png',
     id: 3,
-    start_date: 'jan 2023'
+    start_date: 'jun 2023'
   },
   {
     title: 'churn prediction',
