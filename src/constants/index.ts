@@ -10,8 +10,7 @@ const config: Config = {
     github: 'ppkgtmm',
     medium: '@ppkgtmm'
   },
-  since: 2023,
-  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
+  since: 2023
 }
 const defaultCategory = '📂 all'
 const categories: TCategories = [defaultCategory, ...Object.values(category)]

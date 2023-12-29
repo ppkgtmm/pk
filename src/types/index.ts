@@ -3,7 +3,6 @@ type ConfigObject = Record<string, string>
 interface Config {
   profile: ConfigObject
   since: number
-  isProd: boolean
 }
 
 export enum category {
