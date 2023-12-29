@@ -19,10 +19,22 @@ const tags: TTags = Object.values(tag)
 
 const posts: TPosts = [
   {
+    title: 'Shell Scripting Handbook',
+    url: 'https://medium.com/@ppkgtmm/shell-scripting-handbook-c6cc6442814e',
+    summary:
+      'Comprehensive handbook with purposeful commands, syntax and example code clearly explained for learners',
+    tags: [tag.PLT, tag.LNX, tag.SCR],
+    category: category.ARTI,
+    thumbnail: './imgs/shell-scripting-hb.png',
+    id: 6,
+    start_date: 'dec 2023'
+  },
+  {
     title: 'What expat students should know prior to graduating from TH',
     url: 'https://medium.com/@ppkgtmm/what-expat-students-should-know-prior-to-graduating-from-thailand-f774bcb45690',
-    summary: 'Based on my own experience, a bunch of helpful knowledge for expats who are going to graduate from a university in Thailand',
-    tags: [tag.WRK, tag.LIFE, tag.STU, tag.GRD],
+    summary:
+      'Based on my experience, helpful knowledge that expat students need to know before graduating from university in Thailand',
+    tags: [tag.LIFE, tag.STU, tag.GRD],
     category: category.ARTI,
     thumbnail: './imgs/experience-grad-th.png',
     id: 5,
