@@ -1,5 +1,4 @@
 import { config as CONFIG } from '../../constants/index'
-import React from 'react'
 import { BsMedium, BsGithub } from 'react-icons/bs'
 import { HiEnvelope } from 'react-icons/hi2'
 import { AiFillLinkedin } from 'react-icons/ai'
@@ -11,47 +10,39 @@ const ContactCard = () => {
     <>
       <StyledTitle>💬 Contact</StyledTitle>
       <StyledWrapper>
-        {
-          <a
-            href={`https://github.com/${CONFIG.profile.github}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <BsGithub className="icon" />
-            <div className="name">github</div>
-          </a>
-        }
-        {
-          <a
-            href={`mailto:${CONFIG.profile.email}`}
-            rel="noreferrer"
-            target="_blank"
-            style={{ overflow: 'hidden' }}
-          >
-            <HiEnvelope className="icon" />
-            <div className="name">email</div>
-          </a>
-        }
-        {
-          <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillLinkedin className="icon" />
-            <div className="name">linkedin</div>
-          </a>
-        }
-        {
-          <a
-            href={`https://medium.com/${CONFIG.profile.medium}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <BsMedium className="icon" />
-            <div className="name">medium</div>
-          </a>
-        }
+        <a
+          href={`mailto:${CONFIG.profile.email}`}
+          rel="noreferrer"
+          target="_blank"
+          style={{ overflow: 'hidden' }}
+        >
+          <HiEnvelope className="icon" />
+          <div className="name">email</div>
+        </a>
+        <a
+          href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <AiFillLinkedin className="icon" />
+          <div className="name">linkedin</div>
+        </a>
+        <a
+          href={`https://github.com/${CONFIG.profile.github}`}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <BsGithub className="icon" />
+          <div className="name">github</div>
+        </a>
+        <a
+          href={`https://medium.com/${CONFIG.profile.medium}`}
+          rel="noreferrer"
+          target="_blank"
+        >
+          <BsMedium className="icon" />
+          <div className="name">medium</div>
+        </a>
       </StyledWrapper>
     </>
   )
