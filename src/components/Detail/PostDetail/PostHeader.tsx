@@ -13,9 +13,6 @@ const PostHeader = ({ data }: Props) => {
       <h1 className="title capitalize">{data.title}</h1>
       {
         <nav>
-          {/* <div className="top">
-            <div className="date capitalize">{data.start_date}</div>
-          </div> */}
           <div className="mid">
             {data.tags && (
               <div className="tags">
@@ -53,29 +50,6 @@ const StyledWrapper = styled.div`
   nav {
     margin-top: 1rem;
     color: ${colors.gray11};
-    > .top {
-      display: flex;
-      margin-bottom: 0.75rem;
-      gap: 0.75rem;
-      align-items: center;
-      .author {
-        display: flex;
-        gap: 0.5rem;
-        align-items: center;
-      }
-      .hr {
-        margin-top: 0.25rem;
-        margin-bottom: 0.25rem;
-        align-self: stretch;
-        width: 1px;
-        background-color: ${colors.gray10};
-      }
-      .date {
-        @media (min-width: 768px) {
-          margin-left: 0;
-        }
-      }
-    }
     > .mid {
       display: flex;
       margin-bottom: 1rem;
