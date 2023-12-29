@@ -23,7 +23,7 @@ const posts: TPosts = [
     summary: 'First article of Guide to Kafka Core Concepts series where purpose of Kafka and basic Kafka concepts are explained',
     tags: [tag.DENG, tag.CON, tag.KFK],
     category: category.ARTI,
-    thumbnail: './imgs/kfk-concept-pt1.png',
+    thumbnail: './imgs/kfk-concepts-pt1.png',
     id: 7,
     start_date: 'dec 2023'
   },
