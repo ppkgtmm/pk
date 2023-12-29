@@ -12,7 +12,7 @@ const PostCard = ({ data }: Props) => {
   const category = data?.category
 
   return (
-    <StyledWrapper href={`#/details/${data.slug}`}>
+    <StyledWrapper href={data.slug ? `#/details/${data.slug}` : data.url}>
       <article>
         {data.thumbnail && (
           <div className="thumbnail">
