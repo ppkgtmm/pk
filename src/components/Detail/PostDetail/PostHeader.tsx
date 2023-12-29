@@ -26,7 +26,6 @@ const PostHeader = ({ data }: Props) => {
             <div className="thumbnail max-w-screen-sm mx-auto rounded-md">
               <img
                 src={data.thumbnail}
-                // fill
                 alt={data.title}
                 style={{ width: 'inherit' }}
               />
@@ -45,7 +44,7 @@ const StyledWrapper = styled.div`
     font-size: 1.875rem;
     line-height: 2.25rem;
     font-weight: 700;
-    color: ${colors.gray12}
+    color: #000;
   }
   nav {
     margin-top: 1rem;
