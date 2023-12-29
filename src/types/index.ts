@@ -18,13 +18,19 @@ export enum tag {
   TBL = 'tableau',
   ML = 'machine learning',
   VIZ = 'visualization',
-  DENG = 'data engineering'
+  DENG = 'data engineering',
+  CON = 'concepts',
+  WRK = 'work',
+  LIFE = 'life',
+  STU = 'students',
+  GRD = 'graduation'
 }
 
 export interface TPost {
   id: number
   title: string
-  slug: string
+  slug?: string
+  url?: string
   category: category
   tags: tag[]
   summary: string
