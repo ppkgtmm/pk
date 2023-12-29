@@ -18,7 +18,6 @@ const PostCard = ({ data }: Props) => {
           <div className="thumbnail">
             <img
               src={data.thumbnail}
-              // fill
               alt={data.title}
               style={{ width: 'inherit' }}
             />
