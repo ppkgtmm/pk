@@ -156,28 +156,3 @@ Work done in this step are
     
 
 ![booking-dashboard](./imgs/hotel-bookings/booking-dashboard.png)
-
-### **References**
-
-- [wiki-activity-diagram](https://en.wikipedia.org/wiki/Activity_diagram)
-- [database-diagram-tool](https://dbdiagram.io)
-- [data-warehouse-online-course](https://www.udemy.com/share/106qIm/)
-- [fake-data-generator-documentation](https://faker.readthedocs.io/en/master/)
-- [sql-alchemy-documentation](https://docs.sqlalchemy.org/en/20/)
-- [debezium-mysql-documentation](https://debezium.io/documentation/reference/stable/connectors/mysql.html)
-- [debezium-mysql-privileges](https://stackoverflow.com/questions/70658178/how-to-grant-all-mysql-8-0-privileges-to-debezium-in-windows)
-- [debezium-avro-documentation](https://debezium.io/documentation/reference/stable/configuration/avro.html)
-- [reading-confluent-avro-with-spark](https://medium.com/@mrugankray/real-time-avro-data-analysis-with-spark-streaming-and-confluent-kafka-in-python-426f5e05392d)
-- [spark-kafka-integration](https://spark.apache.org/docs/3.4.0/structured-streaming-kafka-integration.html)
-- [spark-package-specification](https://stackoverflow.com/questions/54285151/kafka-structured-streaming-kafkasourceprovider-could-not-be-instantiated)
-- [pyspark-3.4.0-documentation](https://spark.apache.org/docs/3.4.0/api/python/index.html)
-- [install-python-on-alpine-linux](https://stackoverflow.com/a/73294721)
-- [guide-running-airflow-with-docker](https://stackabuse.com/running-airflow-locally-with-docker-a-technical-guide/)
-- [creating-airflow-connection-from-cli](https://airflow.apache.org/docs/apache-airflow/stable/howto/connection.html#creating-a-connection-from-the-cli)
-- [airflow-templates-and-macros](https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html)
-- [airflow-external-task-sensor](https://airflow.apache.org/docs/apache-airflow/stable/_api/airflow/sensors/external_task/index.html#airflow.sensors.external_task.ExternalTaskSensor)
-- [working-with-json-in-mysql](https://www.digitalocean.com/community/tutorials/working-with-json-in-mysql)
-- [unnest-extract-json-data-in-mysql](https://andreessulp.medium.com/how-to-unnest-extract-nested-json-data-in-mysql-8-0-c9322c90df12)
-- [tableau-public-desktop-download](https://www.tableau.com/products/public/download)
-- [booking-dashboard-tableau-public](https://public.tableau.com/views/HotelBookingDemand_16990387653270/bookingdemand?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-- [addon-dashboard-tableau-public](https://public.tableau.com/views/HotelAddonDemand/addondemand?:language=en-US&:display_count=n&:origin=viz_share_link)

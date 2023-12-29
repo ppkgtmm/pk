@@ -74,11 +74,3 @@ Work done in this step are
     **Reason :** To summarize revenue by product classification at county level of detail
 
 ![county-category-sales](./imgs/olist/filtered-category-sales.png)
-
-### **References**
-
-- [brazilian-ecommerce-dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-- [calculated-fields-lod](https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_lod.htm)
-- [tableau-online-course](https://www.linkedin.com/learning/tableau-essential-training-22386688)
-- [tableau-public-desktop](https://public-pantheon.tableau.com/en-us/s/download)
-- [final-tableau-dashboard](https://public.tableau.com/views/OlistDashboard_16876242836040/e-commercedashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
