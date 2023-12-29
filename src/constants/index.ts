@@ -18,6 +18,16 @@ const tags: TTags = Object.values(tag)
 
 const posts: TPosts = [
   {
+    title: 'Guide to Kafka Core Concepts Part 1',
+    url: 'https://medium.com/@ppkgtmm/guide-to-kafka-core-concepts-part-1-43a4afa58376',
+    summary: 'First article of Guide to Kafka Core Concepts series where purpose of Kafka and basic Kafka concepts are explained',
+    tags: [tag.DENG, tag.CON, tag.KFK],
+    category: category.ARTI,
+    thumbnail: './imgs/kfk-concept-pt1.png',
+    id: 7,
+    start_date: 'dec 2023'
+  },
+  {
     title: 'Shell Scripting Handbook',
     url: 'https://medium.com/@ppkgtmm/shell-scripting-handbook-c6cc6442814e',
     summary:
