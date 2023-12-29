@@ -1,7 +1,6 @@
 import styled from '@emotion/styled'
 import { useSearchParams } from 'react-router-dom'
 import { Emoji } from '../Emoji'
-// import { useTagsQuery } from "src/hooks/useTagsQuery"
 import { colors } from '../../styles'
 import { tags } from '../../constants'
 
