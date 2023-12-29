@@ -110,7 +110,7 @@ Work done in this step are
 
 ![ui-fake-news](./imgs/fake-news/ui-fake-news.png)
 
-### **Further Work**
+### **Future Work**
 
 - Optimization of preprocessing code
     
@@ -119,19 +119,3 @@ Work done in this step are
 - Using K-Fold cross validation to select algorithm for tuning
     
     **Reason :** To better ensure that good performance of model on validation set is not by chance
-    
-
-### **References**
-
-- [fake-and-real-news-dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset)
-- [hydra-cc-a-powerful-framework-to-configure-your-data-science-projects](https://towardsdatascience.com/introduction-to-hydra-cc-a-powerful-framework-to-configure-your-data-science-projects-ed65713a53c6)
-- [concatenate-two-pyspark-dataframes](https://stackoverflow.com/questions/37332434/concatenate-two-pyspark-dataframes)
-- [spark-documentation](https://spark.apache.org/docs/3.1.1/)
-- [logging-with-hydra](https://hydra.cc/docs/tutorials/basic/running_your_app/logging/)
-- [how-can-i-add-a-blank-directory-to-a-git-repository](https://stackoverflow.com/questions/115983/how-can-i-add-a-blank-directory-to-a-git-repository)
-- [what-are-the-differences-between-gitignore-and-gitkeep](https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep)
-- [pyspark-java-lang-outofmemoryerror](https://stackoverflow.com/questions/32336915/pyspark-java-lang-outofmemoryerror-java-heap-space)
-- [countvectorizer-hashingtf](https://towardsdatascience.com/countvectorizer-hashingtf-e66f169e2d4e)
-- [pyspark-mllib-feature-extraction](https://spark.apache.org/docs/1.4.1/mllib-feature-extraction.html)
-- [hydra-compose-api](https://hydra.cc/docs/advanced/compose_api/)
-- [pandas-dataframe-to-json](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_json.html)
