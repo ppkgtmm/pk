@@ -20,10 +20,12 @@ export enum tag {
   VIZ = 'visualization',
   DENG = 'data engineering',
   CON = 'concepts',
-  WRK = 'work',
   LIFE = 'life',
   STU = 'students',
-  GRD = 'graduation'
+  GRD = 'graduation',
+  SCR = 'scripting',
+  LNX = 'linux',
+  PLT = 'platform'
 }
 
 export interface TPost {
