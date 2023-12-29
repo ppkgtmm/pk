@@ -18,6 +18,16 @@ const tags: TTags = Object.values(tag)
 
 const posts: TPosts = [
   {
+    title: 'Guide to Kafka Core Concepts (bonus)',
+    url: 'https://medium.com/@ppkgtmm/guide-to-kafka-core-concepts-bonus-ab68ba281645',
+    summary: 'Final article of Kafka Core Concepts series where metadata management, KRaft and unrecommended uses of Kafka are explained',
+    tags: [tag.DENG, tag.CON, tag.KFK],
+    category: category.ARTI,
+    thumbnail: './imgs/kfk-concepts-bonus.png',
+    id: 9,
+    start_date: 'dec 2023'
+  },
+  {
     title: 'Guide to Kafka Core Concepts Part 2',
     url: 'https://medium.com/@ppkgtmm/guide-to-kafka-core-concepts-part-2-0a50a401bc83',
     summary:
