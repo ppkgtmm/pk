@@ -1,7 +1,5 @@
 import { config as CONFIG } from '../../constants/index'
-import { BsMedium, BsGithub } from 'react-icons/bs'
-import { HiEnvelope } from 'react-icons/hi2'
-import { AiFillLinkedin } from 'react-icons/ai'
+import { FaMedium, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa6'
 import styled from '@emotion/styled'
 import { colors } from '../../styles'
 
@@ -16,7 +14,7 @@ const ContactCard = () => {
           target="_blank"
           style={{ overflow: 'hidden' }}
         >
-          <HiEnvelope className="icon" />
+          <FaEnvelope className="icon" />
           <div className="name">email</div>
         </a>
         <a
@@ -24,7 +22,7 @@ const ContactCard = () => {
           rel="noreferrer"
           target="_blank"
         >
-          <AiFillLinkedin className="icon" />
+          <FaLinkedin className="icon" />
           <div className="name">linkedin</div>
         </a>
         <a
@@ -32,7 +30,7 @@ const ContactCard = () => {
           rel="noreferrer"
           target="_blank"
         >
-          <BsGithub className="icon" />
+          <FaGithub className="icon" />
           <div className="name">github</div>
         </a>
         <a
@@ -40,7 +38,7 @@ const ContactCard = () => {
           rel="noreferrer"
           target="_blank"
         >
-          <BsMedium className="icon" />
+          <FaMedium className="icon" />
           <div className="name">medium</div>
         </a>
       </StyledWrapper>
