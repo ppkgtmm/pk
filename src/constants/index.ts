@@ -18,9 +18,10 @@ const tags: TTags = Object.values(tag)
 
 const posts: TPosts = [
   {
-    title: 'Guide to Kafka Core Concepts (bonus)',
+    title: 'Kafka Core Concepts (Bonus)',
     url: 'https://medium.com/@ppkgtmm/guide-to-kafka-core-concepts-bonus-ab68ba281645',
-    summary: 'Final article of Kafka Core Concepts series where metadata management, KRaft and unrecommended uses of Kafka are explained',
+    summary:
+      'Unravel how Kafka handles metadata, inner workings of KRaft, reasons to choose KRaft over Zookeeper, and scenarios where Kafka is not an optimal choice',
     tags: [tag.DENG, tag.CON, tag.KFK],
     category: category.ARTI,
     thumbnail: './imgs/kfk-concepts-bonus.png',
@@ -28,10 +29,10 @@ const posts: TPosts = [
     start_date: 'dec 2023'
   },
   {
-    title: 'Guide to Kafka Core Concepts Part 2',
+    title: 'Kafka Core Concepts Part 2',
     url: 'https://medium.com/@ppkgtmm/guide-to-kafka-core-concepts-part-2-0a50a401bc83',
     summary:
-      'Second article about Kafka Concepts explaining data replication, producer acks, producer acks impact on availability and delivery semantics',
+      'Delve into data replication, impact of producer acknowledgement on system availability and intricacies of Kafka consumer delivery semantics',
     tags: [tag.DENG, tag.CON, tag.KFK],
     category: category.ARTI,
     thumbnail: './imgs/kfk-concepts-pt2.png',
@@ -39,10 +40,10 @@ const posts: TPosts = [
     start_date: 'dec 2023'
   },
   {
-    title: 'Guide to Kafka Core Concepts Part 1',
+    title: 'Kafka Core Concepts Part 1',
     url: 'https://medium.com/@ppkgtmm/guide-to-kafka-core-concepts-part-1-43a4afa58376',
     summary:
-      'First article of Guide to Kafka Core Concepts series where purpose of Kafka and basic Kafka concepts are explained',
+      "Better comprehend Kafka, a powerful event streaming tool, starting with it's essence, functionalities and some fundamental concepts",
     tags: [tag.DENG, tag.CON, tag.KFK],
     category: category.ARTI,
     thumbnail: './imgs/kfk-concepts-pt1.png',
@@ -53,7 +54,7 @@ const posts: TPosts = [
     title: 'Shell Scripting Handbook',
     url: 'https://medium.com/@ppkgtmm/shell-scripting-handbook-c6cc6442814e',
     summary:
-      'Comprehensive handbook with purposeful commands, syntax and example code clearly explained for learners',
+      'Strengthen understanding about commands, their purpose and syntax through comprehensive handbook with practical examples',
     tags: [tag.PLT, tag.LNX, tag.SCR],
     category: category.ARTI,
     thumbnail: './imgs/shell-scripting-hb.png',
