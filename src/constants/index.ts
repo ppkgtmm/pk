@@ -18,6 +18,28 @@ const tags: TTags = Object.values(tag)
 
 const posts: TPosts = [
   {
+    title: 'Schema Registry',
+    url: 'https://medium.com/@ppkgtmm/schema-registry-2e96dd84607d',
+    summary:
+      'Confluent Schema Registry is a centralized repository for management and validation of Kafka message schema. Apart from that, it provides compatibility checks and schema versioning',
+    tags: [tag.DENG, tag.CON, tag.KFK],
+    category: category.ARTI,
+    thumbnail: './imgs/sr-concepts.png',
+    id: 11,
+    start_date: 'jan 2024'
+  },
+  {
+    title: 'Kafka and Confluent Schema Registry in Action',
+    url: 'https://medium.com/@ppkgtmm/hands-on-with-confluent-kafka-and-schema-registry-cdde26ae6afe',
+    summary:
+      'Securely run Kafka in KRaft mode with SSL data encryption and client authentication. Utilize Schema Registry to better ensure compatible schema changes',
+    tags: [tag.DENG, tag.KFK, tag.PLT],
+    category: category.ARTI,
+    thumbnail: './imgs/kfk-sr.jpg',
+    id: 10,
+    start_date: 'jan 2024'
+  },
+  {
     title: 'Kafka Core Concepts (Bonus)',
     url: 'https://medium.com/@ppkgtmm/guide-to-kafka-core-concepts-bonus-ab68ba281645',
     summary:
@@ -35,7 +57,7 @@ const posts: TPosts = [
       'Delve into data replication, impact of producer acknowledgement on system availability and intricacies of Kafka consumer delivery semantics',
     tags: [tag.DENG, tag.CON, tag.KFK],
     category: category.ARTI,
-    thumbnail: './imgs/kfk-concepts-pt2.png',
+    thumbnail: './imgs/kfk-concepts-pt2.jpg',
     id: 8,
     start_date: 'dec 2023'
   },
@@ -46,7 +68,7 @@ const posts: TPosts = [
       "Better comprehend Kafka, a powerful event streaming tool, starting with it's essence, functionalities and some fundamental concepts",
     tags: [tag.DENG, tag.CON, tag.KFK],
     category: category.ARTI,
-    thumbnail: './imgs/kfk-concepts-pt1.png',
+    thumbnail: './imgs/kfk-concepts-pt1.jpg',
     id: 7,
     start_date: 'dec 2023'
   },
