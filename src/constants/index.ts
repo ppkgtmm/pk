@@ -21,7 +21,7 @@ const posts: TPosts = [
     title: 'hotel bookings ETL',
     slug: 'hotel-bookings-etl',
     summary:
-      'Transform hotel reservation data into a format more suitable for visualization and analysis. Such conversion enables data users to create dashboards for insights discovery and decision making from data more effortlessly',
+      'Transformation of hotel reservation data into a better suited format for analytical purpose. Such conversion enables data users to create dashboards for insights discovery and decision making from data more effortlessly',
     tags: [tag.DENG, tag.VIZ, tag.KFK, tag.SPK, tag.ARF, tag.TBL],
     category: category.PROJ,
     thumbnail: './imgs/hotel-bookings/booking-dashboard.png',
@@ -44,7 +44,7 @@ const posts: TPosts = [
     title: 'churn prediction',
     slug: 'churn-prediction',
     summary:
-      'Identify customers who are at risk of churning with machine learning. Knowing possibility to churn of high value customers beforehand enables businesses to proactively take actions, retain customers and prevent possible loss',
+      'Identification of customers at risk of churning with machine learning. Knowing possibility to churn of high value customers beforehand enables businesses to proactively take actions, retain customers and prevent possible loss',
     tags: [tag.ML, tag.VIZ, tag.ARF],
     category: category.PROJ,
 
