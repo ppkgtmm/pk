@@ -25,5 +25,5 @@ const StyledWrapper = styled.div`
   font-size: 0.875rem;
   line-height: 1.25rem;
   opacity: 0.9;
-  color: ${colors.gray10};
+  color: ${colors.gray3};
 `

@@ -9,6 +9,7 @@ module.exports = {
           DEFAULT: {
             css: {
               code: false,
+              pre: false,
               "code::before": false,
               "code::after": false,
               "--tw-prose-bold": '#000',

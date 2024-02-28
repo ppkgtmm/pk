@@ -7,10 +7,15 @@
 }
 
 .prose-styled {
-  @apply my-[42px] leading-6 prose prose-h1:text-[40px] prose-headings:font-bold prose-headings:text-black prose-a:font-normal prose-li:my-1 prose-a:no-underline prose-a:text-[#3366cc] prose-p:my-2 prose-pre:bg-gray-100 prose-pre:text-gray-800 max-w-none prose-img:max-w-screen-sm prose-img:rounded-md;
+  @apply my-[42px] leading-6 prose prose-h1:text-[40px] prose-headings:font-bold prose-headings:text-black prose-a:font-normal prose-li:my-1 prose-a:no-underline prose-a:text-[#3366cc] prose-p:my-2 max-w-none prose-img:max-w-screen-sm prose-img:rounded-md;
 }
+
+.prose-pre {
+  @apply bg-gray-100 text-gray-800 overflow-scroll
+}
+
 code {
-  @apply bg-gray-100 rounded px-1.5 py-0.5 font-normal 
+  @apply bg-gray-100 rounded px-1.5 py-0.5 font-normal
 }
 
 code {

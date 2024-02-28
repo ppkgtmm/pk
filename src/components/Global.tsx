@@ -8,8 +8,8 @@ export const Global = () => {
         body {
           margin: 0;
           padding: 0;
-          color: ${colors.gray12};
-          background-color: ${colors.gray2};
+          color: ${colors.gray1};
+          background-color: black;
         }
 
         * {

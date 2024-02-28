@@ -18,13 +18,13 @@ const StyledWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   font-weight: 500;
-  color: ${colors.gray10};
+  color: ${colors.gray3};
   a {
     margin-top: 0.5rem;
     cursor: pointer;
 
     :hover {
-      color: ${colors.gray12};
+      color: ${colors.gray1};
     }
   }
 `

@@ -48,7 +48,7 @@ const StyledWrapper = styled.div`
   }
   nav {
     margin-top: 1rem;
-    color: ${colors.gray11};
+    color: ${colors.gray2};
     > .mid {
       display: flex;
       margin-bottom: 1rem;
@@ -65,7 +65,7 @@ const StyledWrapper = styled.div`
       overflow: hidden;
       position: relative;
       margin-bottom: 1.75rem;
-      background-color: ${colors.gray4};
+      background-color: ${colors.gray9};
     }
   }
 `

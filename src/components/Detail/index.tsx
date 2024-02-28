@@ -21,5 +21,5 @@ export default Detail
 
 const StyledWrapper = styled.div`
   padding: 2rem 0;
-  background-color: ${colors.gray1};
+  background-color: ${colors.gray12};
 `

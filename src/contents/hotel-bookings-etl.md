@@ -156,3 +156,9 @@ Work done in this step are
     
 
 ![booking-dashboard](./imgs/hotel-bookings/booking-dashboard.png)
+
+
+```sql
+SELECT *
+FROM table_name
+```

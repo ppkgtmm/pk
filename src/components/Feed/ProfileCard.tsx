@@ -34,7 +34,7 @@ const StyledWrapper = styled.div`
     margin-bottom: 2rem;
     border-radius: 1rem;
     width: 100%;
-    background-color: white;
+    background-color: black;
     @media (min-width: 768px) {
       padding: 1rem;
     }
@@ -64,7 +64,7 @@ const StyledWrapper = styled.div`
       .role {
         font-size: 0.875rem;
         line-height: 1.25rem;
-        color: ${colors.gray11};
+        color: ${colors.gray2};
       }
     }
   }

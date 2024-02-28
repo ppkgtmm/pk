@@ -3,9 +3,9 @@ import Footer from './PostFooter'
 import Category from '../../Category'
 import styled from '@emotion/styled'
 import type { TPost } from '../../../types'
-import Markdown from 'react-markdown'
 import { useState, useEffect, useCallback } from 'react'
 import contents from '../../../contents'
+import PostContent from './PostContent'
 
 interface Props {
   data: TPost
@@ -34,9 +34,7 @@ const PostDetail = ({ data }: Props) => {
           <Category>{data.category}</Category>
         </div>
         <PostHeader data={data} />
-        <div className='prose-styled'>
-          <Markdown>{content}</Markdown>
-        </div>
+        <PostContent content={content} />
         <Footer />
       </article>
     </StyledWrapper>

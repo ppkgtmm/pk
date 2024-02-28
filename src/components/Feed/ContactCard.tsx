@@ -57,19 +57,19 @@ const StyledWrapper = styled.div`
   padding: 0.25rem;
   flex-direction: column;
   border-radius: 1rem;
-  background-color: ${'white'};
+  background-color: ${colors.gray12};
   a {
     display: flex;
     padding: 0.75rem;
     gap: 0.75rem;
     align-items: center;
     border-radius: 1rem;
-    color: ${colors.gray12};
+    color: ${colors.gray2};
     cursor: pointer;
 
     :hover {
-      color: ${colors.gray12};
-      background-color: ${colors.gray2};
+      color: ${colors.gray2};
+      background-color: rgba(256, 256, 256, .05);
     }
     .icon {
       font-size: 1.5rem;
