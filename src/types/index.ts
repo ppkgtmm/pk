@@ -18,13 +18,13 @@ export enum tag {
   ML = 'machine learning',
   VIZ = 'visualization',
   DENG = 'data engineering',
-  CON = 'concepts',
-  LIFE = 'life',
-  STU = 'students',
-  GRD = 'graduation',
-  SCR = 'scripting',
-  LNX = 'linux',
-  PLT = 'platform'
+  // CON = 'concepts',
+  // LIFE = 'life',
+  // STU = 'students',
+  // GRD = 'graduation',
+  // SCR = 'scripting',
+  // LNX = 'linux',
+  // PLT = 'platform'
 }
 
 export interface TPost {

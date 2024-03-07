@@ -1,32 +1,33 @@
-import useDropdown from '../../../hooks/useDropdown'
-import { MdExpandMore } from 'react-icons/md'
+// import useDropdown from '../../../hooks/useDropdown'
+// import { MdExpandMore } from 'react-icons/md'
 import styled from '@emotion/styled'
-import { useSearchParams } from 'react-router-dom'
+// import { useSearchParams } from 'react-router-dom'
 import { colors } from '../../../styles'
 import { categories } from '../../../constants'
 
 const CategorySelect = () => {
-  const [searchParams, setSearchParams] = useSearchParams()
-  const DEFAULT_CATEGORY = categories[0]
-  const [dropdownRef, opened, handleOpen] = useDropdown()
+  // const [searchParams, setSearchParams] = useSearchParams()
+  // const DEFAULT_CATEGORY = categories[0]
+  // const [dropdownRef, opened, handleOpen] = useDropdown()
 
-  const currentCategory = searchParams.get('category') ?? DEFAULT_CATEGORY
+  // const currentCategory = searchParams.get('category') ?? DEFAULT_CATEGORY
 
-  const handleOptionClick = (category: string) => {
-    searchParams.delete('category')
-    searchParams.append('category', category)
-    setSearchParams(searchParams)
-  }
+  // const handleOptionClick = (category: string) => {
+  //   searchParams.delete('category')
+  //   searchParams.append('category', category)
+  //   setSearchParams(searchParams)
+  // }
   return (
     <StyledWrapper>
       <div
-        ref={dropdownRef}
+        // ref={dropdownRef}
         className="wrapper capitalize"
-        onClick={handleOpen}
+        // onClick={handleOpen}
       >
-        {currentCategory} <MdExpandMore />
+        {categories.slice(-2, -1)}
+        {/* {currentCategory} <MdExpandMore /> */}
       </div>
-      {opened && (
+      {/* {opened && (
         <div className="content">
           {categories
             .sort((a, b) => a.length - b.length)
@@ -40,7 +41,7 @@ const CategorySelect = () => {
               </a>
             ))}
         </div>
-      )}
+      )} */}
     </StyledWrapper>
   )
 }
