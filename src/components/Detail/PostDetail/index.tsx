@@ -5,7 +5,7 @@ import styled from '@emotion/styled'
 import type { TPost } from '../../../types'
 import Markdown from 'react-markdown'
 import { useState, useEffect, useCallback } from 'react'
-import contents from '../../../contents'
+import { projects as contents } from '../../../contents'
 
 interface Props {
   data: TPost
