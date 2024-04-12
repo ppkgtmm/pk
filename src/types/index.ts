@@ -38,7 +38,12 @@ export interface TPost {
   thumbnail: string
   start_date: string
 }
+export interface TNote {
+  title: string
+  slug?: string
+}
 
+export type TNotes = TNote[]
 export type TPosts = TPost[]
 export type TTags = tag[]
 export type TCategories = string[]
