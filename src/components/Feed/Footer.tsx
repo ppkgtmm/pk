@@ -1,4 +1,4 @@
-import { config as CONFIG } from '../../constants'
+import { config as CONFIG } from '../../constants/projects'
 import React from 'react'
 import styled from '@emotion/styled'
 import { colors } from '../../styles'

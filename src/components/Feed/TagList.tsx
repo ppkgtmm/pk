@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 import { useSearchParams } from 'react-router-dom'
 import { Emoji } from '../Emoji'
 import { colors } from '../../styles'
-import { tags } from '../../constants'
+import { tags } from '../../constants/projects'
 
 const TagList = () => {
   const [searchParams, setSearchParams] = useSearchParams()

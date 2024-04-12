@@ -1,7 +1,7 @@
 import PostDetail from './PostDetail'
 import styled from '@emotion/styled'
 import { useParams } from 'react-router-dom'
-import { posts } from '../../constants'
+import { posts } from '../../constants/projects'
 import { colors } from '../../styles'
 
 function findPost(slug: string) {

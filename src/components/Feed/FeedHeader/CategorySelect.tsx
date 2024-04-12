@@ -3,7 +3,7 @@
 import styled from '@emotion/styled'
 // import { useSearchParams } from 'react-router-dom'
 import { colors } from '../../../styles'
-import { categories } from '../../../constants'
+import { categories } from '../../../constants/projects'
 
 const CategorySelect = () => {
   // const [searchParams, setSearchParams] = useSearchParams()

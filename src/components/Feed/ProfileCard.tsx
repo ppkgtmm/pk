@@ -1,4 +1,4 @@
-import { config as CONFIG } from '../../constants'
+import { config as CONFIG } from '../../constants/projects'
 import styled from '@emotion/styled'
 import { Emoji } from '../Emoji'
 import { colors } from '../../styles'

@@ -9,7 +9,7 @@ import PostList from './PostList'
 import { Global } from '../Global'
 import { useSearchParams } from 'react-router-dom'
 import type { tag } from '../../types'
-import { defaultCategory } from '../../constants'
+import { defaultCategory } from '../../constants/projects'
 
 const HEADER_HEIGHT = 73
 

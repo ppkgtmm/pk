@@ -1,4 +1,4 @@
-import { defaultCategory, posts } from '../../../constants'
+import { defaultCategory, posts } from '../../../constants/projects'
 import PostCard from './PostCard'
 import type { tag } from '../../../types'
 

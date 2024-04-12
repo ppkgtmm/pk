@@ -1,4 +1,4 @@
-import { config as CONFIG } from '../../constants/index'
+import { config as CONFIG } from '../../constants/projects'
 import { FaMedium, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa6'
 import styled from '@emotion/styled'
 import { colors } from '../../styles'
