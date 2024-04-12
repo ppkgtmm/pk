@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.f329146d.css",
-    "main.js": "/static/js/main.7eae6ac8.js",
+    "main.css": "/static/css/main.18431639.css",
+    "main.js": "/static/js/main.fd17c9b2.js",
     "static/js/787.cbefd608.chunk.js": "/static/js/787.cbefd608.chunk.js",
     "static/media/hotel-bookings-etl.md": "/static/media/hotel-bookings-etl.ce0a81daecb2afb34e90.md",
     "static/media/fake-news-detection.md": "/static/media/fake-news-detection.dc11c308975c8aec66dc.md",
     "static/media/churn-prediction.md": "/static/media/churn-prediction.857596bdf25ce1efd3d7.md",
+    "static/media/acid.md": "/static/media/acid.5ef3e1450d299805d6ab.md",
     "static/media/olist-dashboard.md": "/static/media/olist-dashboard.13a51330bb5c926f3324.md",
+    "static/media/cap.md": "/static/media/cap.5825b83b6b1589ee9612.md",
+    "static/media/partition.md": "/static/media/partition.54b5995df9a8558a3e5a.md",
     "index.html": "/index.html",
-    "main.f329146d.css.map": "/static/css/main.f329146d.css.map",
-    "main.7eae6ac8.js.map": "/static/js/main.7eae6ac8.js.map",
+    "static/media/base.md": "/static/media/base.4a43ac59961d5caa4dbe.md",
+    "main.18431639.css.map": "/static/css/main.18431639.css.map",
+    "main.fd17c9b2.js.map": "/static/js/main.fd17c9b2.js.map",
     "787.cbefd608.chunk.js.map": "/static/js/787.cbefd608.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f329146d.css",
-    "static/js/main.7eae6ac8.js"
+    "static/css/main.18431639.css",
+    "static/js/main.fd17c9b2.js"
   ]
 }
