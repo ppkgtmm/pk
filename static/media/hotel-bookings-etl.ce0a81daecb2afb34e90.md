@@ -17,7 +17,7 @@ the following constraints have been enforced for simplicity and ease of data man
 - Each user must also be registered as guest before making reservation for own self
 - A guest cannot have multiple bookings with overlapping dates
 - None of the guests can be tied to multiple rooms reserved through same booking
-- The following cannot be done when less than 7 days left before checkin date : room booking, amenity purchase, cancelation or modification of booking and amenities purchased
+- Following cannot be done when less than 7 days left before checkin date : room booking, amenity purchase, cancelation or modification of booking and amenities purchased
 
 ### Data Modeling
 
