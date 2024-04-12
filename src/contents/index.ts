@@ -11,5 +11,4 @@ const projects: Record<string, string> = {
   'hotel-bookings-etl': hotelBookings
 }
 
-export default contents
 export { projects }
