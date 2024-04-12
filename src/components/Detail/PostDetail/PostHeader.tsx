@@ -59,6 +59,7 @@ const StyledWrapper = styled.div`
         flex-wrap: nowrap;
         gap: 0.5rem;
         max-width: 100%;
+        scrollbar-width: none;
       }
     }
     .thumbnail {
