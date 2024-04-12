@@ -81,7 +81,7 @@ Concurrent transactions don’t interfere with each other
 **Implementation**
 
 | Isolation level | Read | Write |
-| :---: | :---: | :---: |
+| --- | --- | --- |
 | Read uncommitted | No lock | X lock |
 | Read committed | Fresh database snapshot | X lock |
 | Repeatable read | Database snapshot at transaction start | X lock |
@@ -90,7 +90,7 @@ Concurrent transactions don’t interfere with each other
 **Prevention**
 
 | Isolation level | Dirty read | Non-repeatable read | Phantom read |
-| :---: | :---: | :---: | :---: |
+| --- | --- | --- | --- |
 | Read uncommitted | ❌ | ❌ | ❌ |
 | Read committed | ✅ | ❌ | ❌ |
 | Repeatable read | ✅ | ✅ | ❌ |
