@@ -7,13 +7,28 @@
 }
 
 .prose-styled {
-  @apply my-[42px] leading-6 prose prose-h1:text-[40px] prose-headings:font-bold prose-headings:text-black prose-a:font-normal prose-li:my-1 prose-a:no-underline prose-a:text-[#3366cc] prose-p:my-2 prose-pre:bg-gray-100 prose-pre:text-gray-800 max-w-none prose-img:max-w-screen-sm prose-img:rounded-md;
+  @apply my-[42px] leading-6 prose prose-h1:text-[40px] prose-headings:font-bold prose-headings:text-black prose-a:font-normal prose-li:my-1 prose-a:no-underline prose-a:text-[#3366cc] prose-p:my-2 prose-pre:bg-gray-100 prose-pre:text-gray-800 max-w-none prose-img:w-full prose-img:rounded-md prose-table:mt-2 prose-table:mb-6
 }
+
 code {
-  @apply bg-gray-100 rounded px-1.5 py-0.5 font-normal 
+  @apply bg-gray-100 rounded px-1.5 py-0.5 font-normal
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+table, td, th {
+  border: 1px solid #222;
+}
+
+table tr th, thead th:first-child, thead th:last-child, tbody td:first-child, tbody td:last-child {
+  text-wrap: nowrap;
+  padding: 8px;
+}
+
+.table-container {
+  overflow-x: scroll;
+  scrollbar-width: none;
 }
