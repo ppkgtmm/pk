@@ -16,7 +16,9 @@ module.exports = {
               "--tw-prose-bullets": { color: '#000' },
               "blockquote p:first-of-type::before": false,
               "blockquote p:first-of-type::after": false,
-              img: { marginLeft: "auto", marginRight: "auto" },
+              img: { margin: "2em auto" },
+              "--tw-prose-counters": { colors: '#000' },
+              h2: { marginTop: '1em' },
             },
           },
         };
