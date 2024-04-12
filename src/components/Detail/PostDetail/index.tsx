@@ -19,7 +19,6 @@ const PostDetail = ({ data }: Props) => {
   const fetchContent = useCallback(async () => {
     const response = await fetch(contents[slug!])
     const md = await response.text()
-    console.log(md)
     setContent(md)
   }, [slug])
 
@@ -51,13 +50,13 @@ const StyledWrapper = styled.div`
   padding-top: 3rem;
   padding-bottom: 3rem;
   border-radius: 1.5rem;
-  max-width: 56rem;
+  max-width: 57rem;
   background-color: white;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   margin: 0 auto;
   > article {
     margin: 0 auto;
-    max-width: 46rem;
+    max-width: 47rem;
   }
 `
