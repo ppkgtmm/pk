@@ -1,6 +1,6 @@
 # ACID
 
-Properties of relational databases that ensure data integrity while dealing with concurrent transactions
+- Properties of relational databases that ensure data integrity especially when dealing with concurrent transactions
 
 ## Atomicity
 
@@ -15,7 +15,7 @@ Properties of relational databases that ensure data integrity while dealing with
 
 ## Isolation
 
-Concurrent transactions don’t interfere with each other
+- Concurrent transactions don’t interfere with each other
 
 **Lock**
 
