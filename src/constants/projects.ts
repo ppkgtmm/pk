@@ -21,7 +21,7 @@ const posts: TPosts = [
     title: 'hotel bookings ETL',
     slug: 'hotel-bookings-etl',
     summary:
-      'Created data warehouse and dashboards from realistic hotel reservation data',
+      'Designed and developed data warehouse from realistic hotel reservation data',
     tags: [tag.DENG, tag.VIZ, tag.KFK, tag.SPK, tag.ARF, tag.TBL],
     category: category.PROJ,
     thumbnail: './imgs/hotel-bookings/booking-dashboard.png',
