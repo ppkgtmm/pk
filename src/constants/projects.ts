@@ -21,7 +21,7 @@ const posts: TPosts = [
     title: 'hotel bookings ETL',
     slug: 'hotel-bookings-etl',
     summary:
-      'Transformation of hotel reservation data into a better suited format for analytical purpose. Such conversion enables data users to create dashboards for insights discovery and decision making from data more effortlessly',
+      'Created data warehouse and dashboards from realistic hotel reservation data',
     tags: [tag.DENG, tag.VIZ, tag.KFK, tag.SPK, tag.ARF, tag.TBL],
     category: category.PROJ,
     thumbnail: './imgs/hotel-bookings/booking-dashboard.png',
@@ -29,10 +29,10 @@ const posts: TPosts = [
     start_date: 'may 2023'
   },
   {
-    title: 'olist dashboard',
+    title: 'olist e-commerce dashboard',
     slug: 'olist-dashboard',
     summary:
-      'Overview of e-commerce revenue, customer satisfaction and delivery service in form of dashboard. By consolidating improvement areas for business into single view, insights can be derived from data faster and more conveniently',
+      'Built dashboard to summarize revenue, customer satisfaction and delivery service',
     tags: [tag.VIZ, tag.TBL],
     category: category.PROJ,
 
@@ -44,7 +44,7 @@ const posts: TPosts = [
     title: 'churn prediction',
     slug: 'churn-prediction',
     summary:
-      'Identification of customers at risk of churning with machine learning. Knowing possibility to churn of high value customers beforehand enables businesses to proactively take actions, retain customers and prevent possible loss',
+      'Utilized machine learning to identify customers who are at risk of churning',
     tags: [tag.ML, tag.VIZ, tag.ARF],
     category: category.PROJ,
 
@@ -56,7 +56,7 @@ const posts: TPosts = [
     title: 'fake news detection',
     slug: 'fake-news-detection',
     summary:
-      'Implementation of machine learning model to automate fake news detection. With such automation, news readers valuable time could be saved and negative effects from decisions made based on fake news could be reduced',
+      'Implementated machine learning model to automate fake news detection',
     tags: [tag.ML, tag.VIZ, tag.SPK],
     category: category.PROJ,
     thumbnail: './imgs/fake-news/front-end.png',
