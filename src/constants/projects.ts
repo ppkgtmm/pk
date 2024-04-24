@@ -56,7 +56,7 @@ const posts: TPosts = [
     title: 'fake news detection',
     slug: 'fake-news-detection',
     summary:
-      'Implementated machine learning model to automate fake news detection',
+      'Implemented machine learning model to automate fake news detection',
     tags: [tag.ML, tag.VIZ, tag.SPK],
     category: category.PROJ,
     thumbnail: './imgs/fake-news/front-end.png',
