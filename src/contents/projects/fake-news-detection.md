@@ -1,8 +1,6 @@
-Objective of this project is to automate fake news detection using machine learning. With such automation, news authenticity can be figured out early which could save news readers valuable time and reduce negative effects from decisions made based on fake news
+### **Data Preprocessing**
 
 ![diagram](./imgs/fake-news/diagram.png)
-
-### **Data Preprocessing**
 
 Work done in this step are
 
