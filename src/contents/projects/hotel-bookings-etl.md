@@ -1,5 +1,3 @@
-Aim of this project is to convert hotel reservation data from transactional processing optimized format into a format better suited for visualization and analysis. The transformation enables business users to create dashboards from data for insights discovery and decision making more effortlessly
-
 ### Business Process
 
 Images below illustrate business process defined to help identify data required for project
@@ -150,9 +148,9 @@ Work done in this step are
     
     **Reason :** To visualize data using tool that provides dashboard serialization and cross filtering features without any charges e.g. Tableau Public
     
-- creating sample dashboard with data exported from previous step
+- creating dashboards with data exported from previous step
     
-    **Reason :** To create a tangible project output by summarizing thousands records of data
+    **Reason :** To create a tangible project output by summarizing thousands of data records
     
 
-![booking-dashboard](./imgs/hotel-bookings/booking-dashboard.png)
+![booking-dashboard](./imgs/hotel-bookings/amenity-dashboard.png)
