@@ -1,40 +1,16 @@
-### Business Process
+### Business Requirement
 
-Images below illustrate business process defined to help identify data required for project
-
-- creating reservation
-
-![booking-diagram](./imgs/hotel-bookings/booking-diagram.svg)
-
-- purchasing amenities
-
-![amenity-diagram](./imgs/hotel-bookings/amenity-diagram.svg)
-
-the following constraints have been enforced for simplicity and ease of data management
-
-- Each user must also be registered as guest before making reservation for own self
-- A guest cannot have multiple bookings with overlapping dates
-- None of the guests can be tied to multiple rooms reserved through same booking
-- Following cannot be done when less than 7 days left before checkin date : room booking, amenity purchase, cancelation or modification of booking and amenities purchased
+suppose you work as a data engineer in a hospitality business. the business has a reservation system where a registered user can create bookings. a booking may reserve multiple types of rooms available between specified checkin and checkout date. each of the rooms reserved has a contact person whose information is registered in the system. the business also offers add-on services or amenities that must be purchased in advance. any modification to bookings and amenities must be made at least 7 days before checkin date
 
 ### Data Modeling
 
 Work done in this step are
 
-- design of transactional database from defined business process
-    
-    **Reason :** To finalize attributes, tables and relationship between the tables in data source
-
-    **Remarks**
-
-    - booking rooms table contains guests and reserved rooms data for each booking
-    - booking add-ons table holds details of amenities if any was purchased for a booked room
+1. transactional database design based on requirement to finalize attributes, tables and relationship between the tables in data source
 
 ![oltp-db-diagram](./imgs/hotel-bookings/oltp-db-diagram.svg)
 
-- data warehouse design using star schema
-    
-    **Reason :** To reduce number of join operations required to contruct one big table
+2. data warehouse design using star schema to minimize join operations required to assemble data
     
 
 ![dwh-db-diagram](./imgs/hotel-bookings/dwh-db-diagram.svg)
