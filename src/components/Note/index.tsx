@@ -1,9 +1,7 @@
 import styled from '@emotion/styled'
-// import Markdown from 'react-markdown'
 import Markdown, { RuleType } from 'markdown-to-jsx'
 import { useState, useEffect, useCallback } from 'react'
 import { notes as contents } from '../../contents'
-// import rehypeRaw from 'rehype-raw'
 import { useParams } from 'react-router-dom'
 
 interface IAside {
