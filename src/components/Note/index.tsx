@@ -1,10 +1,14 @@
 import styled from '@emotion/styled'
-import Markdown from 'react-markdown'
+// import Markdown from 'react-markdown'
+import Markdown, { RuleType } from 'markdown-to-jsx'
 import { useState, useEffect, useCallback } from 'react'
 import { notes as contents } from '../../contents'
-import remarkGfm from 'remark-gfm'
-import rehypeRaw from 'rehype-raw'
+// import rehypeRaw from 'rehype-raw'
 import { useParams } from 'react-router-dom'
+
+interface IAside {
+  children: Array<{ text: string }>
+}
 
 const Note = (props: Record<string, unknown>) => {
   const params = useParams()
@@ -24,18 +28,20 @@ const Note = (props: Record<string, unknown>) => {
     <StyledWrapper>
       <article>
         <div className='prose-styled'>
-          <Markdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={{
-            table(props) {
-              const { node, ...rest } = props
-              return <div className='table-container'> <table {...rest} /> </div>
-            },
-            aside: (props) => {
-              return (
-                <div className='p-4 bg-gray-100 rounded-md flex mb-6'>
-                  <div className='mr-2'>💡</div>
-                  {props.children}
-                </div>
-              )
+          <Markdown options={{
+            renderRule(next, node, renderChildren, state) {
+              if (node.type === RuleType.htmlBlock && node.tag === 'aside') {
+                return (
+                  <div className='p-4 bg-gray-100 rounded-md flex mb-6' key={state.key}>
+                    <div className='mr-2'>💡</div>
+                    {node.children?.map((elem, idx) => {
+                      return <span key={idx}> {(elem as any as IAside).children.map(val => val.text).concat()}
+                      </span>
+                    })}
+                  </div>
+                )
+              }
+              return next()
             }
           }}>{content}</Markdown>
         </div>
