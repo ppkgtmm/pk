@@ -19,7 +19,7 @@ Apache Airflow was used to build data processing pipeline or DAG as illustrated 
 Work done through the pipeline are
 
 1. reading training, validation and testing input data files
-2. categorical features selection through chi-square test of independence on training set with cutoff p-value 0.05 by retaining features with lower p-value to reduce overfitting
+2. chi-square test of independence on categorical features with cutoff p-value 0.05 in training data to eliminate irrelevant features and reduce risk of overfitting
 3. preprocessors creation and input data preprocessing
 4. serialization of preprocessors and processed data to output directory to make preprocessors and processed data available for future use
 5. freeing up of disk space used by the pipeline
