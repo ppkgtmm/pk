@@ -2,21 +2,10 @@
 
 Work done in this step are
 
-- column data type and values validation against data description
-    
-    **Reason :** To see if further data cleansing or transformation are needed
-    
-- target variable distribution analysis
-    
-    **Reason :** To determine if weighted classification is needed because of class imbalance
-    
-- numerical and categorical feature distribution analysis by target class
-    
-    **Reason :** To decide if test of independence is needed to reduce no. of features 
-    
-- correlation analysis between each feature variable and target
-    
-    **Reason :** To observe direction of relationship between each feature variable and target
+1. validation of column data type and values against data description to see if further data cleansing or transformation are needed
+2. analysis of target distribution to determine if there is imbalance in the distribution and weighted classification is required
+3. analysing feature distribution by target to find if redundant features can be determined or test of independence will be required 
+4. correlation analysis between each feature variable and target to observe direction of relationship between each feature variable and target
     
 
 To know more about the observations, refer to [exploration notebook](https://github.com/ppkgtmm/churn-prediction/blob/main/notebooks/exploration.ipynb) 
@@ -29,42 +18,25 @@ Apache Airflow was used to build data processing pipeline or DAG as illustrated 
 
 Work done through the pipeline are
 
-- reading training, validation and testing input data files
-- categorical features selection through chi-square test of independence done on training dataset with cutoff p-value 0.05
-    
-    **Reason :** To prevent model overfitting by keeping only features with p-value lower than 0.05
-    
-- preprocessors creation and input data preprocessing
-- serialization of preprocessors and processed data to output directory
-    
-    **Reason :** To make preprocessors and processed data available for future use
-    
-- freeing up of disk space used by the pipeline
+1. reading training, validation and testing input data files
+2. categorical features selection through chi-square test of independence on training set with cutoff p-value 0.05 by retaining features with lower p-value to reduce overfitting
+3. preprocessors creation and input data preprocessing
+4. serialization of preprocessors and processed data to output directory to make preprocessors and processed data available for future use
+5. freeing up of disk space used by the pipeline
 
 ### **Model Training**
 
 Work done in this step are
 
-- input datasets transformation using each type of preprocessor created in previous step
-    
-    **Reason :** To encode categorical values for usability and to normalize numeric feature so that unexpected dominance from broad range features is prevented
-    
-- using preprocessed datasets to train machine learning algorithms
-- evaluation of preprocessor and algorithm performance on validation set using recall metric
-    
-    **Reason :** To select preprocessor and algorithm combination that gives minimum incorrect predictions for churning customers i.e. minimum false negatives
-    
-- hyper parameter tuning of algorithm with highest recall value on validation set
-    
-    **Reason :** To obtain final model with better performance than model from default settings
-    
-- serialization of model obtained from hyper parameter tuning step
-- evaluation on testing dataset using combination of selected preprocessor and tuned model
-    
-    **Reason :** To get performance estimate of preprocessor and model on unseen dataset
-    
+1. encoding categorical values for usability in machine learning task using the preprocessors
+2. normalizing numeric features to prevent those with broad range from dominating over prediction
+3. using preprocessed datasets to train machine learning algorithms
+4. evaluating preprocessor and algorithm performance on validation set with recall metric to finalize preprocessor and algorithm combination that gives minimum false negatives
+5. hyper parameter tuning of algorithm with highest recall value on validation set to obtain model with better performance than model from default settings
+6. serializing model obtained from hyper parameter tuning step
+7. evaluating combination of selected preprocessor and tuned model on testing dataset to estimate performance on unseen dataset
 
-selected combination : Support Vector Machine algorithm and Standard Scaler
+Selected combination : Support Vector Machine algorithm and Standard Scaler
 
 ![evaluation-result](./imgs/churn/evaluation-result.png)
 
@@ -74,18 +46,16 @@ For more information about the results, refer to [modeling notebook](https://git
 
 Work done in this step are
 
-- API development to serve predictions from input data provided to `/predict` endpoint
+1. API development to serve predictions based on input data provided to `/predict` endpoint
 
 ![api-input.png](./imgs/churn/api-input.png)
 
 ![api-output.png](./imgs/churn/api-output.png)
 
-- implementation of front end to display predictions for input data file uploaded
+2. implementation of front end to display predictions for uploaded input data file 
 
 ![front-end.png](./imgs/churn/front-end.png)
 
 ### **Future Work**
 
-- using K-Fold cross validation to select algorithm for tuning
-    
-    **Reason :** To better ensure that good performance of model on validation set is not by chance
+using K-Fold cross validation to select algorithm and better ensure that good model performance on validation set is not by chance
