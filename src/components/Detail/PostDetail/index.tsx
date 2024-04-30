@@ -3,7 +3,7 @@ import Footer from './PostFooter'
 import Category from '../../Category'
 import styled from '@emotion/styled'
 import type { TPost } from '../../../types'
-import Markdown from 'react-markdown'
+import Markdown from 'markdown-to-jsx'
 import { useState, useEffect, useCallback } from 'react'
 import { projects as contents } from '../../../contents'
 
