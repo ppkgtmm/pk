@@ -4,21 +4,10 @@
 
 Work done in this step are
 
-- normalization of high cardinality values such as urls, email addresses, hashtags, social media mentions, numbers and special characters
-    
-    **Reason :** To help model better generalize on new or unseen data
-    
-- removal of HTML tags
-    
-    **Reason :** To discard meaningless texts
-    
-- expansion of modal verbs e.g. `didnt`, `didn’t` to `did not`
-    
-    **Reason :** To standardize modal verbs and emphasize negation if present
-    
-- serialization of data preprocessed according to steps mentioned above
-    
-    **Reason :** For immediate availability of preprocessed data to use in future
+1. normalization of high cardinality values including URLs, email addresses, hashtags, social media mentions, numbers and special characters for model to generalize better on new or unseen data
+2. removal of HTML tags to discard meaningless texts
+3. expansion of modal verbs e.g. `didnt`, `didn’t` to `did not` to standardize modal verbs and emphasize negation if present
+4. serialization of data preprocessed according to steps mentioned above for reuse
     
 
 ```
@@ -37,18 +26,9 @@ News data used in this project can be found in [data directory](https://github.c
 
 Work done in this step are
 
-- target variable distribution analysis
-    
-    **Reason :** To determine if weighted classification is needed due to class imbalance
-    
-- visualization of news subject, word count distribution and average word length distribution
-    
-    **Reason :** To understand and compare overall characteristics of news in each target class
-    
-- visualization of real news and fake news as separate word clouds
-    
-    **Reason :** To find common words in each type of news and compare the difference
-    
+1. target distribution analysis to determine if weighted classification is needed due to class imbalance
+2. visualization of news subject, word count and average word length distribution to understand and compare overall characteristics of news in each target class
+3. creating separate word clouds for real news and fake news to find common words in each type of news and compare the difference
 
 For detailed findings from data visualization step, refer to [visualization results](https://github.com/ppkgtmm/fake-news-detection/blob/main/visualization/README.md)
 
@@ -56,30 +36,13 @@ For detailed findings from data visualization step, refer to [visualization resu
 
 Work done in this step are
 
-- conversion of news inputs into word count matrix using Count Vectorizer
-    
-    **Reason :**  To achieve a better representation of text inputs for machine learning task
-    
-- transforming word count into inverse document frequency
-    
-    **Reason :** To prevent model from overemphasizing words that appear often in news but are not helpful for making prediction e.g. stop words like a, an, the etc.
-    
-- picking Logistic Regression and Naive Bayes machine learning algorithms for cross validation
-    
-    **Reason :** The algorithms are fast and easy to understand because of simple computation
-    
-- selection of machine learning algorithm using ROC AUC score of model on validation set
-    
-    **Reason :** To determine final machine learning algorithm for further tuning through its ability to separate between real and fake news when there is no imbalance between target classes
-    
-- hyper parameter tuning of machine learning algorithm finalized
-    
-    **Reason :** To get model with better performance than model from default settings
-    
-- serialization of model obtained from hyper parameter tuning step
-- performance evaluation of final model on testing dataset using ROC AUC score
-    
-    **Reason :** To get unbiased estimate of model ability in separating between types of news
+1. conversion of news inputs into word count matrix using Count Vectorizer to better represent text inputs for machine learning task
+2. transforming word count into inverse document frequency to prevent model from overemphasizing words that appear often in news but are not helpful for making prediction e.g. a, an and the
+3. picking Logistic Regression and Naive Bayes machine learning algorithms for cross validation as the algorithms are fast and easy to understand because of simple computation
+4. selection of machine learning algorithm using ROC AUC score of model on validation set to finalize machine learning algorithm for further tuning through its ability to separate between news
+5. hyper parameter tuning of finalized algorithm to get model with better performance than model from default parameter settings
+6. serialization of model obtained from hyper parameter tuning step
+7. performance evaluation of final model on testing dataset using ROC AUC score to get unbiased estimate of model ability in separating between the news
     
 
 ```
@@ -96,13 +59,13 @@ For additional information about tuning results, refer to [tuning log](https://g
 
 Work done in this step are
 
-- API development to serve predictions for news provided to `/predict` endpoint
+1. API development to serve predictions for news provided to `/predict` endpoint
 
 ![api-input](./imgs/fake-news/api-input.png)
 
 ![api-output](./imgs/fake-news/api-output.png)
 
-- implementation of front end to display prediction for news input filled in text box
+2. implementation of front end to display prediction for news input filled in text box
 
 ![ui-real-news](./imgs/fake-news/ui-real-news.png)
 
@@ -110,10 +73,5 @@ Work done in this step are
 
 ### **Future Work**
 
-- Optimization of preprocessing code
-    
-    **Reason :** To consume less amount of time when executed
-    
-- Using K-Fold cross validation to select algorithm for tuning
-    
-    **Reason :** To better ensure that good performance of model on validation set is not by chance
+1. Optimization of preprocessing code to consume less amount of execution time 
+2. Using K-Fold cross validation to select algorithm for tuning to better ensure that good performance of model on validation set is not by chance
