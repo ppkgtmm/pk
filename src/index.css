@@ -7,7 +7,7 @@
 }
 
 .prose-styled {
-  @apply my-[42px] leading-6 prose prose-h1:text-[40px] prose-headings:font-bold prose-headings:text-black prose-a:font-normal prose-li:my-1 prose-a:no-underline prose-a:text-[#3366cc] prose-p:my-2 prose-pre:bg-gray-100 prose-pre:text-gray-800 max-w-none prose-img:w-[90%] prose-img:rounded-md prose-table:mt-2 prose-table:mb-6
+  @apply my-[42px] leading-6 prose prose-h1:text-[40px] prose-headings:font-bold prose-headings:text-black prose-a:font-normal prose-li:my-1 prose-ul:my-0 prose-a:no-underline prose-a:text-[#3366cc] prose-p:my-2 prose-pre:bg-gray-100 prose-pre:text-gray-800 max-w-none prose-img:rounded-md prose-table:mt-2 prose-table:mb-6
 }
 
 code {
