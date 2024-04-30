@@ -20,6 +20,7 @@ const PostDetail = ({ data }: Props) => {
     const response = await fetch(contents[slug!])
     const md = await response.text()
     setContent(md)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [slug])
 
   useEffect(() => {
