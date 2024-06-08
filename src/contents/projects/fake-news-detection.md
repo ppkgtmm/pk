@@ -1,77 +1,45 @@
-### **Data Preprocessing**
+### 💯 Data Preprocessing
 
-![diagram](./imgs/fake-news/diagram.png)
+<!-- ![diagram](./imgs/fake-news/diagram.png) -->
 
-Work done in this step are
+1. Normalized high cardinality values including URLs, email addresses, hashtags, social media mentions, numbers and special characters for better model generalization
+2. Removed of HTML tags to discard meaningless texts
+3. Developed logic to expand modal verbs e.g. `didnt`, `didn’t` to `did not` to standardize modal verbs and emphasize negation if present
+4. Serialized data preprocessed according to steps mentioned above for reuse
+    ![processing-log](./imgs/fake-news/processing.png)
 
-1. normalization of high cardinality values including URLs, email addresses, hashtags, social media mentions, numbers and special characters for model to generalize better on new or unseen data
-2. removal of HTML tags to discard meaningless texts
-3. expansion of modal verbs e.g. `didnt`, `didn’t` to `did not` to standardize modal verbs and emphasize negation if present
-4. serialization of data preprocessed according to steps mentioned above for reuse
-    
 
-```
-[2023-09-17 17:48:46,226][__main__][INFO] - Config param validation successful
-[2023-09-17 17:48:46,226][__main__][INFO] - Begin text data preprocessing
-[2023-09-17 17:57:41,950][preprocessing.main][INFO] - Done preprocessing text variable
-[2023-09-17 17:57:43,023][__main__][INFO] - Done preprocessing file data/True.csv, output saved to data/True_prep.csv
-[2023-09-17 18:07:41,104][preprocessing.main][INFO] - Done preprocessing text variable
-[2023-09-17 18:07:42,356][__main__][INFO] - Done preprocessing file data/Fake.csv, output saved to data/Fake_prep.csv
-[2023-09-17 18:07:42,356][__main__][INFO] - End text data preprocessing
-```
+<!-- News data used in this project can be found in [data directory](https://github.com/ppkgtmm/fake-news-detection/tree/main/data) -->
 
-News data used in this project can be found in [data directory](https://github.com/ppkgtmm/fake-news-detection/tree/main/data)
+### 📊 Data Visualization
 
-### **Data Visualization**
+1. Analyzed target distribution to detect class imbalance problem
+2. Visualized news subject, word count and average word length distribution to understand and compare overall characteristics of news in each class
+3. Created word clouds for real news and fake news to find common words in each type of news and compare the difference
+    ![real-news-wc](./imgs/fake-news/visualization.png)
 
-Work done in this step are
+### ✨ Model Training
 
-1. target distribution analysis to determine if weighted classification is needed due to class imbalance
-2. visualization of news subject, word count and average word length distribution to understand and compare overall characteristics of news in each target class
-3. creating separate word clouds for real news and fake news to find common words in each type of news and compare the difference
+1. Converted news inputs into word count matrix using Count Vectorizer to better represent text inputs for machine learning task
+2. Transformed word count into inverse document frequency to prevent model from excessively emphasizing stop words words like `a`, `an` and `the` which appear often in news but are not helpful for making prediction
+3. Selected Logistic Regression and Naive Bayes algorithms for cross validation because of their speed and simplicity
+4. Cross validated the algorithms using ROC AUC score on validation set to evaluate ability of resulting models in separating between news
+5. Tuned hyper parameters of the finalized algorithm to achieve better performing model
+6. Serialized model produced from hyper parameter tuning step
+7. Evaluated performance of the tuned model on testing dataset using ROC AUC metric to get unbiased estimate of model ability
+    ![training-log](./imgs/fake-news/training.png)
 
-For detailed findings from data visualization step, refer to [visualization results](https://github.com/ppkgtmm/fake-news-detection/blob/main/visualization/README.md)
+### 📰 Model inference
 
-### **Model Training**
+1. Developed API to serve predictions for news provided through `/predict` endpoint
 
-Work done in this step are
+    ![api-input](./imgs/fake-news/api-input.png)
+    ![api-output](./imgs/fake-news/api-output.png)
 
-1. conversion of news inputs into word count matrix using Count Vectorizer to better represent text inputs for machine learning task
-2. transforming word count into inverse document frequency to prevent model from overemphasizing words that appear often in news but are not helpful for making prediction e.g. a, an and the
-3. picking Logistic Regression and Naive Bayes machine learning algorithms for cross validation as the algorithms are fast and easy to understand because of simple computation
-4. selection of machine learning algorithm using ROC AUC score of model on validation set to finalize machine learning algorithm for further tuning through its ability to separate between news
-5. hyper parameter tuning of finalized algorithm to get model with better performance than model from default parameter settings
-6. serialization of model obtained from hyper parameter tuning step
-7. performance evaluation of final model on testing dataset using ROC AUC score to get unbiased estimate of model ability in separating between the news
-    
+2. Implementated front end to display prediction for news input filled in text box
+    ![front-end](./imgs/fake-news/front-end.png)
 
-```
-[2023-09-17 18:37:35,613][__main__][INFO] - Config param validation successful
-[2023-09-17 18:37:35,613][__main__][INFO] - Begin modeling process
-[2023-09-17 18:38:19,768][modeling.training][INFO] - Logistic regression validation AUC score : 0.9840257205725704
-[2023-09-17 18:38:34,351][modeling.training][INFO] - Multinomial NB validation AUC score : 0.945421586414332
-[2023-09-17 18:38:34,352][__main__][INFO] - End modeling process
-```
+### 📚 Future Work
 
-For additional information about tuning results, refer to [tuning log](https://github.com/ppkgtmm/fake-news-detection/blob/main/outputs/2023-09-17/18-55-22/tune.log)
-
-### **Model inference**
-
-Work done in this step are
-
-1. API development to serve predictions for news provided to `/predict` endpoint
-
-![api-input](./imgs/fake-news/api-input.png)
-
-![api-output](./imgs/fake-news/api-output.png)
-
-2. implementation of front end to display prediction for news input filled in text box
-
-![ui-real-news](./imgs/fake-news/ui-real-news.png)
-
-![ui-fake-news](./imgs/fake-news/ui-fake-news.png)
-
-### **Future Work**
-
-1. Optimization of preprocessing code to consume less amount of execution time 
-2. Using K-Fold cross validation to select algorithm for tuning to better ensure that good performance of model on validation set is not by chance
+1. Optimization of preprocessing code to consume less execution time 
+2. Using K-Fold cross validation to select algorithm which ensures that good validation set performance is not by chance
