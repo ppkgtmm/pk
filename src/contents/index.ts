@@ -10,8 +10,8 @@ import partition from './notes/partition.md'
 const projects: Record<string, string> = {
   'churn-prediction': churnPrediction,
   'fake-news-detection': fakeNewsDetection,
-  'olist-dashboard': olistDashboard,
-  'hotel-bookings-etl': hotelBookings
+  'e-commerce-dashboard': olistDashboard,
+  'hotel-data-warehouse': hotelBookings
 }
 
 const notes: Record<string, string> = {
