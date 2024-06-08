@@ -1,4 +1,4 @@
-### Data Exploration
+### 📊 Data Exploration
 
 1. Validated column data type and values against data description to see if data cleansing or transformation are needed
 2. Analyzed target distribution to check for class imbalance and use weighted classification
@@ -7,7 +7,7 @@
 
 <!-- To know more about the observations, refer to [exploration notebook](https://github.com/ppkgtmm/churn-prediction/blob/main/notebooks/exploration.ipynb)  -->
 
-### Data Preprocessing
+### 🔥 Data Preprocessing
 
 Apache Airflow was used to manage data processing pipeline or DAG as illustrated below
 
@@ -15,7 +15,7 @@ Apache Airflow was used to manage data processing pipeline or DAG as illustrated
 
 The pipeline reads training, validation and testing data files. Then it runs Chi-square test with cutoff p-value 0.05 on training dataset to discard redundant categorical features and reduce risk of overfitting. The pipeline creates preprocessors and preprocesses input data before serializing both the data and preprocessors for future use. At the end of pipeline, disk space used to store temporary files is released
 
-### Model Training
+### 🤖 Model Training
 
 1. Encoded categorical values for usability in machine learning task using the preprocessors
 2. Normalized numeric features to prevent those with broad range from dominating over prediction result
@@ -29,7 +29,7 @@ The pipeline reads training, validation and testing data files. Then it runs Chi
 6. Serialized model resulted from hyper parameter tuning step
 7. Evaluated performance of optimal preprocessor and tuned model on testing dataset
 
-### Inference
+### 🚀 Inference
 
 1. Developed API to serve predictions from input data through `/predict` endpoint
 
@@ -41,6 +41,6 @@ The pipeline reads training, validation and testing data files. Then it runs Chi
 
     ![front-end.png](./imgs/churn/front-end.png)
 
-### Future Work
+### 🥋 Future Work
 
 Using K-Fold cross validation to select algorithm and ensure that good performance on validation set is not by chance
