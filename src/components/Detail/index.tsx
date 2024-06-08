@@ -1,25 +1,33 @@
-import PostDetail from './PostDetail'
-import styled from '@emotion/styled'
 import { useParams } from 'react-router-dom'
-import { posts } from '../../constants/projects'
-import { colors } from '../../styles'
-
-function findPost(slug: string) {
-  return posts.filter((post) => post.slug === slug)?.[0]
-}
-
+import { projects } from '../../contents'
+import Markdown from 'markdown-to-jsx'
+import { useState, useEffect, useCallback } from 'react'
 const Detail = () => {
   const params = useParams()
+  const [content, setContent] = useState('')
+
+  const fetchContent = useCallback(async () => {
+    const response = await fetch(projects[params.slug!])
+    const md = await response.text()
+    setContent(md)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [params.slug!])
+
+  useEffect(() => {
+    void fetchContent().catch()
+  }, [params.slug!])
   return (
-    <StyledWrapper>
-      <PostDetail data={findPost(params.slug!)} />
-    </StyledWrapper>
+    <div>
+      <div className='prose-styled details'>
+        <Markdown>{content}</Markdown>
+      </div>
+    </div>
   )
 }
 
 export default Detail
 
-const StyledWrapper = styled.div`
-  padding: 2rem 0;
-  background-color: ${colors.gray1};
-`
+// const StyledWrapper = styled.div`
+//   padding: 2rem 0;
+//   background-color: ${colors.gray1};
+// `
