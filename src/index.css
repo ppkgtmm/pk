@@ -2,16 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.icon {
-  @apply h-[18px] w-[18px];
-}
-
 .prose-styled {
-  @apply my-[42px] leading-6 prose prose-h1:text-[40px] prose-headings:font-bold prose-headings:text-black prose-a:font-normal prose-li:my-1 prose-ul:my-0 prose-a:no-underline prose-a:text-[#3366cc] prose-p:my-0 prose-pre:bg-gray-100 prose-pre:text-gray-800 max-w-none prose-img:rounded-md prose-table:mt-2 prose-table:mb-6 prose-img:mx-auto prose-img:my-6 prose-h2:mt-[2em]
+  @apply my-[42px] leading-6 prose prose-h3:text-[24px] prose-headings:font-bold prose-a:font-normal prose-li:my-1 prose-ul:my-0 prose-a:no-underline prose-a:text-[#3366cc] prose-p:my-0 max-w-none prose-table:mt-2 prose-table:mb-6 prose-img:mx-auto prose-img:my-6 prose-h2:mt-[2em]
 }
 
 code {
-  @apply bg-gray-100 rounded px-1.5 py-0.5 font-normal
+  line-height: normal;
+  background-color: rgba(255, 255, 255, 0.03);
+  color: #EB5757;
+  border-radius: 4px;
+  font-size: 85%;
+  padding: 0.2em 0.4em;
 }
 
 code {
@@ -19,12 +20,28 @@ code {
     monospace;
 }
 
-table, td, th {
+pre {
+  font-size: 85%;
+  tab-size: 2;
+  padding: 34px 16px 32px 32px;
+  min-height: 1em;
+  background-color: rgba(255, 255, 255, 0.03);
+  white-space: pre;
+  overflow-x: scroll;
+}
+
+table,
+td,
+th {
   border: 1px solid #222;
   text-align: center;
 }
 
-table tr th, thead th:first-child, thead th:last-child, tbody td:first-child, tbody td:last-child {
+table tr th,
+thead th:first-child,
+thead th:last-child,
+tbody td:first-child,
+tbody td:last-child {
   text-wrap: nowrap;
   padding: 8px;
 }
@@ -33,3 +50,175 @@ table tr th, thead th:first-child, thead th:last-child, tbody td:first-child, tb
   overflow-x: scroll;
   scrollbar-width: none;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #191919;
+  color: rgba(255, 255, 255, 0.81);
+  outline: 0;
+}
+
+.header {
+  height: 44px;
+}
+
+.content,
+.details {
+  margin: 84px auto 24px auto;
+  max-width: 708px;
+}
+
+.title {
+  padding: 3px 2px 0px 2px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.profile {
+  padding-top: 5px;
+  min-height: 170px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  display: flex;
+}
+
+.avatar-wrapper {
+  width: calc(25% - 11.5px);
+  padding: 12px 0px;
+  margin-top: 4px;
+}
+
+.avatar {
+  width: 144px;
+  height: 144px;
+  margin: auto;
+  border-radius: 100%;
+}
+
+.separator {
+  width: 46px;
+}
+
+.bio {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: calc(75% - 34.5px);
+}
+
+.intro {
+  margin-top: 2px;
+  padding: 3px 2px 2px 2px;
+}
+
+.contact {
+  height: 30px;
+  margin: 2px 0px;
+  padding-left: 2px;
+  display: flex;
+  line-height: 24px;
+}
+
+.marker-container {
+  margin-right: 2px;
+  width: 24px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.marker {
+  margin: auto;
+  width: fit-content;
+  height: 26.5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.contact .info {
+  padding: 3px 2px;
+  flex-grow: 1;
+  font-size: 16px;
+  display: flex;
+}
+
+.contact .info .icon,
+.contact .info .text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 0px;
+  padding-top: 2px;
+  line-height: 16px;
+  height: 21px;
+}
+
+.contact .info .text-wrapper {
+  margin-left: 4px;
+  border-bottom: 0.05em solid rgba(255, 255, 255, 0.283);
+  opacity: 0.7;
+}
+
+
+.projects h1 {
+  margin-top: 22.4px;
+  margin-bottom: 1px;
+  padding: 3px 2px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: calc(calc(100% - 46px)/2) auto calc(calc(100% - 46px)/2);
+  width: 100%;
+  margin: 1px auto;
+}
+
+.project .heading-wrapper {
+  padding: 8px 2px;
+}
+
+.project .heading-wrapper .heading {
+  border-left: 3px solid;
+  padding: 0px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
+
+.project .content-wrapper {
+  padding: 3px 2px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.project .thumbnail {
+  padding: 12px 0px;
+}
+
+.project .thumbnail img {
+  margin: 5px 0px 0px 0px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 12px 0px;
+}
+
+.more {
+  padding: 5px 2px 3px 2px;
+  text-align: left;
+  direction: ltr;
+}
+
+.more a {
+  border-bottom: 0.05em solid rgba(255, 255, 255, 0.283);
+  opacity: 0.7;
+}
+
+.details {}
