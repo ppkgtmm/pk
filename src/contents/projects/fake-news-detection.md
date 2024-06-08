@@ -24,10 +24,11 @@
 2. Transformed word count into inverse document frequency to prevent model from excessively emphasizing stop words words like `a`, `an` and `the` which appear often in news but are not helpful for making prediction
 3. Selected Logistic Regression and Naive Bayes algorithms for cross validation because of their speed and simplicity
 4. Cross validated the algorithms using ROC AUC score on validation set to evaluate ability of resulting models in separating between news
+    ![training-log](./imgs/fake-news/training.png)
 5. Tuned hyper parameters of the finalized algorithm to achieve better performing model
 6. Serialized model produced from hyper parameter tuning step
 7. Evaluated performance of the tuned model on testing dataset using ROC AUC metric to get unbiased estimate of model ability
-    ![training-log](./imgs/fake-news/training.png)
+    ![tuning-result](./imgs/fake-news/tuning.png)
 
 ### 📰 Model inference
 
@@ -37,7 +38,6 @@
     ![api-output](./imgs/fake-news/api-output.png)
 
 2. Implementated front end to display prediction for news input filled in text box
-    ![front-end](./imgs/fake-news/front-end.png)
 
 ### 📚 Future Work
 
