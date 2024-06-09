@@ -18,6 +18,16 @@ export const contact = [
 
 export const projects = [
   {
+    heading: 'Hotel Data Warehouse',
+    content: 'Designed database and data warehouse in lodging business domain. Provisioned cloud infrastructure to ingest, transform and store data for dashboard creation',
+    thumbnail: '',
+    extras: {
+      text: 'Read More',
+      icon: '🏨',
+      link: '#/hotel-data-warehouse'
+    }
+  },
+  {
     heading: 'E-commerce Dashboard',
     content: 'Prepared initial data into suitable form and built dashboard to summarize e-commerce revenue, customer satisfaction and partner delivery service',
     thumbnail: 'imgs/olist/dashboard.png',
