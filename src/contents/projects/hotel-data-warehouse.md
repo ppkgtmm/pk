@@ -25,6 +25,7 @@ Suppose you work as a data engineer for a hospitality business. The business has
 
 1. Created and deployed cloud function to prepare source database, destination Pub/Sub topics and topic subscriptions for change data capture (CDC)
 2. Installed CDC server on cloud virtual machine, performed set up and configuration in order to get database events flowing from source to sink
+    
     ![change-data-capture](./imgs/hotel-bookings/change-data-capture.png)
 
 ### Stream Processing
