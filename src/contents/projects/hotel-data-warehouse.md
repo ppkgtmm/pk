@@ -6,11 +6,11 @@ Suppose you work as a data engineer for a hospitality business. The business has
 
 1. Designed transactional database based on the requirement to finalize attributes, tables and relationship between the tables in data source
 
-    ![oltp-db-diagram](./imgs/hotel-bookings/oltp-db-diagram.svg)
+    ![oltp-db-diagram](./imgs/hotel-bookings/oltp-db-diagram.png)
 
 2. Designed data warehouse with star schema to minimize join operations between tables
 
-    ![dwh-db-diagram](./imgs/hotel-bookings/dwh-db-diagram.svg)
+    ![dwh-db-diagram](./imgs/hotel-bookings/dwh-db-diagram.png)
 
 ### Data Seeding
 
