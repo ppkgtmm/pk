@@ -1,6 +1,6 @@
-import type { IProject } from '../../types'
+import type { TProject } from '../../types'
 
-const Project = (props: IProject) => {
+const Project = (props: TProject) => {
   return (
     <div className="project" style={{ direction: ((props.direction && 'ltr') || 'rtl') }}>
       <div className="thumbnail">
