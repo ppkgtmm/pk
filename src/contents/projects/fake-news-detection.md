@@ -37,7 +37,7 @@
     ![api-input](./imgs/fake-news/api-input.png)
     ![api-output](./imgs/fake-news/api-output.png)
 
-2. Implementated front end to display prediction for news input filled in text box
+2. Implemented front end to display prediction for news input filled in text box
 
 ### 📚 Future Work
 
