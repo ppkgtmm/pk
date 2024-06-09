@@ -5,6 +5,8 @@
 3. Performed feature distribution analysis to check if redundant features are visible or test of independence will be needed 
 4. Conducted correlation analysis between each feature variable and target to observe the direction of relationship
 
+    ![exploration](./imgs/churn/exploration.png)
+
 <!-- To know more about the observations, refer to [exploration notebook](https://github.com/ppkgtmm/churn-prediction/blob/main/notebooks/exploration.ipynb)  -->
 
 ### 🚀 Data Preprocessing
