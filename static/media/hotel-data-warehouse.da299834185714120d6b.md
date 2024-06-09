@@ -1,19 +1,16 @@
 ### Business Requirement
 
-suppose you work as a data engineer in a hospitality business. the business has a reservation system where a registered user can create bookings. a booking may reserve multiple types of rooms available between specified checkin and checkout date. each of the rooms reserved has a contact person whose information is registered in the system. the business also offers add-on services or amenities that must be purchased in advance. any modification to bookings and amenities must be made at least 7 days before checkin date
+Suppose you work as a data engineer for a hospitality business. The business has a reservation system where registered users can create bookings. A booking may reserve multiple types of rooms available between specified check in and check out date. Each room reserved must have a contact person whose information is registered in the system. The business also offer add-on services that must be purchased in advance. Any modifications to a booking or add-on purchase must be made at least 7 days prior to check in date
 
 ### Data Modeling
 
-Work done in this step are
+1. Designed transactional database based on the requirement to finalize attributes, tables and relationship between the tables in data source
 
-1. transactional database design based on requirement to finalize attributes, tables and relationship between the tables in data source
+    ![oltp-db-diagram](./imgs/hotel-bookings/oltp-db-diagram.png)
 
-![oltp-db-diagram](./imgs/hotel-bookings/oltp-db-diagram.svg)
+2. Designed data warehouse with star schema to minimize join operations between tables
 
-2. data warehouse design using star schema to minimize join operations required to assemble data
-    
-
-![dwh-db-diagram](./imgs/hotel-bookings/dwh-db-diagram.svg)
+    ![dwh-db-diagram](./imgs/hotel-bookings/dwh-db-diagram.png)
 
 ### Data Seeding
 
