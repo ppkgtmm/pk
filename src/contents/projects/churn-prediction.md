@@ -9,7 +9,7 @@
 
 ### 🚀 Data Preprocessing
 
-Apache Airflow was used to manage data processing pipeline or DAG as illustrated below
+Apache Airflow was used to manage data processing pipeline or DAG illustrated below
 
 ![dag-diagram](./imgs/churn/dag-diagram.png)
 
