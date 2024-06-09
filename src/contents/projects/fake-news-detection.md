@@ -1,4 +1,4 @@
-### 💯 Data Preprocessing
+### ✨ Data Preprocessing
 
 <!-- ![diagram](./imgs/fake-news/diagram.png) -->
 
@@ -11,14 +11,14 @@
 
 <!-- News data used in this project can be found in [data directory](https://github.com/ppkgtmm/fake-news-detection/tree/main/data) -->
 
-### 📊 Data Visualization
+### 👀 Data Visualization
 
 1. Analyzed target distribution to detect class imbalance problem
 2. Visualized news subject, word count and average word length distribution to understand and compare overall characteristics of news in each class
 3. Created word clouds for real news and fake news to find common words in each type of news and compare the difference
     ![real-news-wc](./imgs/fake-news/visualization.png)
 
-### ✨ Model Training
+### 🚀 Model Training
 
 1. Converted news inputs into word count matrix using Count Vectorizer to better represent text inputs for machine learning task
 2. Transformed word count into inverse document frequency to prevent model from excessively emphasizing stop words words like `a`, `an` and `the` which appear often in news but are not helpful for making prediction
