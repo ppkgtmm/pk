@@ -7,17 +7,17 @@
 
 <!-- To know more about the observations, refer to [exploration notebook](https://github.com/ppkgtmm/churn-prediction/blob/main/notebooks/exploration.ipynb)  -->
 
-### 🔥 Data Preprocessing
+### 🚀 Data Preprocessing
 
 Apache Airflow was used to manage data processing pipeline or DAG as illustrated below
 
 ![dag-diagram](./imgs/churn/dag-diagram.png)
 
-The pipeline reads training, validation and testing data files. Then it runs Chi-square test with cutoff p-value 0.05 on training dataset to discard redundant categorical features and reduce risk of overfitting. The pipeline creates preprocessors and preprocesses input data before serializing both the data and preprocessors for future use. At the end of pipeline, disk space used to store temporary files is released
+The pipeline reads training, validation and testing data files. Then it runs Chi-square test with cutoff p-value 0.05 on training dataset to discard redundant categorical features and reduce risk of over-fitting. The pipeline creates pre-processors and pre-processes input data before serializing both the data and pre-processors for future use. At the end of pipeline, disk space used to store temporary files is released
 
-### 🤖 Model Training
+### 👀 Model Training
 
-1. Encoded categorical values for usability in machine learning task using the preprocessors
+1. Encoded categorical values for usability in machine learning task using the pre-processors
 2. Normalized numeric features to prevent those with broad range from dominating over prediction result
 3. Trained machine learning algorithms with the preprocessed datasets
 4. Evaluated preprocessor and algorithm performance on validation set with recall metric to select preprocessor and algorithm combination that produce minimum false negatives
@@ -29,7 +29,7 @@ The pipeline reads training, validation and testing data files. Then it runs Chi
 6. Serialized model resulted from hyper parameter tuning step
 7. Evaluated performance of optimal preprocessor and tuned model on testing dataset
 
-### 🚀 Inference
+### 💳 Inference
 
 1. Developed API to serve predictions from input data through `/predict` endpoint
 
@@ -37,7 +37,7 @@ The pipeline reads training, validation and testing data files. Then it runs Chi
 
     ![api-output.png](./imgs/churn/api-output.png)
 
-2. Implementated front end to display predictions for uploaded input data file 
+2. Implemented front end to display predictions for uploaded input data file 
 
     ![front-end.png](./imgs/churn/front-end.png)
 
