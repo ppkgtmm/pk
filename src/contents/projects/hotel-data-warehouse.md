@@ -55,8 +55,6 @@ Suppose you work as a data engineer for a hospitality business. The business has
     
     **Reason :** To avoid updating fact tables by populating the fact tables only when there cannot be changes in the related data (as defined in business requirement)
 
-### Data Visualization
-
 Work done in this step are
 
 - exportation of data from one big table into text files for visualization purpose
