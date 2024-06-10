@@ -26,9 +26,9 @@
 4. Cross validated the algorithms using ROC AUC score on validation set to evaluate ability of resulting models in separating between news
     ![training-log](./imgs/fake-news/training.png)
 5. Tuned hyper parameters of the finalized algorithm to achieve better performing model
+    ![tuning-result](./imgs/fake-news/tuning.png)
 6. Serialized model produced from hyper parameter tuning step
 7. Evaluated performance of the tuned model on testing dataset using ROC AUC metric to get unbiased estimate of model ability
-    ![tuning-result](./imgs/fake-news/tuning.png)
 
 ### 📰 Model inference
 
