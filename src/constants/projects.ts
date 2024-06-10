@@ -20,7 +20,7 @@ export const projects = [
   {
     heading: 'Hotel Data Warehouse',
     content: 'Designed database and data warehouse in lodging business domain. Provisioned cloud infrastructure to ingest, transform and store data for dashboard creation',
-    thumbnail: '',
+    thumbnail: 'imgs/hotel-bookings/dashboard.png',
     extras: {
       text: 'Read More',
       icon: '🏨',
