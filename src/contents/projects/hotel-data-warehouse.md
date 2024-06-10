@@ -20,6 +20,7 @@ Suppose you work as a data engineer for a hospitality business. The business has
 4. Deployed cloud functions for data generation and seeding with IaC. Code used by the cloud functions were pre-uploaded to cloud storage through CI/CD pipeline
 
     ![data-source](./imgs/hotel-bookings/data-source.png)
+    ![cloud-functions](./imgs/hotel-bookings/cloud-functions.png)
 
 ### Change Data Capture
 
@@ -27,6 +28,7 @@ Suppose you work as a data engineer for a hospitality business. The business has
 2. Installed CDC server on cloud virtual machine, performed set up and configuration in order to get database events flowing from source to sink
     
     ![change-data-capture](./imgs/hotel-bookings/change-data-capture.png)
+    ![pubsub-topics](./imgs/hotel-bookings/pubsub-topics.png)
 
 ### Stream Processing
 
@@ -34,6 +36,7 @@ Suppose you work as a data engineer for a hospitality business. The business has
 2. Additionally, coded the consumer to stage transaction data and other supporting information useful in populating fact tables
 
     ![stream-processing](./imgs/hotel-bookings/stream-processing.png)
+    ![spark-job](./imgs/hotel-bookings/spark-job.png)
 
 ### Batch Processing
 
@@ -41,6 +44,10 @@ Suppose you work as a data engineer for a hospitality business. The business has
 2. Created and deployed cloud function to initialize data warehouse, schedule batch processing queries and submit streaming job
 
     ![batch-processing](./imgs/hotel-bookings/batch-processing.png)
+    ![scheduled-query](./imgs/hotel-bookings/scheduled-query.png)
+
+### Data Visualization
+
 
 <!--
     
