@@ -48,22 +48,6 @@ Suppose you work as a data engineer for a hospitality business. The business has
 
 ### Data Visualization
 
-
-<!--
-    
-- keeping only latest data from bookings, booking rooms and booking add-ons tables
-    
-    **Reason :** To avoid updating fact tables by populating the fact tables only when there cannot be changes in the related data (as defined in business requirement)
-
-Work done in this step are
-
-- exportation of data from one big table into text files for visualization purpose
-    
-    **Reason :** To visualize data using tool that provides dashboard serialization and cross filtering features without any charges e.g. Tableau Public
-    
-- creating dashboards with data exported from previous step
-    
-    **Reason :** To create a tangible project output by summarizing thousands of data records
-    
-
-![booking-dashboard](./imgs/hotel-bookings/amenity-dashboard.png) -->
+1. Developed SQL queries to prepare data in data warehouse for dashboards creation
+2. Built dashboards to summarize booking and amenity demand by service name, month, guest location and other guest attributes such age range and gender 
+    ![amenity-dashboard](./imgs/hotel-bookings/amenity-dashboard.png)
