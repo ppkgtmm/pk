@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.98d34277.css",
+    "main.css": "/static/css/main.4cc327db.css",
     "main.js": "/static/js/main.a9de8e48.js",
     "static/js/787.cbefd608.chunk.js": "/static/js/787.cbefd608.chunk.js",
     "static/media/hotel-data-warehouse.md": "/static/media/hotel-data-warehouse.7b92c8b8df17b7b94a67.md",
@@ -8,12 +8,12 @@
     "static/media/churn-prediction.md": "/static/media/churn-prediction.8705c331f4aa019fca1a.md",
     "static/media/olist-dashboard.md": "/static/media/olist-dashboard.4faacc2a391118c5a49a.md",
     "index.html": "/index.html",
-    "main.98d34277.css.map": "/static/css/main.98d34277.css.map",
+    "main.4cc327db.css.map": "/static/css/main.4cc327db.css.map",
     "main.a9de8e48.js.map": "/static/js/main.a9de8e48.js.map",
     "787.cbefd608.chunk.js.map": "/static/js/787.cbefd608.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98d34277.css",
+    "static/css/main.4cc327db.css",
     "static/js/main.a9de8e48.js"
   ]
 }
