@@ -68,6 +68,16 @@ export const projects = [
     }
   },
   {
+    heading: 'Event Scheduler Backend',
+    content: 'Developed backend APIs to schedule events with specified duration and optional repeat interval. Served the scheduled events upon query by date or week',
+    thumbnail: 'imgs/event-scheduler.png',
+    extras: {
+      text: 'View Project',
+      icon: '🕰️',
+      link: 'https://github.com/ppkgtmm/event-scheduler'
+    }
+  },
+  {
     heading: 'Tile Matching Game',
     content: 'Coded game initialization and scoring logic in a tile matching game. Implemented the game to flip tiles back for incorrect matches and to limit number of mistakes',
     thumbnail: 'imgs/tile-game.png',
